@@ -1,0 +1,178 @@
+# DMDashboard Ecosystem .gitignore
+
+# === Node.js (LootFactory & Web Tools) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.npm/
+.eslintcache
+.next/
+.nuxt/
+dist/
+build/
+
+# === Python (Name Generator, Map Scraper) ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+*.egg-info/
+dist/
+build/
+
+# === Environment Variables ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+logs/
+*.log
+lerna-debug.log*
+
+# === Runtime Data ===
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# === Coverage Reports ===
+coverage/
+*.lcov
+.nyc_output/
+
+# === Dependency Directories ===
+jspm_packages/
+bower_components/
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Optional npm cache directory ===
+.npm
+
+# === Optional eslint cache ===
+.eslintcache
+
+# === Microbundle cache ===
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# === Optional REPL history ===
+.node_repl_history
+
+# === Output of 'npm pack' ===
+*.tgz
+
+# === Yarn Integrity file ===
+.yarn-integrity
+
+# === dotenv environment variable files ===
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# === parcel-bundler cache ===
+.cache
+.parcel-cache
+
+# === Next.js build output ===
+.next
+out
+
+# === Nuxt.js build / generate output ===
+.nuxt
+dist
+
+# === Gatsby files ===
+.cache/
+public
+
+# === Storybook build outputs ===
+.out
+.storybook-out
+
+# === Temporary folders ===
+tmp/
+temp/
+
+# === Database Files ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Backup Files ===
+*.bak
+*.backup
+*~
+
+# === OS Generated Files ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === Project Specific ===
+# LootFactory specific
+LootFactory/web-app/backend/uploads/
+LootFactory/web-app/frontend/dist/
+
+# Name Generator specific  
+name-generator/generated_names/
+name-generator/cache/
+
+# Map Scraper specific
+map_scraper/downloads/
+map_scraper/processed/
+
+# Foundry Modding specific
+foundry_modding/modules/*/dist/
+
+# Shared assets (large files)
+shared/assets/large/
+shared/assets/*.zip
+shared/assets/*.tar.gz
+
+# Testing
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Local development
+.local/
+.cache/
+scratch/ 

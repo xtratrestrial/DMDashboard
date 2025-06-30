@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "source": "Xanathar's Guide To Everything",
+    "total_items": 0,
+    "parsing_date": null,
+    "status": "PLACEHOLDER - Awaiting content addition",
+    "rarity_distribution": {},
+    "notes": [
+      "This file is ready to receive parsed Xanathar's Guide magic items",
+      "Once the 3,023-line Xanathar content is provided, it will be parsed and integrated",
+      "The parser (xanathar_parser.py) is ready for processing"
+    ]
+  },
+  "items": [],
+  "integration_ready": true,
+  "parser_available": true
+} 

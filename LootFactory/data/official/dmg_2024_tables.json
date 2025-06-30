@@ -1,0 +1,4979 @@
+[
+  {
+    "name": "Magic_Items Table 1",
+    "table_type": "magic_items",
+    "rarity_level": "common",
+    "items": [
+      {
+        "name": "Bead of Nourishment",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "01\u201302",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bead of Refreshment",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "03\u201304",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Candle of the Deep",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "05\u201307",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Billowing",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "08\u201310",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Many Fashions",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "11\u201313",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Clothes of Mending",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "14\u201315",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dark Shard Amulet",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "16\u201317",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enduring Spellbook",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "18\u201319",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ersatz Eye",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "20\u201321",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Hat of Vermin",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "22\u201324",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Hat of Wizardry",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "25\u201327",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Heward's Handy Spice Pouch",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "28\u201329",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Silent Alarm",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "30\u201331",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Instrument of Illusions",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "32\u201333",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Instrument of Scribing",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "34\u201335",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Lock of Trickery",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "36\u201337",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mystery Key",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "38\u201340",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Orb of Direction",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "41\u201342",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Orb of Time",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "43\u201344",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Perfume of Bewitching",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "45\u201346",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pipe of Smoke Monsters",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "47\u201349",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Climbing",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "50\u201352",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Comprehension",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "53\u201355",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pot of Awakening",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "56\u201358",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Prosthetic Limb",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "59\u201360",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rival Coin",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "61\u201364",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rope of Mending",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "65\u201366",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ruby of the War Mage",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "67\u201368",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (cantrip or level 1 spell)",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "69\u201382",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Adornment",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "83\u201384",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Birdcalls",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "85\u201386",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Flowers",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "87\u201389",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Talking Doll",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "90\u201392",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Tankard of Sobriety",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "93\u201394",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Conducting",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "95\u201397",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Pyrotechnics",
+        "rarity": "common",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 1",
+        "roll_range": "98\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Magic_Items Table 2",
+    "table_type": "magic_items",
+    "rarity_level": "uncommon",
+    "items": [
+      {
+        "name": "Amulet of Proof against Detection and Location",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "01",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Baba Yaga's Dancing Broom",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "02",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bag of Holding",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "03\u201305",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bag of Tricks",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "06\u201307",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Brooch of Shielding",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "08",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Broom of Flying",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "09",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cap of Water Breathing",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "10",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Circlet of Blasting",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "11",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Protection",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "12\u201313",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of the Manta Ray",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "14",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Decanter of Endless Water",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "15",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Deck of Illusions",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "16",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Driftglobe",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "17\u201318",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dust of Disappearance",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "19\u201320",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dust of Dryness",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "21",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dust of Sneezing and Choking",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "22",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Elemental Gem",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "23\u201324",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Staff",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "25",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Eversmoking Bottle",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "26",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Eyes of Charming",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "27",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Eyes of Minute Seeing",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "28",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Figurine of Wondrous Power (silver raven)",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "29\u201330",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Gem of Brightness",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "31",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Hag Eye",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "32",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Hat of Disguise",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "33",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Headband of Intellect",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "34",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Helm of Comprehending Languages",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "35",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Helm of Telepathy",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "36",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Immovable Rod",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "37",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Lantern of Revealing",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "38",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Medallion of Thoughts",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "39",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mithral Armor",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "40",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Necklace of Adaptation",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "41\u201342",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Oil of Slipperiness",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "43",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pearl of Power",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "44",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Periapt of Health",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "45",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Philter of Love",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "46\u201347",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Animal Friendship",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "48\u201349",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Fire Breath",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "50\u201351",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (hill)",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "52\u201353",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Growth",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "54\u201355",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Poison",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "56\u201357",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Resistance",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "58\u201359",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "60\u201361",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Quaal's Feather Token (anchor, fan, or tree)",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "62",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Mind Shielding",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "63",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Robe of Useful Items",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "64\u201365",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of the Pact Keeper",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "66\u201367",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rope of Climbing",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "68\u201369",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Saddle of the Cavalier",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "70",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sending Stones",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "71\u201372",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Slippers of Spider Climbing",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "73\u201374",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (level 2 or level 3 spell)",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "75\u201382",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of the Adder",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "83",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of the Python",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "84",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Magic Detection",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "85\u201388",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Magic Missiles",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "89\u201391",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Secrets",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "92\u201393",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of the War Mage, +1",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "94\u201395",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Web",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "96\u201397",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wind Fan",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "98\u201399",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Winged Boots",
+        "rarity": "uncommon",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 2",
+        "roll_range": "00",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Magic_Items Table 3",
+    "table_type": "magic_items",
+    "rarity_level": "rare",
+    "items": [
+      {
+        "name": "Bag of Beans",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "01",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bead of Force",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "02\u201303",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bowl of Commanding Water Elementals",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "04",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bracers of Defense",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "05\u201306",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Brazier of Commanding Fire Elementals",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "07",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cape of the Mountebank",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "08\u201309",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Censer of Controlling Air Elementals",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "10",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Chime of Opening",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "11\u201312",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Displacement",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "13\u201314",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of the Bat",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "15\u201316",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cube of Force",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "17",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cube of Summoning",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "18",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Daern's Instant Fortress",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "19",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Staff",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "20\u201321",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Figurine of Wondrous Power (bronze griffon, ebony fly, golden lions, ivory goats, marble elephant, onyx dog, or serpentine owl)",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "22\u201323",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Folding Boat",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "24\u201325",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Gem of Seeing",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "26\u201327",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Helm of Teleportation",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "28",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Heward's Handy Haversack",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "29\u201330",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horseshoes of Speed",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "31\u201332",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (reserve)",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "33\u201334",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Iron Bands of Bilarro",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "35",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mantle of Spell Resistance",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "36",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Necklace of Fireballs",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "37\u201338",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Oil of Etherealness",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "39",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Portable Hole",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "40",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Clairvoyance",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "41\u201342",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Diminution",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "43\u201344",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Gaseous Form",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "45\u201346",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (fire)",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "47",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (frost or stone)",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "48\u201349",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Heroism",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "50\u201351",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Invisibility",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "52\u201353",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Invulnerability",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "54\u201355",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Mind Reading",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "56\u201357",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Quaal's Feather Token (bird, swan boat, or whip)",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "58\u201359",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Feather Falling",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "60\u201361",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Spell Storing",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "62",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of X-ray Vision",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "63",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Robe of Eyes",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "64\u201365",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of Rulership",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "66",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of the Pact Keeper, +2",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "67\u201368",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Scroll of Protection",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "69\u201370",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (level 4 or level 5 spell)",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "71\u201375",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Charming",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "76\u201377",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Swarming Insects",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "78\u201379",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Withering",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "80\u201381",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Stone of Controlling Earth Elementals",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "82",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Binding",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "83\u201384",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Fear",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "85\u201386",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Fireballs",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "87\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Lightning Bolts",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "91\u201394",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of the War Mage, +2",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "95\u201396",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Wonder",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "97\u201398",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wings of Flying",
+        "rarity": "rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 3",
+        "roll_range": "99\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Magic_Items Table 4",
+    "table_type": "magic_items",
+    "rarity_level": "very_rare",
+    "items": [
+      {
+        "name": "Amulet of the Planes",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "01\u201302",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bag of Devouring",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "03\u201304",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Carpet of Flying",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "05\u201306",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cauldron of Rebirth",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "07\u201308",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Arachnida",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "09\u201310",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Crystal Ball",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "11\u201312",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dancing Sword",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "13",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Efreeti Bottle",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "14",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Staff",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "15\u201316",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Figurine of Wondrous Power (obsidian steed)",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "17\u201318",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Hat of Many Spells",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "19\u201320",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Helm of Brilliance",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "21\u201322",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horseshoes of a Zephyr",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "23\u201324",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (absorption, fortitude, intellect, or leadership)",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "25\u201326",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Manual of Golems (clay, flesh, iron, or stone)",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "27\u201328",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mirror of Life Trapping",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "29",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Nolzur's Marvelous Pigments",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "30\u201331",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Oil of Sharpness",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "32\u201334",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Flying",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "35\u201338",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (cloud)",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "39\u201342",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Greater Invisibility",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "43\u201346",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Longevity",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "47\u201349",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Speed",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "50\u201353",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Vitality",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "54\u201357",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Regeneration",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "58\u201359",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Shooting Stars",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "60\u201361",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Telekinesis",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "62\u201363",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Robe of Scintillating Colors",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "64\u201365",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Robe of Stars",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "66\u201367",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of Absorption",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "68\u201369",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of Security",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "70\u201371",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of the Pact Keeper, +3",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "72\u201373",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (level 6, level 7, or level 8 spell)",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "74\u201385",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Fire",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "86\u201387",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Frost",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "88\u201389",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Power",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "90",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Thunder and Lightning",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "91\u201392",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Tome of Clear Thought",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "93\u201394",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Polymorph",
+        "rarity": "very_rare",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "95\u201397",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of the War Mage, +3",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 4",
+        "roll_range": "98\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Magic_Items Table 5",
+    "table_type": "magic_items",
+    "rarity_level": "legendary",
+    "items": [
+      {
+        "name": "Apparatus of Kwalish",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "01\u201304",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Invisibility",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "05\u201308",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Crystal Ball of Mind Reading",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "09\u201312",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Crystal Ball of Telepathy",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "13\u201316",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Crystal Ball of True Seeing",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "17\u201320",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cubic Gate",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "21\u201322",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Deck of Many Things",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "23",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Staff",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "24\u201327",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (greater absorption, mastery, or regeneration)",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "28\u201331",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Iron Flask",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "32\u201333",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Storm Giant Strength (storm)",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "34\u201341",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Djinni Summoning",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "42\u201345",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Elemental Command (air, earth, fire, or water)",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "46\u201349",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Invisibility",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "50\u201353",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Spell Turning",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "54\u201357",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Three Wishes",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "58",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Robe of the Archmagi",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "59",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Scroll of Titan Summoning",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "60\u201361",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sovereign Glue",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "62\u201365",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (level 9",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "66\u201383",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sphere of Annihilation",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "84",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of the Magi",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "85",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Talisman of the Sphere",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "86\u201388",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Tome of the Stilled Tongue",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "89\u201392",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Universal Solvent",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "93\u201396",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Well of Many Worlds",
+        "rarity": "legendary",
+        "category": "magic_items",
+        "table_source": "Magic_Items Table 5",
+        "roll_range": "97\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Armaments Table 1",
+    "table_type": "armaments",
+    "rarity_level": "common",
+    "items": [
+      {
+        "name": "Adamantine Armor",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "01\u201304",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Adamantine Weapon",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "05\u201308",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ammunition, +1",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "09\u201313",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bracers of Archery",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "14\u201318",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Armor",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "19\u201323",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Weapon",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "24\u201328",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Gauntlets of Ogre Power",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "29\u201333",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Javelin of Lightning",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "34\u201338",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mariner's Armor",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "39\u201343",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mithral Armor",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "44\u201348",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (hill)",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "49\u201353",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Pugilism",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "54\u201358",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Quiver of Ehlonna",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "59\u201362",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Saddle of the Cavalier",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "63\u201366",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sentinel Shield",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "67\u201371",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Shield, +1",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "72\u201376",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sword of Vengeance",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "77\u201381",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Trident of Fish Command",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "82\u201385",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Weapon, +1",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "86\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Weapon of Warning",
+        "rarity": "common",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "91\u201395",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wraps of Unarmed Power, +1",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 1",
+        "roll_range": "96\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Armaments Table 2",
+    "table_type": "armaments",
+    "rarity_level": "uncommon",
+    "items": [
+      {
+        "name": "Ammunition, +2",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "01\u201303",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Armor, +1",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "04\u201307",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Armor of Resistance",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "08\u201310",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Armor of Vulnerability",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "11\u201313",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Arrow-Catching Shield",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "14\u201315",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Belt of Giant Strength (hill)",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "16\u201318",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Berserker Axe",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "19\u201320",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Daern's Instant Fortress",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "21\u201322",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dagger of Venom",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "23\u201325",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dragon Slayer",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "26\u201328",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Elven Chain",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "29\u201331",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Armor",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "32\u201334",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Weapon",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "35\u201337",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Flame Tongue",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "38\u201340",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Giant Slayer",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "41\u201343",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Blasting",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "44\u201346",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Valhalla (brass or silver)",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "47\u201348",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (protection)",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "49\u201351",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mace of Disruption",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "52\u201354",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mace of Smiting",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "55\u201357",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mace of Terror",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "58\u201360",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (fire)",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "61\u201363",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (frost or stone)",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "64\u201366",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Heroism",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "67\u201369",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Invulnerability",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "70\u201372",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Protection",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "73\u201375",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of the Ram",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "76\u201378",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Shield, +2",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "79\u201381",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Shield of Missile Attraction",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "82\u201384",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sun Blade",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "85\u201386",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sword of Life Stealing",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "87\u201388",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sword of Wounding",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "89\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Tentacle Rod",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "91\u201392",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Vicious Weapon",
+        "rarity": "uncommon",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "93\u201394",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Weapon, +2",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "95\u201397",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wraps of Unarmed Power, +2",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 2",
+        "roll_range": "98\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Armaments Table 3",
+    "table_type": "armaments",
+    "rarity_level": "rare",
+    "items": [
+      {
+        "name": "Ammunition, +3",
+        "rarity": "legendary",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "01\u201303",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ammunition of Slaying",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "04\u201306",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Animated Shield",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "07\u201309",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Armor, +2",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "10\u201312",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Belt of Giant Strength (fire)",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "13\u201314",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Belt of Giant Strength (frost or stone)",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "15\u201317",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dancing Sword",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "18\u201319",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Demon Armor",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "20\u201322",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dragon Scale Mail",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "23\u201325",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dwarven Plate",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "26\u201328",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dwarven Thrower",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "29\u201331",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Energy Bow",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "32\u201334",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Armor",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "35\u201337",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Weapon",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "38\u201340",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Executioner's Axe",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "41\u201343",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Frost Brand",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "44\u201346",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Valhalla (bronze)",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "47\u201349",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (strength)",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "50\u201352",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Lute of Thunderous Thumping",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "53\u201355",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Manual of Gainful Exercise",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "56\u201358",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Nine Lives Stealer",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "59\u201361",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Oathbow",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "62\u201364",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Oil of Sharpness",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "65\u201368",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (cloud)",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "69\u201372",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Quarterstaff of the Acrobat",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "73\u201375",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Scimitar of Speed",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "76\u201378",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Shield, +3",
+        "rarity": "legendary",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "79\u201382",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Shield of the Cavalier",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "83\u201385",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spellguard Shield",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "86\u201388",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sword of Sharpness",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "89\u201391",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Thunderous Greatclub",
+        "rarity": "rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "92\u201394",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Weapon, +3",
+        "rarity": "legendary",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "95\u201397",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wraps of Unarmed Power, +3",
+        "rarity": "legendary",
+        "category": "armaments",
+        "table_source": "Armaments Table 3",
+        "roll_range": "98\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Armaments Table 4",
+    "table_type": "armaments",
+    "rarity_level": "very_rare",
+    "items": [
+      {
+        "name": "Armor, +3",
+        "rarity": "legendary",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "01\u201306",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Armor of Invulnerability",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "07\u201312",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Belt of Giant Strength (cloud)",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "13\u201318",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Belt of Giant Strength (storm)",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "19\u201321",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Defender",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "22\u201327",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Efreeti Chain",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "28\u201333",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Armor",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "34\u201339",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Weapon",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "40\u201345",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Hammer of Thunderbolts",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "46\u201351",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Holy Avenger",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "52\u201356",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Valhalla (iron)",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "57\u201362",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Luck Blade",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "63\u201368",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Moonblade",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "69\u201372",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Plate Armor of Etherealness",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "73\u201378",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Giant Strength (storm)",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "79\u201387",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of Lordly Might",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "88\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sword of Answering",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "91\u201395",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Vorpal Sword",
+        "rarity": "very_rare",
+        "category": "armaments",
+        "table_source": "Armaments Table 4",
+        "roll_range": "96\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 1",
+    "table_type": "implements",
+    "rarity_level": "common",
+    "items": [
+      {
+        "name": "Bead of Nourishment",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "01\u201302",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bead of Refreshment",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "03\u201304",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Boots of False Tracks",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "05\u201306",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Candle of the Deep",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "07\u201308",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Charlatan's Die",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "09\u201310",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Many Fashions",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "11\u201313",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Clockwork Amulet",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "14\u201315",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ear Horn of Hearing",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "16\u201317",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ersatz Eye",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "18\u201319",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Heward's Handy Spice Pouch",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "20\u201321",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Silent Alarm",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "22\u201323",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Instrument of Illusions",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "24\u201325",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Instrument of Scribing",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "26\u201327",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Lock of Trickery",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "28\u201329",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Moon-Touched Sword",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "30\u201332",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mystery Key",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "33\u201334",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Orb of Direction",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "35\u201336",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Orb of Time",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "37\u201338",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Perfume of Bewitching",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "39\u201340",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pipe of Smoke Monsters",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "41\u201342",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pole of Angling",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "43\u201344",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pole of Collapsing",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "45\u201346",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Climbing",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "47\u201352",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Comprehension",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "53\u201358",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Healing",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "59\u201374",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Prosthetic Limb",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "75\u201376",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rope of Mending",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "77\u201378",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Birdcalls",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "79\u201380",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sylvan Talon",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "81\u201382",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Talking Doll",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "83\u201384",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Tankard of Sobriety",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "85\u201386",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Veteran's Cane",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "87\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Walloping Ammunition",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "91\u201393",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Conducting",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "94\u201396",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Pyrotechnics",
+        "rarity": "common",
+        "category": "implements",
+        "table_source": "Implements Table 1",
+        "roll_range": "97\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 2",
+    "table_type": "implements",
+    "rarity_level": "uncommon",
+    "items": [
+      {
+        "name": "Alchemy Jug",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "01\u201302",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ammunition, +1",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "03\u201306",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bag of Holding",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "07\u201310",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Boots of Elvenkind",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "11\u201312",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Boots of Striding and Springing",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "13\u201314",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Boots of the Winterlands",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "15\u201316",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Broom of Flying",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "17\u201318",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cap of Water Breathing",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "19\u201320",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Elvenkind",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "21\u201322",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of Protection",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "23\u201324",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cloak of the Manta Ray",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "25\u201326",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Decanter of Endless Water",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "27",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Driftglobe",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "28\u201330",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dust of Disappearance",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "31\u201332",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dust of Dryness",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "33\u201334",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dust of Sneezing and Choking",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "35\u201336",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Weapon",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "37\u201338",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Eyes of Minute Seeing",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "39\u201340",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Eyes of the Eagle",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "41\u201342",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Gloves of Missile Snaring",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "43\u201344",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Gloves of Swimming and Climbing",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "45\u201346",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Gloves of Thievery",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "47\u201348",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Goggles of Night",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "49\u201350",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Hag Eye",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "51",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Helm of Comprehending Languages",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "52\u201354",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Immovable Rod",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "55",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Instrument of the Bards (Doss lute, Fochlucan bandore, or Mac-Fuirmidh cittern)",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "56\u201357",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Lantern of Revealing",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "58\u201359",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Nature's Mantle",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "60\u201361",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Oil of Slipperiness",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "62\u201363",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pipes of Haunting",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "64\u201365",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pipes of the Sewers",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "66\u201367",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Growth",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "68\u201371",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Healing (greater)",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "72\u201380",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "81\u201384",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Quaal's Feather Token (anchor, fan, or tree)",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "85\u201386",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Jumping",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "87\u201388",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Swimming",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "89\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Warmth",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "91\u201392",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Robe of Useful Items",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "93\u201394",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rope of Climbing",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "95\u201396",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Stone of Good Luck",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "97\u201398",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Secrets",
+        "rarity": "uncommon",
+        "category": "implements",
+        "table_source": "Implements Table 2",
+        "roll_range": "99\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 3",
+    "table_type": "implements",
+    "rarity_level": "rare",
+    "items": [
+      {
+        "name": "Ammunition, +2",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "01\u201304",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bag of Beans",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "05\u201308",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Belt of Dwarvenkind",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "09\u201312",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Boots of Levitation",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "13\u201316",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Boots of Speed",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "17\u201320",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Chime of Opening",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "21\u201324",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Dimensional Shackles",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "25\u201328",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Weapon",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "29\u201332",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Folding Boat",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "33\u201336",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Glamoured Studded Leather",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "37\u201340",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Heward's Handy Haversack",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "41\u201344",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horseshoes of Speed",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "45\u201348",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Instrument of the Bards (Canaith mandolin or Cli lyre)",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "49\u201352",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (awareness)",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "53\u201356",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Portable Hole",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "57\u201360",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Diminution",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "61\u201364",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Gaseous Form",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "65\u201368",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Healing (superior)",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "69\u201376",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Quaal's Feather Token (bird, swan boat, or whip)",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "77\u201380",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Evasion",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "81\u201384",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Free Action",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "85\u201388",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rope of Entanglement",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "89\u201392",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Healing",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "93\u201396",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Enemy Detection",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 3",
+        "roll_range": "97\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 4",
+    "table_type": "implements",
+    "rarity_level": "very_rare",
+    "items": [
+      {
+        "name": "Ammunition, +3",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "01\u201307",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bag of Devouring",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "08\u201314",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Carpet of Flying",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "15\u201321",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Weapon",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "22\u201328",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horseshoes of a Zephyr",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "29\u201335",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Instrument of the Bards (Anstruth harp)",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "36\u201342",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (agility)",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "43\u201349",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Lute of Thunderous Thumping",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "50\u201356",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Manual of Quickness of Action",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "57\u201363",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Nolzur's Marvelous Pigments",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "64\u201370",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Flying",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "71\u201377",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Healing (supreme)",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "78\u201386",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Speed",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "87\u201393",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Tome of Leadership and Influence",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 4",
+        "roll_range": "94\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 5",
+    "table_type": "implements",
+    "rarity_level": "legendary",
+    "items": [
+      {
+        "name": "Enspelled Weapon",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 5",
+        "roll_range": "01\u201317",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Instrument of the Bards (Ollamh harp)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 5",
+        "roll_range": "18\u201334",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sovereign Glue",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 5",
+        "roll_range": "35\u201354",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sphere of Annihilation",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 5",
+        "roll_range": "55\u201370",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Talisman of the Sphere",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 5",
+        "roll_range": "71\u201383",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Universal Solvent",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 5",
+        "roll_range": "84\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 6",
+    "table_type": "implements",
+    "rarity_level": "legendary",
+    "items": [
+      {
+        "name": "Ear Horn of Hearing",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "01\u201308",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Healing",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "09\u201328",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pot of Awakening",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "29\u201336",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ruby of the War Mage",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "37\u201344",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Shield of Expression",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "45\u201352",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Smoldering Armor",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "53\u201360",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (cantrip or level 1 spell)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "61\u201380",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Adornment",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "81\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Flowers",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 6",
+        "roll_range": "91\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 7",
+    "table_type": "implements",
+    "rarity_level": "legendary",
+    "items": [
+      {
+        "name": "Enspelled Staff",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "01\u201305",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Keoghtom's Ointment",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "06\u201310",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mariner's Armor",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "11\u201315",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Nature's Mantle",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "16\u201320",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Pearl of Power",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "21\u201325",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Periapt of Health",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "26\u201330",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Periapt of Wound Closure",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "31\u201335",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Animal Friendship",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "36\u201340",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Healing (greater)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "41\u201355",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Resistance",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "56\u201360",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Water Walking",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "61\u201365",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Sending Stones",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "66\u201370",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (level 2 or level 3 spell)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "71\u201380",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of the Adder",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "81\u201385",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of the Python",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "86\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Magic Detection",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "91\u201395",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of the War Mage, +1",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 7",
+        "roll_range": "96\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 8",
+    "table_type": "implements",
+    "rarity_level": "legendary",
+    "items": [
+      {
+        "name": "Amulet of Health",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "01\u201303",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Armor, +1",
+        "rarity": "rare",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "04\u201307",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Bowl of Commanding Water Elementals",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "08\u201309",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Brazier of Commanding Fire Elementals",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "10\u201311",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Censer of Controlling Air Elementals",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "12\u201313",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Elixir of Health",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "14\u201316",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Staff",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "17\u201319",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Blasting",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "20\u201322",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Valhalla (brass or silver)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "23\u201325",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (reserve or sustenance)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "26\u201328",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mace of Disruption",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "29\u201331",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mace of Smiting",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "32\u201334",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Mace of Terror",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "35\u201337",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Necklace of Prayer Beads",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "38\u201340",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Periapt of Proof against Poison",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "41\u201343",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Healing (superior)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "44\u201351",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Animal Influence",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "52\u201354",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Resistance",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "55\u201358",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ring of Spell Storing",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "59\u201361",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Scroll of Protection",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "62\u201365",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (level 4 or level 5 spell)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "66\u201373",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Charming",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "74\u201376",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Healing",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "77\u201379",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Swarming Insects",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "80\u201382",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of the Woodlands",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "83\u201385",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Withering",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "86\u201388",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Stone of Controlling Earth Elementals",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "89\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Tentacle Rod",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "91\u201393",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of Paralysis",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "94\u201396",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of the War Mage, +2",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 8",
+        "roll_range": "97\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 9",
+    "table_type": "implements",
+    "rarity_level": "legendary",
+    "items": [
+      {
+        "name": "Armor, +2",
+        "rarity": "very_rare",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "01\u201305",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Candle of Invocation",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "06\u201310",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Cauldron of Rebirth",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "11\u201315",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Staff",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "16\u201320",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Valhalla (bronze)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "21\u201325",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Ioun Stone (insight)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "26\u201330",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Manual of Bodily Health",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "31\u201335",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Healing (supreme)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "36\u201343",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Potion of Vitality",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "44\u201350",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of Alertness",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "51\u201355",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (level 6, level 7, or level 8 spell)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "56\u201365",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spirit Board",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "66\u201370",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Fire",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "71\u201375",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Frost",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "76\u201380",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Striking",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "81\u201385",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Staff of Thunder and Lightning",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "86\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Tome of Understanding",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "91\u201395",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Wand of the War Mage, +3",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 9",
+        "roll_range": "96\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  },
+  {
+    "name": "Implements Table 10",
+    "table_type": "implements",
+    "rarity_level": "legendary",
+    "items": [
+      {
+        "name": "Armor of Invulnerability",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "01\u201308",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Armor, +3",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "09\u201318",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Enspelled Staff",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "19\u201327",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Holy Avenger",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "28\u201336",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Horn of Valhalla (iron)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "37\u201345",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Rod of Resurrection",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "46\u201354",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Scarab of Protection",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "55\u201363",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Scroll of Titan Summoning",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "64\u201372",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Spell Scroll (level 9 spell)",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "73\u201380",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Talisman of Pure Good",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "81\u201390",
+        "description": null,
+        "properties": null
+      },
+      {
+        "name": "Talisman of Ultimate Evil",
+        "rarity": "legendary",
+        "category": "implements",
+        "table_source": "Implements Table 10",
+        "roll_range": "91\u201300",
+        "description": null,
+        "properties": null
+      }
+    ],
+    "roll_die": "d100",
+    "special_rules": null
+  }
+]

@@ -1,0 +1,608 @@
+1d100	Item
+01–02	Bead of Nourishment
+03–04	Bead of Refreshment
+05–07	Candle of the Deep
+08–10	Cloak of Billowing
+11–13	Cloak of Many Fashions
+14–15	Clothes of Mending
+16–17	Dark Shard Amulet
+18–19	Enduring Spellbook
+20–21	Ersatz Eye
+22–24	Hat of Vermin
+25–27	Hat of Wizardry
+28–29	Heward's Handy Spice Pouch
+30–31	Horn of Silent Alarm
+32–33	Instrument of Illusions
+34–35	Instrument of Scribing
+36–37	Lock of Trickery
+38–40	Mystery Key
+41–42	Orb of Direction
+43–44	Orb of Time
+45–46	Perfume of Bewitching
+47–49	Pipe of Smoke Monsters
+50–52	Potion of Climbing
+53–55	Potion of Comprehension
+56–58	Pot of Awakening
+59–60	Prosthetic Limb
+61–64	Rival Coin
+65–66	Rope of Mending
+67–68	Ruby of the War Mage
+69–82	Spell Scroll (cantrip or level 1 spell)
+83–84	Staff of Adornment
+85–86	Staff of Birdcalls
+87–89	Staff of Flowers
+90–92	Talking Doll
+93–94	Tankard of Sobriety
+95–97	Wand of Conducting
+98–00	Wand of Pyrotechnics
+
+
+1d100	Item
+01	Amulet of Proof against Detection and Location
+02	Baba Yaga's Dancing Broom
+03–05	Bag of Holding
+06–07	Bag of Tricks
+08	Brooch of Shielding
+09	Broom of Flying
+10	Cap of Water Breathing
+11	Circlet of Blasting
+12–13	Cloak of Protection
+14	Cloak of the Manta Ray
+15	Decanter of Endless Water
+16	Deck of Illusions
+17–18	Driftglobe
+19–20	Dust of Disappearance
+21	Dust of Dryness
+22	Dust of Sneezing and Choking
+23–24	Elemental Gem
+25	Enspelled Staff
+26	Eversmoking Bottle
+27	Eyes of Charming
+28	Eyes of Minute Seeing
+29–30	Figurine of Wondrous Power (silver raven)
+31	Gem of Brightness
+32	Hag Eye
+33	Hat of Disguise
+34	Headband of Intellect
+35	Helm of Comprehending Languages
+36	Helm of Telepathy
+37	Immovable Rod
+38	Lantern of Revealing
+39	Medallion of Thoughts
+40	Mithral Armor
+41–42	Necklace of Adaptation
+43	Oil of Slipperiness
+44	Pearl of Power
+45	Periapt of Health
+46–47	Philter of Love
+48–49	Potion of Animal Friendship
+50–51	Potion of Fire Breath
+52–53	Potion of Giant Strength (hill)
+54–55	Potion of Growth
+56–57	Potion of Poison
+58–59	Potion of Resistance
+60–61	Potion of Water Breathing
+62	Quaal's Feather Token (anchor, fan, or tree)
+63	Ring of Mind Shielding
+64–65	Robe of Useful Items
+66–67	Rod of the Pact Keeper
+68–69	Rope of Climbing
+70	Saddle of the Cavalier
+71–72	Sending Stones
+73–74	Slippers of Spider Climbing
+75–82	Spell Scroll (level 2 or level 3 spell)
+83	Staff of the Adder
+84	Staff of the Python
+85–88	Wand of Magic Detection
+89–91	Wand of Magic Missiles
+92–93	Wand of Secrets
+94–95	Wand of the War Mage, +1
+96–97	Wand of Web
+98–99	Wind Fan
+00	Winged Boots
+
+
+1d100	Item
+01	Bag of Beans
+02–03	Bead of Force
+04	Bowl of Commanding Water Elementals
+05–06	Bracers of Defense
+07	Brazier of Commanding Fire Elementals
+08–09	Cape of the Mountebank
+10	Censer of Controlling Air Elementals
+11–12	Chime of Opening
+13–14	Cloak of Displacement
+15–16	Cloak of the Bat
+17	Cube of Force
+18	Cube of Summoning
+19	Daern's Instant Fortress
+20–21	Enspelled Staff
+22–23	Figurine of Wondrous Power (bronze griffon, ebony fly, golden lions, ivory goats, marble elephant, onyx dog, or serpentine owl)
+24–25	Folding Boat
+26–27	Gem of Seeing
+28	Helm of Teleportation
+29–30	Heward's Handy Haversack
+31–32	Horseshoes of Speed
+33–34	Ioun Stone (reserve)
+35	Iron Bands of Bilarro
+36	Mantle of Spell Resistance
+37–38	Necklace of Fireballs
+39	Oil of Etherealness
+40	Portable Hole
+41–42	Potion of Clairvoyance
+43–44	Potion of Diminution
+45–46	Potion of Gaseous Form
+47	Potion of Giant Strength (fire)
+48–49	Potion of Giant Strength (frost or stone)
+50–51	Potion of Heroism
+52–53	Potion of Invisibility
+54–55	Potion of Invulnerability
+56–57	Potion of Mind Reading
+58–59	Quaal's Feather Token (bird, swan boat, or whip)
+60–61	Ring of Feather Falling
+62	Ring of Spell Storing
+63	Ring of X-ray Vision
+64–65	Robe of Eyes
+66	Rod of Rulership
+67–68	Rod of the Pact Keeper, +2
+69–70	Scroll of Protection
+71–75	Spell Scroll (level 4 or level 5 spell)
+76–77	Staff of Charming
+78–79	Staff of Swarming Insects
+80–81	Staff of Withering
+82	Stone of Controlling Earth Elementals
+83–84	Wand of Binding
+85–86	Wand of Fear
+87–90	Wand of Fireballs
+91–94	Wand of Lightning Bolts
+95–96	Wand of the War Mage, +2
+97–98	Wand of Wonder
+99–00	Wings of Flying
+
+
+1d100	Item
+01–02	Amulet of the Planes
+03–04	Bag of Devouring
+05–06	Carpet of Flying
+07–08	Cauldron of Rebirth
+09–10	Cloak of Arachnida
+11–12	Crystal Ball
+13	Dancing Sword
+14	Efreeti Bottle
+15–16	Enspelled Staff
+17–18	Figurine of Wondrous Power (obsidian steed)
+19–20	Hat of Many Spells
+21–22	Helm of Brilliance
+23–24	Horseshoes of a Zephyr
+25–26	Ioun Stone (absorption, fortitude, intellect, or leadership)
+27–28	Manual of Golems (clay, flesh, iron, or stone)
+29	Mirror of Life Trapping
+30–31	Nolzur's Marvelous Pigments
+32–34	Oil of Sharpness
+35–38	Potion of Flying
+39–42	Potion of Giant Strength (cloud)
+43–46	Potion of Greater Invisibility
+47–49	Potion of Longevity
+50–53	Potion of Speed
+54–57	Potion of Vitality
+58–59	Ring of Regeneration
+60–61	Ring of Shooting Stars
+62–63	Ring of Telekinesis
+64–65	Robe of Scintillating Colors
+66–67	Robe of Stars
+68–69	Rod of Absorption
+70–71	Rod of Security
+72–73	Rod of the Pact Keeper, +3
+74–85	Spell Scroll (level 6, level 7, or level 8 spell)
+86–87	Staff of Fire
+88–89	Staff of Frost
+90	Staff of Power
+91–92	Staff of Thunder and Lightning
+93–94	Tome of Clear Thought
+95–97	Wand of Polymorph
+98–00	Wand of the War Mage, +3
+
+
+1d100	Item
+01–04	Apparatus of Kwalish
+05–08	Cloak of Invisibility
+09–12	Crystal Ball of Mind Reading
+13–16	Crystal Ball of Telepathy
+17–20	Crystal Ball of True Seeing
+21–22	Cubic Gate
+23	Deck of Many Things
+24–27	Enspelled Staff
+28–31	Ioun Stone (greater absorption, mastery, or regeneration)
+32–33	Iron Flask
+34–41	Potion of Storm Giant Strength (storm)
+42–45	Ring of Djinni Summoning
+46–49	Ring of Elemental Command (air, earth, fire, or water)
+50–53	Ring of Invisibility
+54–57	Ring of Spell Turning
+58	Ring of Three Wishes
+59	Robe of the Archmagi
+60–61	Scroll of Titan Summoning
+62–65	Sovereign Glue
+66–83	Spell Scroll (level 9
+84	Sphere of Annihilation
+85	Staff of the Magi
+86–88	Talisman of the Sphere
+89–92	Tome of the Stilled Tongue
+93–96	Universal Solvent
+97–00	Well of Many Worlds
+
+
+Armaments Tables
+
+1d100	Item
+01–10	Armor of Gleaming
+11–20	Cast-Off Armor
+21–30	Dread Helm
+31–40	Moon-Touched Sword
+41–50	Shield of Expression
+51–60	Silvered Weapon
+61–70	Smoldering Armor
+71–80	Sylvan Talon
+81–90	Veteran's Cane
+91–00	Walloping Ammunition
+
+
+1d100	Item
+01–04	Adamantine Armor
+05–08	Adamantine Weapon
+09–13	Ammunition, +1
+14–18	Bracers of Archery
+19–23	Enspelled Armor
+24–28	Enspelled Weapon
+29–33	Gauntlets of Ogre Power
+34–38	Javelin of Lightning
+39–43	Mariner's Armor
+44–48	Mithral Armor
+49–53	Potion of Giant Strength (hill)
+54–58	Potion of Pugilism
+59–62	Quiver of Ehlonna
+63–66	Saddle of the Cavalier
+67–71	Sentinel Shield
+72–76	Shield, +1
+77–81	Sword of Vengeance
+82–85	Trident of Fish Command
+86–90	Weapon, +1
+91–95	Weapon of Warning
+96–00	Wraps of Unarmed Power, +1
+
+
+1d100	Item
+01–03	Ammunition, +2
+04–07	Armor, +1
+08–10	Armor of Resistance
+11–13	Armor of Vulnerability
+14–15	Arrow-Catching Shield
+16–18	Belt of Giant Strength (hill)
+19–20	Berserker Axe
+21–22	Daern's Instant Fortress
+23–25	Dagger of Venom
+26–28	Dragon Slayer
+29–31	Elven Chain
+32–34	Enspelled Armor
+35–37	Enspelled Weapon
+38–40	Flame Tongue
+41–43	Giant Slayer
+44–46	Horn of Blasting
+47–48	Horn of Valhalla (brass or silver)
+49–51	Ioun Stone (protection)
+52–54	Mace of Disruption
+55–57	Mace of Smiting
+58–60	Mace of Terror
+61–63	Potion of Giant Strength (fire)
+64–66	Potion of Giant Strength (frost or stone)
+67–69	Potion of Heroism
+70–72	Potion of Invulnerability
+73–75	Ring of Protection
+76–78	Ring of the Ram
+79–81	Shield, +2
+82–84	Shield of Missile Attraction
+85–86	Sun Blade
+87–88	Sword of Life Stealing
+89–90	Sword of Wounding
+91–92	Tentacle Rod
+93–94	Vicious Weapon
+95–97	Weapon, +2
+98–00	Wraps of Unarmed Power, +2
+
+
+1d100	Item
+01–03	Ammunition, +3
+04–06	Ammunition of Slaying
+07–09	Animated Shield
+10–12	Armor, +2
+13–14	Belt of Giant Strength (fire)
+15–17	Belt of Giant Strength (frost or stone)
+18–19	Dancing Sword
+20–22	Demon Armor
+23–25	Dragon Scale Mail
+26–28	Dwarven Plate
+29–31	Dwarven Thrower
+32–34	Energy Bow
+35–37	Enspelled Armor
+38–40	Enspelled Weapon
+41–43	Executioner's Axe
+44–46	Frost Brand
+47–49	Horn of Valhalla (bronze)
+50–52	Ioun Stone (strength)
+53–55	Lute of Thunderous Thumping
+56–58	Manual of Gainful Exercise
+59–61	Nine Lives Stealer
+62–64	Oathbow
+65–68	Oil of Sharpness
+69–72	Potion of Giant Strength (cloud)
+73–75	Quarterstaff of the Acrobat
+76–78	Scimitar of Speed
+79–82	Shield, +3
+83–85	Shield of the Cavalier
+86–88	Spellguard Shield
+89–91	Sword of Sharpness
+92–94	Thunderous Greatclub
+95–97	Weapon, +3
+98–00	Wraps of Unarmed Power, +3
+
+
+1d100	Item
+01–06	Armor, +3
+07–12	Armor of Invulnerability
+13–18	Belt of Giant Strength (cloud)
+19–21	Belt of Giant Strength (storm)
+22–27	Defender
+28–33	Efreeti Chain
+34–39	Enspelled Armor
+40–45	Enspelled Weapon
+46–51	Hammer of Thunderbolts
+52–56	Holy Avenger
+57–62	Horn of Valhalla (iron)
+63–68	Luck Blade
+69–72	Moonblade
+73–78	Plate Armor of Etherealness
+79–87	Potion of Giant Strength (storm)
+88–90	Rod of Lordly Might
+91–95	Sword of Answering
+96–00	Vorpal Sword
+
+
+Implements Tables
+
+
+
+1d100	Item
+01–02	Bead of Nourishment
+03–04	Bead of Refreshment
+05–06	Boots of False Tracks
+07–08	Candle of the Deep
+09–10	Charlatan's Die
+11–13	Cloak of Many Fashions
+14–15	Clockwork Amulet
+16–17	Ear Horn of Hearing
+18–19	Ersatz Eye
+20–21	Heward's Handy Spice Pouch
+22–23	Horn of Silent Alarm
+24–25	Instrument of Illusions
+26–27	Instrument of Scribing
+28–29	Lock of Trickery
+30–32	Moon-Touched Sword
+33–34	Mystery Key
+35–36	Orb of Direction
+37–38	Orb of Time
+39–40	Perfume of Bewitching
+41–42	Pipe of Smoke Monsters
+43–44	Pole of Angling
+45–46	Pole of Collapsing
+47–52	Potion of Climbing
+53–58	Potion of Comprehension
+59–74	Potion of Healing
+75–76	Prosthetic Limb
+77–78	Rope of Mending
+79–80	Staff of Birdcalls
+81–82	Sylvan Talon
+83–84	Talking Doll
+85–86	Tankard of Sobriety
+87–90	Veteran's Cane
+91–93	Walloping Ammunition
+94–96	Wand of Conducting
+97–00	Wand of Pyrotechnics
+
+
+1d100	Item
+01–02	Alchemy Jug
+03–06	Ammunition, +1
+07–10	Bag of Holding
+11–12	Boots of Elvenkind
+13–14	Boots of Striding and Springing
+15–16	Boots of the Winterlands
+17–18	Broom of Flying
+19–20	Cap of Water Breathing
+21–22	Cloak of Elvenkind
+23–24	Cloak of Protection
+25–26	Cloak of the Manta Ray
+27	Decanter of Endless Water
+28–30	Driftglobe
+31–32	Dust of Disappearance
+33–34	Dust of Dryness
+35–36	Dust of Sneezing and Choking
+37–38	Enspelled Weapon
+39–40	Eyes of Minute Seeing
+41–42	Eyes of the Eagle
+43–44	Gloves of Missile Snaring
+45–46	Gloves of Swimming and Climbing
+47–48	Gloves of Thievery
+49–50	Goggles of Night
+51	Hag Eye
+52–54	Helm of Comprehending Languages
+55	Immovable Rod
+56–57	Instrument of the Bards (Doss lute, Fochlucan bandore, or Mac-Fuirmidh cittern)
+58–59	Lantern of Revealing
+60–61	Nature's Mantle
+62–63	Oil of Slipperiness
+64–65	Pipes of Haunting
+66–67	Pipes of the Sewers
+68–71	Potion of Growth
+72–80	Potion of Healing (greater)
+81–84	Potion of Water Breathing
+85–86	Quaal's Feather Token (anchor, fan, or tree)
+87–88	Ring of Jumping
+89–90	Ring of Swimming
+91–92	Ring of Warmth
+93–94	Robe of Useful Items
+95–96	Rope of Climbing
+97–98	Stone of Good Luck
+99–00	Wand of Secrets
+
+
+1d100	Item
+01–04	Ammunition, +2
+05–08	Bag of Beans
+09–12	Belt of Dwarvenkind
+13–16	Boots of Levitation
+17–20	Boots of Speed
+21–24	Chime of Opening
+25–28	Dimensional Shackles
+29–32	Enspelled Weapon
+33–36	Folding Boat
+37–40	Glamoured Studded Leather
+41–44	Heward's Handy Haversack
+45–48	Horseshoes of Speed
+49–52	Instrument of the Bards (Canaith mandolin or Cli lyre)
+53–56	Ioun Stone (awareness)
+57–60	Portable Hole
+61–64	Potion of Diminution
+65–68	Potion of Gaseous Form
+69–76	Potion of Healing (superior)
+77–80	Quaal's Feather Token (bird, swan boat, or whip)
+81–84	Ring of Evasion
+85–88	Ring of Free Action
+89–92	Rope of Entanglement
+93–96	Staff of Healing
+97–00	Wand of Enemy Detection
+
+
+1d100	Item
+01–07	Ammunition, +3
+08–14	Bag of Devouring
+15–21	Carpet of Flying
+22–28	Enspelled Weapon
+29–35	Horseshoes of a Zephyr
+36–42	Instrument of the Bards (Anstruth harp)
+43–49	Ioun Stone (agility)
+50–56	Lute of Thunderous Thumping
+57–63	Manual of Quickness of Action
+64–70	Nolzur's Marvelous Pigments
+71–77	Potion of Flying
+78–86	Potion of Healing (supreme)
+87–93	Potion of Speed
+94–00	Tome of Leadership and Influence
+
+
+1d100	Item
+01–17	Enspelled Weapon
+18–34	Instrument of the Bards (Ollamh harp)
+35–54	Sovereign Glue
+55–70	Sphere of Annihilation
+71–83	Talisman of the Sphere
+84–00	Universal Solvent
+
+
+1d100	Item
+01–08	Ear Horn of Hearing
+09–28	Potion of Healing
+29–36	Pot of Awakening
+37–44	Ruby of the War Mage
+45–52	Shield of Expression
+53–60	Smoldering Armor
+61–80	Spell Scroll (cantrip or level 1 spell)
+81–90	Staff of Adornment
+91–00	Staff of Flowers
+
+
+1d100	Item
+01–05	Enspelled Staff
+06–10	Keoghtom's Ointment
+11–15	Mariner's Armor
+16–20	Nature's Mantle
+21–25	Pearl of Power
+26–30	Periapt of Health
+31–35	Periapt of Wound Closure
+36–40	Potion of Animal Friendship
+41–55	Potion of Healing (greater)
+56–60	Potion of Resistance
+61–65	Ring of Water Walking
+66–70	Sending Stones
+71–80	Spell Scroll (level 2 or level 3 spell)
+81–85	Staff of the Adder
+86–90	Staff of the Python
+91–95	Wand of Magic Detection
+96–00	Wand of the War Mage, +1
+
+
+1d100	Item
+01–03	Amulet of Health
+04–07	Armor, +1
+08–09	Bowl of Commanding Water Elementals
+10–11	Brazier of Commanding Fire Elementals
+12–13	Censer of Controlling Air Elementals
+14–16	Elixir of Health
+17–19	Enspelled Staff
+20–22	Horn of Blasting
+23–25	Horn of Valhalla (brass or silver)
+26–28	Ioun Stone (reserve or sustenance)
+29–31	Mace of Disruption
+32–34	Mace of Smiting
+35–37	Mace of Terror
+38–40	Necklace of Prayer Beads
+41–43	Periapt of Proof against Poison
+44–51	Potion of Healing (superior)
+52–54	Ring of Animal Influence
+55–58	Ring of Resistance
+59–61	Ring of Spell Storing
+62–65	Scroll of Protection
+66–73	Spell Scroll (level 4 or level 5 spell)
+74–76	Staff of Charming
+77–79	Staff of Healing
+80–82	Staff of Swarming Insects
+83–85	Staff of the Woodlands
+86–88	Staff of Withering
+89–90	Stone of Controlling Earth Elementals
+91–93	Tentacle Rod
+94–96	Wand of Paralysis
+97–00	Wand of the War Mage, +2
+
+
+1d100	Item
+01–05	Armor, +2
+06–10	Candle of Invocation
+11–15	Cauldron of Rebirth
+16–20	Enspelled Staff
+21–25	Horn of Valhalla (bronze)
+26–30	Ioun Stone (insight)
+31–35	Manual of Bodily Health
+36–43	Potion of Healing (supreme)
+44–50	Potion of Vitality
+51–55	Rod of Alertness
+56–65	Spell Scroll (level 6, level 7, or level 8 spell)
+66–70	Spirit Board
+71–75	Staff of Fire
+76–80	Staff of Frost
+81–85	Staff of Striking
+86–90	Staff of Thunder and Lightning
+91–95	Tome of Understanding
+96–00	Wand of the War Mage, +3
+
+
+1d100	Item
+01–08	Armor of Invulnerability
+09–18	Armor, +3
+19–27	Enspelled Staff
+28–36	Holy Avenger
+37–45	Horn of Valhalla (iron)
+46–54	Rod of Resurrection
+55–63	Scarab of Protection
+64–72	Scroll of Titan Summoning
+73–80	Spell Scroll (level 9 spell)
+81–90	Talisman of Pure Good
+91–00	Talisman of Ultimate Evil 
