@@ -1,0 +1,165 @@
+# Cursor Rules for Projects Workspace
+# Applies to DMDashboard ecosystem and all individual projects
+
+## General Development Guidelines
+- Follow clean code principles with meaningful variable names
+- Write comprehensive docstrings for all functions and classes
+- Include type hints for Python functions
+- Use consistent indentation (4 spaces for Python, 2 spaces for JS/JSON)
+- Always handle errors gracefully with try-catch blocks
+- Include logging for debugging and monitoring
+
+## Project Planning & Progress Tracking
+- **ALWAYS mark off completed tasks in PLAN.md files as you work**
+- Use ✅ for completed tasks, ⏳ for in-progress tasks, ❌ for blocked/cancelled tasks
+- Update phase completion status when phases are done
+- Add actual completion dates next to finished items
+- Keep PLAN.md files current and accurate to project reality
+
+## Python Projects (name-generator, map_scraper)
+- Use Python 3.8+ features and syntax
+- Follow PEP 8 style guidelines
+- Import statements should be grouped: standard library, third-party, local imports
+- Use f-strings for string formatting
+- Include comprehensive error handling with specific exception types
+- Write unit tests for all core functionality
+- Use virtual environments for dependency management
+- Include requirements.txt with pinned versions
+
+## JavaScript/FoundryVTT Projects (foundry_modding)
+- Use modern ES6+ syntax
+- Follow consistent naming conventions (camelCase for variables, PascalCase for classes)
+- Include JSDoc comments for all functions
+- Handle async operations properly with async/await
+- Validate all user inputs
+- Follow FoundryVTT module development best practices
+- Include proper error handling for API calls
+
+## JSON Files
+- Maintain consistent formatting with proper indentation
+- Validate JSON structure before committing
+- Use meaningful key names that clearly describe the data
+- Include schema documentation where applicable
+
+## File Organization
+- Keep related files grouped in appropriate directories
+- Use descriptive file names that indicate purpose
+- **CRITICAL: Always check file contents and timestamps before reorganizing**
+  - Compare file sizes and modification dates
+  - Review file contents to ensure you're keeping the most recent/advanced version
+  - When moving files, verify the source contains the latest implementation
+  - Never overwrite recent work with older versions during reorganization
+- **NEVER place project-specific files in the main /projects directory**
+  - All project files must stay within their respective project subdirectories
+  - Main /projects directory should only contain project folders and workspace-wide config files
+  - This prevents duplication and maintains clean separation between projects
+- Include README.md files for each project with:
+  - Project description and purpose
+  - Installation instructions
+  - Usage examples
+  - API documentation where applicable
+  - Contributing guidelines
+
+## DMDashboard Ecosystem (D&D 5e Tool Suite)
+- **Unified ecosystem** of interconnected D&D tools under DMDashboard/ directory
+- **Shared components** in DMDashboard/shared/ for cross-tool consistency
+- **LootFactory**: Full-stack treasure generation (React + Node.js + TypeScript)
+- **name-generator**: NPC and location name generation (Python)
+- **map_scraper**: Map processing and extraction tools (Python)
+- **foundry_modding**: FoundryVTT module development tools (JavaScript)
+- **All tool files contained** in respective DMDashboard/ subdirectories
+- **Never place DMDashboard files** in main /projects directory
+- **Unified theming**: DM's Guild color scheme and professional design
+- **Cross-tool integration**: Shared sidebar navigation and component library
+
+## Documentation
+- Write clear, concise comments explaining complex logic
+- Include examples in docstrings
+- Maintain up-to-date README files
+- Document all configuration options
+- Include troubleshooting sections
+
+## Data Handling
+- Always validate input data before processing
+- Use appropriate data structures for efficiency
+- Include data backup and recovery mechanisms
+- Handle large datasets with proper memory management
+- Implement proper data sanitization for user inputs
+
+## API and Web Scraping (relevant for name-generator and map_scraper)
+- Implement proper rate limiting to respect server resources
+- Include user-agent headers and follow robots.txt
+- Handle HTTP errors gracefully with retry logic
+- Cache responses when appropriate to reduce server load
+- Include comprehensive logging for debugging scraping issues
+
+## D&D Application Development
+- Always reference the SRD2024SRD.txt file in the /projects directory when developing D&D-related applications
+- Ensure all D&D mechanics, rules, and content comply with the 2024 D&D 5e System Reference Document
+- Validate spell descriptions, monster stats, magic items, and game mechanics against the official SRD
+- When implementing D&D features, cross-reference the SRD to maintain rule accuracy and consistency
+- Use the SRD as the authoritative source for D&D terminology, mechanics, and balance guidelines
+
+## Git and Version Control
+- Write meaningful commit messages with clear descriptions
+- Use conventional commit format: type(scope): description
+- Keep commits focused on single logical changes
+- Include .gitignore files to exclude unnecessary files
+- Tag releases with semantic versioning
+
+## Git Branching Workflow
+- **NEVER develop directly on main branch** - main should always be production-ready
+- **Use development branch** for integration of features before merging to main
+- **Create feature branches** for all new work: `feature/feature-name`
+- **Branching Strategy:**
+  ```
+  main (production-ready, stable releases)
+  ├── development (integration branch for features)
+      ├── feature/dm-dashboard-sidebar
+      ├── feature/source-book-filtering  
+      ├── feature/campaign-integration
+      └── bugfix/toast-timing-issue
+  ```
+- **Daily Workflow:**
+  1. Start new work: `git new-feature feature-name` (uses alias)
+  2. Develop and test on feature branch
+  3. Push feature branch: `git push -u origin feature/feature-name`
+  4. When ready: `git finish-feature feature/feature-name` (uses alias)
+  5. Deploy to main when development is stable
+- **Feature Branch Rules:**
+  - Always branch from development, not main
+  - Keep feature branches focused on single functionality
+  - Test thoroughly before merging back to development
+  - Delete feature branches after successful merge
+- **Safety Benefits:**
+  - Prevents repository mix-ups and broken main branch
+  - Allows safe experimentation without risk
+  - Enables easy rollback if something goes wrong
+  - Maintains clean commit history with logical feature groupings
+
+## Security Best Practices
+- Never commit sensitive data (API keys, passwords, tokens)
+- Validate and sanitize all user inputs
+- Use environment variables for configuration
+- Include proper authentication and authorization where needed
+- Regular security audits of dependencies
+
+## Performance Optimization
+- Profile code to identify bottlenecks
+- Use appropriate data structures and algorithms
+- Implement caching strategies where beneficial
+- Minimize I/O operations and batch when possible
+- Consider memory usage for large data processing
+
+## Testing Guidelines
+- Write unit tests for all core functionality
+- Include integration tests for complex workflows
+- Test edge cases and error conditions
+- Maintain test coverage above 80%
+- Use descriptive test names that explain the scenario being tested
+
+## Action Planning and Communication
+- If planning to initiate a series of actions that exceeds 3 things, inform the user of the planned actions before proceeding
+- Break down complex tasks into smaller, manageable steps
+- Allow user review and approval for multi-step operations
+- Clearly communicate the scope and impact of planned changes 
