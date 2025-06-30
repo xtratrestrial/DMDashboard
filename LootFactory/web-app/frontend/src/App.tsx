@@ -68,6 +68,9 @@ const RANDOM_TAGLINES = [
 ];
 
 function App() {
+  // Constants
+  const ALL_SOURCE_BOOKS = ['dmg-2024', 'tasha', 'eberron', 'fizban', 'spelljammer', 'planescape'];
+  
   const [generatedTreasure, setGeneratedTreasure] = useState<GeneratedTreasure | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [challengeRating, setChallengeRating] = useState(5);
@@ -75,6 +78,7 @@ function App() {
   const [generationType, setGenerationType] = useState<'individual' | 'hoard'>('individual');
   const [includeMundane, setIncludeMundane] = useState(true);
   const [includeMagic, setIncludeMagic] = useState(true);
+  const [sourceBooks, setSourceBooks] = useState<string[]>(['dmg-2024']); // Default to DMG 2024
   const [apiStatus, setApiStatus] = useState<'checking' | 'connected' | 'error'>('checking');
   const [currentTagline, setCurrentTagline] = useState('');
   const [toasts, setToasts] = useState<ToastNotification[]>([]);
@@ -142,7 +146,8 @@ function App() {
         party_level: partyLevel,
         generation_type: generationType,
         include_mundane: includeMundane,
-        include_magic: includeMagic
+        include_magic: includeMagic,
+        source_books: sourceBooks
       };
 
       const response = await fetch(`${API_BASE_URL}/api/generate`, {
@@ -190,6 +195,17 @@ function App() {
 
   const formatRarityDisplay = (rarity: string) => {
     return rarity.replace('-', ' ').toUpperCase();
+  };
+
+  // Source books toggle function
+  const toggleAllSourceBooks = () => {
+    if (sourceBooks.length === ALL_SOURCE_BOOKS.length) {
+      // All are selected, deselect all
+      setSourceBooks([]);
+    } else {
+      // Some or none are selected, select all
+      setSourceBooks([...ALL_SOURCE_BOOKS]);
+    }
   };
 
   // Sidebar callbacks
@@ -316,6 +332,105 @@ function App() {
                   />
                   Include Magic Items
                 </label>
+              </div>
+
+              <div className="control-group">
+                <div className="source-books-header">
+                  <label>Source Books:</label>
+                  <button
+                    type="button"
+                    onClick={toggleAllSourceBooks}
+                    className="toggle-all-btn"
+                  >
+                    {sourceBooks.length === ALL_SOURCE_BOOKS.length ? 'Deselect All' : 'Select All'}
+                  </button>
+                </div>
+                <div className="checkbox-group source-books">
+                  <label>
+                    <input
+                      type="checkbox"
+                      checked={sourceBooks.includes('dmg-2024')}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSourceBooks([...sourceBooks, 'dmg-2024']);
+                        } else {
+                          setSourceBooks(sourceBooks.filter(book => book !== 'dmg-2024'));
+                        }
+                      }}
+                    />
+                    <span>DMG 2024</span>
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      checked={sourceBooks.includes('tasha')}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSourceBooks([...sourceBooks, 'tasha']);
+                        } else {
+                          setSourceBooks(sourceBooks.filter(book => book !== 'tasha'));
+                        }
+                      }}
+                    />
+                    <span>Tasha's Cauldron</span>
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      checked={sourceBooks.includes('eberron')}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSourceBooks([...sourceBooks, 'eberron']);
+                        } else {
+                          setSourceBooks(sourceBooks.filter(book => book !== 'eberron'));
+                        }
+                      }}
+                    />
+                    <span>Eberron</span>
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      checked={sourceBooks.includes('fizban')}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSourceBooks([...sourceBooks, 'fizban']);
+                        } else {
+                          setSourceBooks(sourceBooks.filter(book => book !== 'fizban'));
+                        }
+                      }}
+                    />
+                    <span>Fizban's Treasury</span>
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      checked={sourceBooks.includes('spelljammer')}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSourceBooks([...sourceBooks, 'spelljammer']);
+                        } else {
+                          setSourceBooks(sourceBooks.filter(book => book !== 'spelljammer'));
+                        }
+                      }}
+                    />
+                    <span>Spelljammer</span>
+                  </label>
+                  <label>
+                    <input
+                      type="checkbox"
+                      checked={sourceBooks.includes('planescape')}
+                      onChange={(e) => {
+                        if (e.target.checked) {
+                          setSourceBooks([...sourceBooks, 'planescape']);
+                        } else {
+                          setSourceBooks(sourceBooks.filter(book => book !== 'planescape'));
+                        }
+                      }}
+                    />
+                    <span>Planescape</span>
+                  </label>
+                </div>
               </div>
             </div>
 

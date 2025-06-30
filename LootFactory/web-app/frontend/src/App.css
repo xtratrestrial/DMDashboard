@@ -225,6 +225,84 @@ body {
     accent-color: var(--dnd-red);
 }
 
+/* Source Books Specific Styling */
+.source-books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.source-books label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    color: var(--light-cream);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 0.25rem 0;
+}
+
+.source-books label:hover:not([data-disabled="true"]) {
+    background: rgba(139, 21, 56, 0.2);
+    border-color: rgba(139, 21, 56, 0.4);
+    transform: translateY(-1px);
+}
+
+.source-books label[data-disabled="true"] {
+    opacity: 0.6;
+    cursor: help;
+    background: rgba(100, 100, 100, 0.1);
+    border-color: rgba(100, 100, 100, 0.2);
+}
+
+.source-books label[data-disabled="true"]:hover {
+    background: rgba(100, 100, 100, 0.2);
+    transform: none;
+}
+
+.source-books input[type="checkbox"]:disabled {
+    opacity: 0.5;
+}
+
+.source-books input[type="checkbox"]:checked + span {
+    font-weight: 600;
+}
+
+/* Source Books Header */
+.source-books-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.toggle-all-btn {
+    background: rgba(139, 21, 56, 0.2);
+    border: 1px solid rgba(139, 21, 56, 0.4);
+    color: var(--light-cream);
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.toggle-all-btn:hover {
+    background: rgba(139, 21, 56, 0.4);
+    border-color: rgba(139, 21, 56, 0.6);
+    transform: translateY(-1px);
+}
+
 /* Button */
 .btn-primary {
     background: linear-gradient(145deg, var(--dnd-red), var(--dnd-red-light));
@@ -706,5 +784,17 @@ body {
     
     .btn-secondary {
         min-width: 150px;
+    }
+    
+    .source-books {
+        gap: 0.5rem;
+        justify-content: center;
+    }
+    
+    .source-books label {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        flex: 1;
+        min-width: fit-content;
     }
 }

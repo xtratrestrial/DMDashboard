@@ -7,11 +7,14 @@ import fs from 'fs';
 interface MagicItem {
     name: string;
     rarity: 'common' | 'uncommon' | 'rare' | 'very-rare' | 'legendary';
-    category: string;
-    table_source: string;
-    roll_range: string;
+    category?: string;
+    table_source?: string;  // For DMG 2024 items
+    source?: string;        // For additional source book items
+    roll_range?: string;
     description?: string;
     properties?: string;
+    type?: string;          // For additional source book items
+    attunement?: string;    // For additional source book items
     pricing?: {
         base_price: number;
         currency: string;
@@ -85,22 +88,41 @@ let treasureTablesData: any = {};
 // Load magic items data
 function loadMagicItems() {
     try {
-        const dataPath = path.join(__dirname, '../../../data/official/dmg_2024_items.json');
-        const rawData = fs.readFileSync(dataPath, 'utf8');
-        const allItems = JSON.parse(rawData);
+        // Load DMG 2024 items
+        const dmgPath = path.join(__dirname, '../../../data/official/dmg_2024_items.json');
+        const dmgRawData = fs.readFileSync(dmgPath, 'utf8');
+        const dmgItems = JSON.parse(dmgRawData);
         
-        // Filter out items without proper rarity (these are usually table references)
-        magicItemsData = allItems.filter((item: any) => {
+        // Filter out DMG items without proper rarity (table references)
+        const filteredDmgItems = dmgItems.filter((item: any) => {
             if (!item.rarity || item.name.includes('Table')) {
-                if (item.name.includes('Table')) {
-                    console.log(`Missing rarity for item: ${item.name}`);
-                }
                 return false;
             }
+            // Add source standardization for DMG items
+            item.source = 'DMG 2024';
             return true;
         });
         
-        console.log(`✅ Loaded ${magicItemsData.length} magic items`);
+        // Load additional source books
+        const multiSourcePath = path.join(__dirname, '../../../data/official/multi_source_analysis.json');
+        let additionalItems: any[] = [];
+        
+        try {
+            const multiSourceData = fs.readFileSync(multiSourcePath, 'utf8');
+            const multiSourceJson = JSON.parse(multiSourceData);
+            additionalItems = multiSourceJson.items || [];
+            console.log(`✅ Loaded ${additionalItems.length} items from additional sources`);
+        } catch (error) {
+            console.log('⚠️ Additional sources not found, using DMG 2024 only');
+        }
+        
+        // Combine all items
+        magicItemsData = [...filteredDmgItems, ...additionalItems];
+        
+        console.log(`✅ Total magic items loaded: ${magicItemsData.length}`);
+        console.log(`   📜 DMG 2024: ${filteredDmgItems.length} items`);
+        console.log(`   🌟 Additional Sources: ${additionalItems.length} items`);
+        
     } catch (error) {
         console.error('❌ Error loading magic items:', error);
     }
@@ -433,9 +455,36 @@ function generateArtObjects(challengeRating: number, isHoard: boolean): Array<{n
 }
 
 // Generate magic items based on official D&D tables
-function generateMagicItems(challengeRating: number, quantity: number = 1): MagicItem[] {
+function generateMagicItems(challengeRating: number, quantity: number = 1, sourceBooks?: string[]): MagicItem[] {
     const weights = getRarityWeights(challengeRating);
     const items: MagicItem[] = [];
+
+    // Filter items by source books if specified
+    let filteredItems = magicItemsData;
+    if (sourceBooks && sourceBooks.length > 0) {
+        filteredItems = magicItemsData.filter(item => {
+            // Map source books to actual source names
+            const sourceMapping: Record<string, string[]> = {
+                'dmg-2024': ['DMG 2024', 'Magic_Items Table'],
+                'xanathar': ["Xanathar's Guide to Everything"],
+                'tasha': ["Tasha's Cauldron of Everything"],
+                'fizban': ["Fizban's Treasury of Dragons"],
+                'eberron': ["Eberron: Rising from the Last War"],
+                'spelljammer': ["Spelljammer"],
+                'planescape': ["Planescape"]
+            };
+            
+            return sourceBooks.some(book => {
+                const mappedSources = sourceMapping[book] || [book];
+                return mappedSources.some(sourceName => {
+                    // Check both 'source' and 'table_source' fields
+                    const itemSource = item.source || item.table_source || '';
+                    return itemSource.includes(sourceName) ||
+                           itemSource.toLowerCase().includes(sourceName.toLowerCase());
+                });
+            });
+        });
+    }
 
     for (let i = 0; i < quantity; i++) {
         // Use weighted random selection for rarity
@@ -451,8 +500,8 @@ function generateMagicItems(challengeRating: number, quantity: number = 1): Magi
             }
         }
 
-        // Find items of the selected rarity
-        const availableItems = magicItemsData.filter(item => item.rarity === selectedRarity);
+        // Find items of the selected rarity from filtered items
+        const availableItems = filteredItems.filter(item => item.rarity === selectedRarity);
         if (availableItems.length > 0) {
             const randomIndex = Math.floor(Math.random() * availableItems.length);
             const randomItem = availableItems[randomIndex];
@@ -470,6 +519,7 @@ function generateTreasure(request: TreasureGenerationRequest): GeneratedTreasure
     const { 
         challenge_rating = 1, 
         generation_type = 'individual',
+        source_books,
         include_mundane = true,
         include_magic = true 
     } = request;
@@ -495,7 +545,7 @@ function generateTreasure(request: TreasureGenerationRequest): GeneratedTreasure
             magicItemQuantity = Math.max(1, Math.floor(tier / 2) + rollDice(3) - 1);
         }
 
-        const magicItems = generateMagicItems(challenge_rating, magicItemQuantity);
+        const magicItems = generateMagicItems(challenge_rating, magicItemQuantity, source_books);
         result.magic_items = magicItems.map(item => {
             const calculatedValue = DMG2024PricingCalculator.calculateItemPrice(item);
             return {
@@ -503,7 +553,7 @@ function generateTreasure(request: TreasureGenerationRequest): GeneratedTreasure
                 rarity: item.rarity,
                 description: item.description || undefined,
                 value: calculatedValue,
-                source: item.table_source
+                source: item.source || item.table_source || 'Unknown Source'
             };
         });
 
@@ -548,7 +598,10 @@ app.get('/api/items', (req, res) => {
         }
         
         if (source) {
-            items = items.filter(item => item.table_source.includes(source as string));
+            items = items.filter(item => {
+                const itemSource = item.source || item.table_source || '';
+                return itemSource.includes(source as string);
+            });
         }
         
         if (search) {
@@ -599,7 +652,7 @@ app.get('/api/stats', (req, res) => {
                 return acc;
             }, {} as Record<string, number>),
             categories: [...new Set(magicItemsData.map(item => item.category))],
-            sources: [...new Set(magicItemsData.map(item => item.table_source))]
+            sources: [...new Set(magicItemsData.map(item => item.source || item.table_source || 'Unknown'))]
         };
         
         res.json(stats);

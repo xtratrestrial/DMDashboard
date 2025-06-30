@@ -1,0 +1,1109 @@
+{
+  "parsing_date": "2025-06-29T22:37:54.567220",
+  "total_items": 95,
+  "total_spells": 11,
+  "source_breakdown": {
+    "Eberron: Rising from the Last War": {
+      "items": 25,
+      "spells": 0
+    },
+    "Fizban's Treasury of Dragons": {
+      "items": 17,
+      "spells": 7
+    },
+    "Tasha's Cauldron of Everything": {
+      "items": 47,
+      "spells": 0
+    },
+    "Planescape": {
+      "items": 3,
+      "spells": 2
+    },
+    "Spelljammer": {
+      "items": 3,
+      "spells": 2
+    }
+  },
+  "items": [
+    {
+      "name": "Arcane Propulsion Arm",
+      "type": "Wondrous item",
+      "rarity": "very rare",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement by a creature missing a hand or an arm)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Armblade",
+      "type": "Weapon (any one-handed melee weapon)",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement by a warforged)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Belashyrra's Beholder Crown",
+      "type": "Wondrous item",
+      "rarity": "legendary",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Cleansing Stone",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Docent",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement by a warforged)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Dyrrn's Tentacle Whip",
+      "type": "Weapon (whip)",
+      "rarity": "very rare",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Earworm",
+      "type": "Wondrous item",
+      "rarity": "uncommon",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Everbright Lantern",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Feather Token",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Finder's Goggles",
+      "type": "Wondrous item",
+      "rarity": "uncommon",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement by a creature with the Mark of Finding)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": true
+    },
+    {
+      "name": "Glamerweave",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Imbued Wood Focus",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Keycharm",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement by a creature with the Mark of Warding)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": true
+    },
+    {
+      "name": "Kyrzin's Ooze",
+      "type": "Wondrous item",
+      "rarity": "very rare",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Living Armor",
+      "type": "Armor (any)",
+      "rarity": "very rare",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Living Gloves",
+      "type": "Wondrous item",
+      "rarity": "uncommon",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Orb of Shielding",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Prosthetic Limb",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Scribe's Pen",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement by a creature with the Mark of Scribing)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": true
+    },
+    {
+      "name": "Shiftweave",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Speaking Stone",
+      "type": "Wondrous item",
+      "rarity": "very rare",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Spellshard",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Ventilating Lungs",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Wand Sheath",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": "(requires attunement by a warforged)",
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Wheel of Wind and Water",
+      "type": "Wondrous item",
+      "rarity": "uncommon",
+      "source": "Eberron: Rising from the Last War",
+      "description": "",
+      "attunement": null,
+      "category": "Eberron Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Amethyst Lodestone",
+      "type": "Wondrous Item",
+      "rarity": "very rare",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Crystal Blade",
+      "type": "Weapon (Any Sword)",
+      "rarity": "rare",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Dragonhide Belt",
+      "type": "Wondrous Item",
+      "rarity": "uncommon",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Dragonlance",
+      "type": "Weapon (Lance or Pike)",
+      "rarity": "legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Dragon Wing Bow",
+      "type": "Weapon (Any Bow)",
+      "rarity": "rare",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Emerald Pen",
+      "type": "Wondrous Item",
+      "rarity": "uncommon",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Flail of Tiamat",
+      "type": "Weapon (Flail)",
+      "rarity": "legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Gold Canary Figurine of Wondrous Power",
+      "type": "Wondrous Item",
+      "rarity": "legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Platinum Scarf",
+      "type": "Wondrous Item",
+      "rarity": "legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Potion of Dragon's Majesty",
+      "type": "Potion",
+      "rarity": "legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Ruby Weave Gem",
+      "type": "Wondrous Item",
+      "rarity": "legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Sapphire Buckler",
+      "type": "Armor (Shield)",
+      "rarity": "very rare",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Topaz Annihilator",
+      "type": "Weapon (Firearm)",
+      "rarity": "legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Dragon Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Dragon's Wrath Weapon",
+      "type": "Weapon (Any)",
+      "rarity": "uncommon/rare/very rare/legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Hoard Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Dragon-Touched Focus",
+      "type": "Wondrous Item",
+      "rarity": "uncommon/rare/very rare/legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Hoard Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Dragon Vessel",
+      "type": "Wondrous Item",
+      "rarity": "uncommon/rare/very rare/legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Hoard Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Scaled Ornament",
+      "type": "Wondrous Item",
+      "rarity": "uncommon/rare/very rare/legendary",
+      "source": "Fizban's Treasury of Dragons",
+      "description": "",
+      "attunement": null,
+      "category": "Hoard Magic Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Absorbing Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Barrier Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "uncommon/rare/very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Blood Fury Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "legendary",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Coiling Grasp Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "uncommon",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Eldritch Claw Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "uncommon",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Ghost Step Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Illuminator's Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "common",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Lifewell Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Masquerade Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "common",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Shadowfell Brand Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Spellwrought Tattoo",
+      "type": "Wondrous item (tattoo)",
+      "rarity": "common/uncommon/rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Magic Tattoos",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "All-Purpose Tool",
+      "type": "Wondrous item",
+      "rarity": "uncommon/rare/very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Class Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Amulet of the Devout",
+      "type": "Wondrous item",
+      "rarity": "uncommon/rare/very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Class Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Arcane Grimoire",
+      "type": "Wondrous item",
+      "rarity": "uncommon/rare/very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Class Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Bloodwell Vial",
+      "type": "Wondrous item",
+      "rarity": "uncommon/rare/very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Class Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Moon Sickle",
+      "type": "Weapon (sickle)",
+      "rarity": "uncommon/rare/very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Class Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Rhythm-Maker's Drum",
+      "type": "Wondrous item",
+      "rarity": "uncommon/rare/very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Class Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Astral Shard",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Sorcerer Shards",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Elemental Essence Shard",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Sorcerer Shards",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Far Realm Shard",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Sorcerer Shards",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Feywild Shard",
+      "type": "Wondrous item",
+      "rarity": "uncommon",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Sorcerer Shards",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Outer Essence Shard",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Sorcerer Shards",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Shadowfell Shard",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Sorcerer Shards",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Alchemical Compendium",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Astromancy Archive",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Atlas of Endless Horizons",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Crystalline Chronicle",
+      "type": "Wondrous item",
+      "rarity": "very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Duplicitous Manuscript",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Fulminating Treatise",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Heart Weaver's Primer",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Libram of Souls and Flesh",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Planecaller's Codex",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Protective Verses",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Wizard Spellbooks",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Bell Branch",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Other Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Cauldron of Rebirth",
+      "type": "Wondrous item",
+      "rarity": "very rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Other Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Devotee's Censer",
+      "type": "Weapon (flail)",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Other Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Guardian Emblem",
+      "type": "Wondrous item (holy symbol)",
+      "rarity": "uncommon",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Other Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Lyre of Building",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Other Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Nature's Mantle",
+      "type": "Wondrous item",
+      "rarity": "uncommon",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Other Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Prosthetic Limb",
+      "type": "Wondrous item",
+      "rarity": "common",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Other Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Reveler's Concertina",
+      "type": "Wondrous item",
+      "rarity": "rare",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Other Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Baba Yaga's Mortar and Pestle",
+      "type": "Wondrous item",
+      "rarity": "artifact",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Artifacts",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Crook of Rao",
+      "type": "Wondrous item",
+      "rarity": "artifact",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Artifacts",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Demonomicon of Iggwilv",
+      "type": "Wondrous item",
+      "rarity": "artifact",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Artifacts",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Luba's Tarokka of Souls",
+      "type": "Wondrous item",
+      "rarity": "artifact",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Artifacts",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Mighty Servant of Leuk-o",
+      "type": "Wondrous item",
+      "rarity": "artifact",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Artifacts",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Teeth of Dahlver-Nar",
+      "type": "Wondrous item",
+      "rarity": "artifact",
+      "source": "Tasha's Cauldron of Everything",
+      "description": "",
+      "attunement": null,
+      "category": "Artifacts",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Mimir",
+      "type": "Wondrous Item",
+      "rarity": "rare",
+      "source": "Planescape",
+      "description": "",
+      "attunement": null,
+      "category": "Planar Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Portal Compass",
+      "type": "Wondrous Item",
+      "rarity": "uncommon",
+      "source": "Planescape",
+      "description": "",
+      "attunement": null,
+      "category": "Planar Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Sensory Stone",
+      "type": "Wondrous Item",
+      "rarity": "uncommon",
+      "source": "Planescape",
+      "description": "",
+      "attunement": null,
+      "category": "Planar Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Fish Suit",
+      "type": "Wondrous Item",
+      "rarity": "very rare",
+      "source": "Spelljammer",
+      "description": "",
+      "attunement": null,
+      "category": "Spelljammer Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Spelljamming Helm",
+      "type": "Wondrous Item",
+      "rarity": "rare",
+      "source": "Spelljammer",
+      "description": "",
+      "attunement": null,
+      "category": "Spelljammer Items",
+      "requires_dragonmark": false
+    },
+    {
+      "name": "Wildspace Orrery",
+      "type": "Wondrous Item",
+      "rarity": "uncommon",
+      "source": "Spelljammer",
+      "description": "",
+      "attunement": null,
+      "category": "Spelljammer Items",
+      "requires_dragonmark": false
+    }
+  ],
+  "spells": [
+    {
+      "name": "Nathair's Mischief",
+      "level": 2,
+      "school": "Illusion",
+      "source": "Fizban's Treasury of Dragons",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Rime's Binding Ice",
+      "level": 2,
+      "school": "Evocation",
+      "source": "Fizban's Treasury of Dragons",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Ashardalon's Stride",
+      "level": 3,
+      "school": "Transmutation",
+      "source": "Fizban's Treasury of Dragons",
+      "classes": [
+        "Artificer",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Raulothim's Psychic Lance",
+      "level": 4,
+      "school": "Enchantment",
+      "source": "Fizban's Treasury of Dragons",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Summon Draconic Spirit",
+      "level": 5,
+      "school": "Conjuration",
+      "source": "Fizban's Treasury of Dragons",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Fizban's Platinum Shield",
+      "level": 6,
+      "school": "Abjuration",
+      "source": "Fizban's Treasury of Dragons",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Draconic Transformation",
+      "level": 7,
+      "school": "Transmutation",
+      "source": "Fizban's Treasury of Dragons",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Warp Sense",
+      "level": 2,
+      "school": "Divination",
+      "source": "Planescape",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Gate Seal",
+      "level": 4,
+      "school": "Abjuration",
+      "source": "Planescape",
+      "classes": [
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Air Bubble",
+      "level": 2,
+      "school": "Conjuration",
+      "source": "Spelljammer",
+      "classes": [
+        "Artificer",
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ]
+    },
+    {
+      "name": "Create Spelljamming Helm",
+      "level": 5,
+      "school": "Transmutation",
+      "source": "Spelljammer",
+      "classes": [
+        "Artificer",
+        "Wizard"
+      ]
+    }
+  ],
+  "summary": {
+    "dmg_2024": 534,
+    "additional_sources": 95,
+    "grand_total": 629,
+    "new_spells_for_scrolls": 11
+  }
+}
