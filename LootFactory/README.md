@@ -1,126 +1,150 @@
-# Loot Factory
+# 🎲 Loot Factory - D&D 5e Treasure Generator
 
-A comprehensive tool for generating and managing magical loot tables for tabletop RPGs, specifically designed around the D&D 5e 2024 Magic Item Tables.
+A comprehensive D&D 5e magical treasure generation system following official DMG 2024 methodology. Generate balanced loot from **629+ magic items** across 6 official D&D source books.
 
-## Project Description
+## ✨ Features
 
-Loot Factory is designed to help Dungeon Masters and game developers create, customize, and generate magical loot for their campaigns. The project includes the complete DMG 2024 Magic Item Tables and provides tools to:
+- **629+ Magic Items** from DMG 2024, Tasha's, Eberron, Fizban's, Spelljammer, and Planescape
+- **Official DMG 2024 Methodology** for accurate treasure generation
+- **Source Book Filtering** with Select All/None toggle
+- **Challenge Rating Based Generation** (Individual vs Hoard modes)
+- **Professional D&D Theming** with DM's Guild color scheme
+- **Export Functionality** (TSV/CSV for spreadsheets)
+- **DM Dashboard Integration** - Part of larger DM toolkit ecosystem
 
-- Generate random loot based on challenge rating and party level
-- Create custom loot tables with weighted probabilities  
-- Export loot lists in various formats
-- Manage treasure hoards and individual item distributions
-- Track and balance magic item distribution across campaigns
+## 🚀 Quick Start with Docker (Production)
 
-## Features
+### Prerequisites
+- Docker and Docker Compose installed
+- Port 80 available (or modify docker-compose.yml)
 
-- **Complete DMG 2024 Magic Item Tables**: All official magic item tables from the 2024 D&D Dungeon Master's Guide
-- **Smart Loot Generation**: Generate appropriate loot based on encounter difficulty and party progression
-- **Custom Table Creation**: Build your own magic item tables with custom weights and restrictions
-- **Multiple Export Formats**: Export generated loot in JSON, CSV, or formatted text
-- **Campaign Integration**: Tools for tracking distributed items and maintaining game balance
-
-## Installation
-
+### Deploy to Production
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd "Loot Factory"
+git clone <your-repo-url>
+cd DMDashboard/LootFactory
 
-# Create virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# Build and start production containers
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
 
-# Install dependencies
-pip install -r requirements.txt
+# Check status
+docker-compose logs -f
+
+# Access the application
+open http://localhost
 ```
 
-## Usage
-
-### Basic Loot Generation
-
-```python
-from loot_factory import LootGenerator
-
-# Initialize the generator
-generator = LootGenerator()
-
-# Generate loot for a CR 5 encounter
-loot = generator.generate_loot(challenge_rating=5, party_level=3)
-print(loot)
+### Stop Production Deployment
+```bash
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml down
 ```
 
-### Custom Table Creation
+## 🛠️ Development Setup
 
-```python
-# Create a custom magic item table
-custom_table = generator.create_custom_table(
-    items=["Potion of Healing", "Magic Sword +1", "Cloak of Protection"],
-    weights=[50, 30, 20]
-)
+### Local Development (No Docker)
+```bash
+# Backend setup
+cd web-app/backend
+npm install
+npm run dev
+
+# Frontend setup (new terminal)
+cd web-app/frontend  
+npm install
+npm run dev
+
+# Access development servers
+# Backend: http://localhost:3001
+# Frontend: http://localhost:5173
 ```
 
-## File Structure
+### Development with Docker
+```bash
+# Start development containers with hot reload
+docker-compose up -d --build
 
-```
-Loot Factory/
-├── README.md                    # This file
-├── .gitignore                   # Git ignore patterns
-├── DMG 2024 Magic Item Tables   # Official D&D magic item tables
-├── requirements.txt             # Python dependencies
-├── src/                         # Source code
-│   ├── loot_factory/           # Main package
-│   ├── parsers/                # Table parsing utilities
-│   └── generators/             # Loot generation logic
-├── data/                       # Data files and custom tables
-├── tests/                      # Unit tests
-└── examples/                   # Usage examples
+# View logs
+docker-compose logs -f
+
+# Stop development containers
+docker-compose down
 ```
 
-## Data Sources
+## 📊 Architecture
 
-- **DMG 2024 Magic Item Tables**: Official Dungeons & Dragons 2024 Magic Item Tables
-- **Rarity Classifications**: Based on D&D 5e item rarity system
-- **Challenge Rating Guidelines**: Aligned with D&D 5e encounter building rules
+- **Frontend**: React 18 + TypeScript + Vite (Port 80 in production, 5173 in dev)
+- **Backend**: Node.js + Express + TypeScript (Port 3001)
+- **Data**: JSON files with 629+ structured magic items
+- **Deployment**: Docker + nginx proxy + health checks
 
-## Contributing
+## 🎯 Data Sources
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes following the coding guidelines
-4. Add tests for new functionality
-5. Commit your changes (`git commit -m 'feat: add amazing feature'`)
-6. Push to the branch (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
+- **DMG 2024**: 534 magic items with official pricing
+- **Tasha's Cauldron**: 47 items (Magic Tattoos, Class Items)
+- **Eberron**: 25 items (Dragonmarks, Warforged items)
+- **Fizban's Treasury**: 17 items (Dragon Magic)
+- **Spelljammer**: 3 items
+- **Planescape**: 3 items
 
-## Development Guidelines
+## 🐳 Docker Configuration
 
-- Follow PEP 8 style guidelines for Python code
-- Include type hints for all functions
-- Write comprehensive docstrings
-- Add unit tests for new features
-- Use meaningful commit messages following conventional commit format
+### Production Images
+- **Frontend**: nginx:alpine serving built React app
+- **Backend**: node:18-alpine running compiled TypeScript
+- **Networking**: Internal Docker network with nginx proxy
+- **Health Checks**: Automated container health monitoring
+- **Security**: Security headers, gzip compression, asset caching
 
-## License
+### Environment Detection
+- **Development**: `http://localhost:3001` API calls
+- **Production**: Relative URLs through nginx proxy
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📈 Roadmap
 
-## Acknowledgments
+- ✅ **Phase 1**: Data foundation & 629 magic items
+- ✅ **Phase 2**: Full-stack web application  
+- ✅ **Phase 3**: Source book filtering & Docker deployment
+- 🔄 **Phase 4**: Campaign integration & economic analysis
+- 📋 **Phase 5**: PDF export & advanced features
 
-- Wizards of the Coast for the D&D 5e magic item system
-- The D&D community for inspiration and feedback
-- Contributors and testers who help improve the project
+## 🔧 Development Commands
 
-## Roadmap
+```bash
+# Build production images
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml build
 
-- [ ] Parse and structure the DMG 2024 Magic Item Tables
-- [ ] Implement basic loot generation algorithms  
-- [ ] Add custom table creation tools
-- [ ] Create export functionality
-- [ ] Build web interface for easy access
-- [ ] Add campaign tracking features
-- [ ] Integrate with popular VTT platforms
+# View container logs
+docker-compose logs backend
+docker-compose logs frontend
 
-## Support
+# Execute commands in containers
+docker-compose exec backend npm run build
+docker-compose exec frontend npm run build
 
-For questions, bug reports, or feature requests, please open an issue on GitHub or contact the maintainers. 
+# Clean up containers and images
+docker-compose down --rmi all --volumes --remove-orphans
+```
+
+## 🎲 Usage
+
+1. **Select Challenge Rating** (0-20) for appropriate treasure level
+2. **Choose Generation Type** (Individual vs Hoard)
+3. **Filter Source Books** using checkboxes or Select All/None
+4. **Generate Treasure** and view detailed results
+5. **Export to Spreadsheet** using TSV/CSV export buttons
+
+## 🏛️ DM Dashboard Ecosystem
+
+LootFactory is part of the larger **DM Dashboard** project - a comprehensive D&D toolkit including:
+- **Loot Factory**: Treasure generation (this project)
+- **Name Generator**: NPC and location names  
+- **Foundry Modding**: Module development tools
+- **Map Scraper**: Map processing utilities
+
+## 📜 License
+
+MIT License - See LICENSE file for details
+
+---
+
+**Ready to generate epic loot! 🎲✨** 

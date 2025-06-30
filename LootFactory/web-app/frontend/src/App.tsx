@@ -3,6 +3,7 @@ import './App.css';
 import DmSidebar from './components/DmSidebar';
 import { LOOT_FACTORY_CONFIG } from './components/DmSidebarConfig';
 import type { DmSidebarConfig } from './components/DmSidebarConfig';
+import { config } from './config';
 
 // Types for API responses
 interface MagicItem {
@@ -49,7 +50,8 @@ interface ToastNotification {
   timestamp: number;
 }
 
-const API_BASE_URL = 'http://localhost:3001';
+// API Base URL from config (handles dev vs prod)
+const API_BASE_URL = config.apiBaseUrl;
 
 // Random taglines array
 const RANDOM_TAGLINES = [

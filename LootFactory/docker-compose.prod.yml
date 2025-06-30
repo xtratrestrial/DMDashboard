@@ -1,0 +1,22 @@
+# Production overrides for docker-compose.yml
+version: '3.8'
+
+services:
+  backend:
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+    # Remove development volumes and use built image
+    volumes:
+      - ./data:/app/data:ro
+    # Don't expose backend port directly in production
+    ports: []
+
+  frontend:
+    environment:
+      - NODE_ENV=production
+    # Remove development volumes and use built image  
+    volumes: []
+    # Only expose port 80 for frontend
+    ports:
+      - "80:80" 
