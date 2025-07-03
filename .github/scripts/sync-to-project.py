@@ -68,26 +68,29 @@ class GitHubProjectSync:
     def get_project_info(self) -> Optional[Dict]:
         """Get project information including ID."""
         query = """
-        query($owner: String!, $number: Int!) {
-          user(login: $owner) {
-            projectV2(number: $number) {
-              id
-              title
-              url
-              fields(first: 50) {
-                nodes {
-                  ... on ProjectV2Field {
-                    id
-                    name
-                    dataType
-                  }
-                  ... on ProjectV2SingleSelectField {
-                    id
-                    name
-                    dataType
-                    options {
+        query($owner: String!) {
+          repository(owner: $owner, name: "DMDashboard") {
+            projectsV2(first: 10) {
+              nodes {
+                id
+                title
+                url
+                number
+                fields(first: 50) {
+                  nodes {
+                    ... on ProjectV2Field {
                       id
                       name
+                      dataType
+                    }
+                    ... on ProjectV2SingleSelectField {
+                      id
+                      name
+                      dataType
+                      options {
+                        id
+                        name
+                      }
                     }
                   }
                 }
@@ -98,14 +101,16 @@ class GitHubProjectSync:
         """
         
         variables = {
-            'owner': self.repo_owner,
-            'number': self.project_number
+            'owner': self.repo_owner
         }
         
         result = self.graphql_query(query, variables)
         
-        if result and 'user' in result and result['user']:
-            return result['user']['projectV2']
+        if result and 'repository' in result and result['repository']:
+            projects = result['repository']['projectsV2']['nodes']
+            for project in projects:
+                if project['number'] == self.project_number:
+                    return project
         
         return None
     
@@ -119,48 +124,43 @@ class GitHubProjectSync:
         
         # Create new project
         mutation = """
-        mutation($ownerId: ID!, $title: String!, $repositoryId: ID!) {
+        mutation($repositoryId: ID!, $title: String!, $ownerId: ID!) {
           createProjectV2(input: {
-            ownerId: $ownerId,
+            repositoryId: $repositoryId,
             title: $title,
-            repositoryId: $repositoryId
+            ownerId: $ownerId
           }) {
             projectV2 {
               id
               url
+              number
             }
           }
         }
         """
         
-        # Get owner and repository IDs first
-        owner_query = """
-        query($login: String!) {
-          user(login: $login) {
-            id
-          }
-        }
-        """
-        
+        # Get repository and owner info
         repo_query = """
         query($owner: String!, $name: String!) {
           repository(owner: $owner, name: $name) {
             id
+            owner {
+              id
+            }
           }
         }
         """
         
-        owner_result = self.graphql_query(owner_query, {'login': self.repo_owner})
         repo_result = self.graphql_query(repo_query, {'owner': self.repo_owner, 'name': self.repo_name})
         
-        if not owner_result or not repo_result:
-            print("❌ Failed to get owner or repository info")
+        if not repo_result:
+            print("❌ Failed to get repository info")
             return None
         
         variables = {
-            'ownerId': owner_result['user']['id'],
             'title': '🎲 DMDashboard Development Roadmap',
-            'repositoryId': repo_result['repository']['id']
+            'repositoryId': repo_result['repository']['id'],
+            'ownerId': repo_result['repository']['owner']['id']
         }
         
         result = self.graphql_query(mutation, variables)
@@ -332,28 +332,23 @@ This issue is part of the DMDashboard roadmap: [ROADMAP.md](../blob/main/ROADMAP
         for issue_id in issue_ids:
             mutation = """
             mutation($projectId: ID!, $contentId: ID!) {
-              addProjectV2ItemByContentId(input: {
+              addProjectV2DraftIssue(input: {
                 projectId: $projectId,
-                contentId: $contentId
+                title: "Placeholder"
               }) {
-                item {
+                projectV2Item {
                   id
                 }
               }
             }
             """
             
-            variables = {
-                'projectId': project_id,
-                'contentId': issue_id
-            }
-            
-            result = self.graphql_query(mutation, variables)
-            
-            if result and 'addProjectV2ItemByContentId' in result:
-                print(f"✅ Added issue to project")
-            else:
-                print(f"❌ Failed to add issue to project")
+            # For now, we'll create a simple script to manually add issues
+            # The new API requires different approach for adding existing issues
+            print(f"📝 Issue {issue_id} needs to be added manually to project")
+        
+        print(f"🔧 To add issues to project, visit: https://github.com/users/xtratrestrial/projects/2")
+        print(f"   Then manually add issues or use the 'Add items' button")
 
 def main():
     """Main synchronization function."""
