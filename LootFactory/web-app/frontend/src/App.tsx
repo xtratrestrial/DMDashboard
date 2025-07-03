@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import DmSidebar from './components/DmSidebar';
-import { LOOT_FACTORY_CONFIG } from './components/DmSidebarConfig';
-import type { DmSidebarConfig } from './components/DmSidebarConfig';
+import DmSidebar from '@shared/components/DmSidebar';
+import { LOOT_FACTORY_CONFIG } from '@shared/components/DmSidebarConfig';
+import type { DmSidebarConfig } from '@shared/components/DmSidebarConfig';
 import { config } from './config';
 
 // Types for API responses

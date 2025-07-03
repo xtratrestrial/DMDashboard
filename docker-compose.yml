@@ -23,8 +23,8 @@ services:
 
   loot-factory-frontend:
     build:
-      context: ./LootFactory/web-app/frontend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: LootFactory/web-app/frontend/Dockerfile
     container_name: loot-factory-frontend
     ports:
       - "5080:80"
