@@ -70,7 +70,12 @@ DMDashboard/
 │   ├── components/       # React components (DmSidebar, etc.)
 │   ├── themes/          # CSS themes and color schemes
 │   └── assets/          # Shared images and resources
-├── docs/                # Unified documentation
+├── roadmap/              # Planning and project management
+│   ├── ROADMAP.md        # Main development roadmap
+│   ├── PROJECT_STATUS.md # Current project status
+│   ├── PLAN.md           # Detailed development plan
+│   └── issue_completion/ # Issue completion summaries
+├── dm-dashboard/         # Campaign management hub
 └── README.md            # This file
 ```
 
@@ -96,6 +101,8 @@ DMDashboard/
 - **Clean, readable UI** following accessibility guidelines
 
 ## 📈 **Roadmap**
+
+> 📋 **Detailed planning documents are available in the [`roadmap/`](./roadmap/) folder**
 
 ### **Phase 1: Foundation** ✅
 - ✅ LootFactory fully functional
@@ -126,6 +133,12 @@ DMDashboard/
 - 📋 Campaign automation tools
 - 📋 Multi-user collaboration
 - 📋 Mobile app development
+
+### **📋 Planning Documents**
+- **[Main Roadmap](./roadmap/ROADMAP.md)** - Complete development phases and milestones
+- **[Project Status](./roadmap/PROJECT_STATUS.md)** - Current progress and achievements
+- **[Development Plan](./roadmap/PLAN.md)** - Detailed technical specifications
+- **[Issue Completions](./roadmap/issue_completion/)** - Completed work summaries
 
 ## 🤝 **Contributing**
 
