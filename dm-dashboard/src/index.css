@@ -1,5 +1,5 @@
 /* Import the master color palette */
-@import url('../../shared/themes/master-colors.css');
+@import url('@shared/themes/master-colors.css');
 
 * {
   margin: 0;

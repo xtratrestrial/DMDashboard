@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import DmSidebar from './components/DmSidebar';
 import { LOOT_FACTORY_CONFIG } from './components/DmSidebarConfig';

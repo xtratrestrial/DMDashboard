@@ -1,4 +1,4 @@
-import type { DmSidebarConfig } from '../../../shared/components/DmSidebarConfig';
+import type { DmSidebarConfig } from '@shared/components/DmSidebarConfig';
 
 export const DM_DASHBOARD_CONFIG: DmSidebarConfig = {
   projectName: 'DM Dashboard',

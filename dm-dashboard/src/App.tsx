@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
-import DmSidebar from '../../shared/components/DmSidebar';
+import DmSidebar from '@shared/components/DmSidebar';
 import { DM_DASHBOARD_CONFIG } from './components/DmDashboardConfig';
-import type { DmSidebarConfig } from '../../shared/components/DmSidebarConfig';
+import type { DmSidebarConfig, DmTool } from '@shared/components/DmSidebarConfig';
 
 // Types for campaign and party management
 interface Character {
@@ -156,10 +156,10 @@ function App() {
   // Sidebar callbacks
   const handleToolChange = (toolId: string) => {
     // Update the sidebar config to reflect the active tool
-    setSidebarConfig(prev => ({
+    setSidebarConfig((prev: DmSidebarConfig) => ({
       ...prev,
       currentTool: toolId,
-      tools: prev.tools.map(tool => ({
+      tools: prev.tools.map((tool: DmTool) => ({
         ...tool,
         isActive: tool.id === toolId
       }))

@@ -1,5 +1,5 @@
 import React from 'react';
-import type { DmSidebarConfig, DmTool, CampaignInfo } from './DmSidebarConfig';
+import type { DmSidebarConfig, DmTool } from './DmSidebarConfig';
 import './DmSidebar.css';
 
 interface DmSidebarProps {

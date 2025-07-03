@@ -1,16 +1,16 @@
 services:
-  backend:
+  loot-factory-backend:
     build:
-      context: ./web-app/backend
+      context: ./LootFactory/web-app/backend
       dockerfile: Dockerfile
     container_name: loot-factory-backend
     environment:
       - NODE_ENV=production
       - PORT=3001
     volumes:
-      - ./data:/app/data:ro
+      - ./LootFactory/data:/data:ro
     networks:
-      - loot-factory-network
+      - dmdashboard-network
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3001/health"]
       interval: 30s
@@ -19,18 +19,18 @@ services:
       start_period: 40s
     restart: unless-stopped
 
-  frontend:
+  loot-factory-frontend:
     build:
-      context: ./web-app/frontend
+      context: ./LootFactory/web-app/frontend
       dockerfile: Dockerfile
     container_name: loot-factory-frontend
     ports:
       - "80:80"
     depends_on:
-      backend:
+      loot-factory-backend:
         condition: service_healthy
     networks:
-      - loot-factory-network
+      - dmdashboard-network
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost/"]
       interval: 30s
@@ -39,10 +39,17 @@ services:
       start_period: 40s
     restart: unless-stopped
 
-networks:
-  loot-factory-network:
-    driver: bridge
+  dm-dashboard:
+    build:
+      context: .
+      dockerfile: dm-dashboard/Dockerfile
+    container_name: dm-dashboard-frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - dmdashboard-network
+    restart: unless-stopped
 
-volumes:
-  loot-data:
-    driver: local 
+networks:
+  dmdashboard-network:
+    driver: bridge 

@@ -1,13 +1,12 @@
 # Development overrides for docker-compose.yml
-version: '3.8'
-
 services:
   backend:
     environment:
       - NODE_ENV=development
+      - PORT=3001
     volumes:
       - ./web-app/backend:/app
-      - /app/node_modules
+      - ./data:/app/data:ro
     command: npm run dev
     ports:
       - "3001:3001"
@@ -15,9 +14,11 @@ services:
   frontend:
     environment:
       - NODE_ENV=development
+    build:
+      context: ./web-app/frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
     volumes:
       - ./web-app/frontend:/app
-      - /app/node_modules
-    command: npm run dev
-    ports:
-      - "5173:5173" 
+    command: npm run dev 
