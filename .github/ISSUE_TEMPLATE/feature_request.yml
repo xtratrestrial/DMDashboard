@@ -1,0 +1,126 @@
+name: 🎯 Feature Request
+description: Suggest a new feature for the DMDashboard ecosystem
+title: "[FEATURE] "
+labels: ["feature", "enhancement"]
+projects: ["xtratrestrial/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a feature! Please fill out this form to help us understand your request.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of the DMDashboard ecosystem is this feature for?
+      options:
+        - LootFactory (Treasure Generation)
+        - DM Dashboard (Campaign Management)
+        - Shared Components
+        - Backend/API
+        - New Tool
+        - Documentation
+        - Infrastructure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Development Phase
+      description: Which roadmap phase does this feature align with?
+      options:
+        - Phase 1 - Foundation Strengthening
+        - Phase 2 - Tool Expansion  
+        - Phase 3 - Advanced Features
+        - Phase 4 - Campaign Integration
+        - Phase 5 - External Integrations
+        - Future/Not on Roadmap
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve? What use case does it address?
+      placeholder: "As a DM, I want to... so that I can..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution in detail
+      placeholder: "The feature should work by..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Solutions
+      description: Have you considered any alternative approaches?
+      placeholder: "Other ways to solve this could be..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve workflow
+        - High - Significantly improves experience
+        - Critical - Blocks important use cases
+    validations:
+      required: true
+
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Estimated Effort
+      description: How complex do you think this feature would be to implement?
+      options:
+        - Small (1-3 days)
+        - Medium (1-2 weeks)
+        - Large (2-4 weeks)
+        - Epic (requires breaking into smaller features)
+        - Unknown
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How will we know this feature is complete and working correctly?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+        - [ ] Criterion 3
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or examples about the feature request
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Contribution Guidelines
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to make sure this feature hasn't been requested
+          required: true
+        - label: I am willing to help implement this feature if guidance is provided
+          required: false 

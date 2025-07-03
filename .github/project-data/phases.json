@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Phase 1: Foundation Strengthening",
+    "timeline": "Q1 2025",
+    "description": "Building robust infrastructure and fixing critical issues",
+    "status": "planned",
+    "features": []
+  },
+  {
+    "name": "Phase 2: Tool Expansion",
+    "timeline": "Q2 2025",
+    "description": "Adding new tools to the ecosystem",
+    "status": "planned",
+    "features": []
+  },
+  {
+    "name": "Phase 3: Advanced Features",
+    "timeline": "Q3 2025",
+    "description": "Sophisticated campaign management tools",
+    "status": "planned",
+    "features": []
+  },
+  {
+    "name": "Phase 4: Campaign Integration",
+    "timeline": "Q4 2025",
+    "description": "Deep campaign management and external integrations",
+    "status": "planned",
+    "features": []
+  },
+  {
+    "name": "Phase 5: External Integrations",
+    "timeline": "Q1 2026",
+    "description": "Connecting with popular D&D platforms",
+    "status": "planned",
+    "features": []
+  }
+]

@@ -1,0 +1,163 @@
+name: 🐛 Bug Report
+description: Report a bug in the DMDashboard ecosystem
+title: "[BUG] "
+labels: ["bug"]
+projects: ["xtratrestrial/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out this form to help us reproduce and fix the issue.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of the DMDashboard ecosystem has the bug?
+      options:
+        - LootFactory (Treasure Generation)
+        - DM Dashboard (Campaign Management)
+        - Shared Components
+        - Backend/API
+        - Docker/Infrastructure
+        - Documentation
+        - Cross-navigation
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this bug?
+      options:
+        - Critical - Application crashes or unusable
+        - High - Major functionality broken
+        - Medium - Minor functionality broken
+        - Low - Cosmetic issue or minor inconvenience
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: "The application does X when it should do Y..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: A clear and concise description of what actually happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots/Logs
+      description: If applicable, add screenshots, error logs, or console output to help explain your problem
+      placeholder: |
+        You can paste images directly or include error logs here.
+        For console errors, please include the full stack trace.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser (if applicable)
+      description: Which browser are you using?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+        - Not applicable (backend issue)
+    validations:
+      required: false
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      placeholder: "e.g., Windows 10, macOS 12.0, Ubuntu 20.04"
+    validations:
+      required: false
+
+  - type: input
+    id: docker
+    attributes:
+      label: Docker Version (if applicable)
+      description: What version of Docker are you using?
+      placeholder: "e.g., Docker 20.10.21, Docker Desktop 4.15.0"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: network
+    attributes:
+      label: Access Method
+      description: How are you accessing the application?
+      options:
+        - Local host (localhost)
+        - Network access (IP address)
+        - Docker containers
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround
+      description: If you found a temporary workaround, please describe it
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Validation
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to make sure this bug hasn't been reported
+          required: true
+        - label: I have provided enough information to reproduce the bug
+          required: true
+        - label: I am using the latest version of the application
+          required: false 

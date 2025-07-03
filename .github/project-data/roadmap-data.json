@@ -1,0 +1,1022 @@
+{
+  "phases": [
+    {
+      "name": "Phase 1: Foundation Strengthening",
+      "timeline": "Q1 2025",
+      "description": "Building robust infrastructure and fixing critical issues",
+      "status": "planned",
+      "features": []
+    },
+    {
+      "name": "Phase 2: Tool Expansion",
+      "timeline": "Q2 2025",
+      "description": "Adding new tools to the ecosystem",
+      "status": "planned",
+      "features": []
+    },
+    {
+      "name": "Phase 3: Advanced Features",
+      "timeline": "Q3 2025",
+      "description": "Sophisticated campaign management tools",
+      "status": "planned",
+      "features": []
+    },
+    {
+      "name": "Phase 4: Campaign Integration",
+      "timeline": "Q4 2025",
+      "description": "Deep campaign management and external integrations",
+      "status": "planned",
+      "features": []
+    },
+    {
+      "name": "Phase 5: External Integrations",
+      "timeline": "Q1 2026",
+      "description": "Connecting with popular D&D platforms",
+      "status": "planned",
+      "features": []
+    }
+  ],
+  "features": [
+    {
+      "title": "Fix shared component import issues in DM Dashboard",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83d\udea8 **Critical Fixes** (Weeks 1-2)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "critical",
+      "labels": [
+        "phase-1",
+        "bug",
+        "dashboard"
+      ]
+    },
+    {
+      "title": "Implement proper TypeScript path resolution",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83d\udea8 **Critical Fixes** (Weeks 1-2)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "critical",
+      "labels": [
+        "phase-1",
+        "bug"
+      ]
+    },
+    {
+      "title": "Add error boundaries to prevent app crashes",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83d\udea8 **Critical Fixes** (Weeks 1-2)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "critical",
+      "labels": [
+        "phase-1",
+        "bug"
+      ]
+    },
+    {
+      "title": "Set up comprehensive logging system",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83d\udea8 **Critical Fixes** (Weeks 1-2)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "critical",
+      "labels": [
+        "phase-1",
+        "bug"
+      ]
+    },
+    {
+      "title": "Add unit tests for core LootFactory logic",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83e\uddea **Testing & Quality** (Weeks 3-4)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "high",
+      "labels": [
+        "phase-1",
+        "testing",
+        "lootfactory"
+      ]
+    },
+    {
+      "title": "Add integration tests for cross-app navigation",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83e\uddea **Testing & Quality** (Weeks 3-4)",
+      "status": "todo",
+      "effort": "large",
+      "priority": "high",
+      "labels": [
+        "phase-1",
+        "testing"
+      ]
+    },
+    {
+      "title": "Set up automated testing in CI/CD",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83e\uddea **Testing & Quality** (Weeks 3-4)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "high",
+      "labels": [
+        "phase-1",
+        "testing"
+      ]
+    },
+    {
+      "title": "Add Lighthouse performance audits",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83e\uddea **Testing & Quality** (Weeks 3-4)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "high",
+      "labels": [
+        "phase-1",
+        "testing"
+      ]
+    },
+    {
+      "title": "Complete API documentation for LootFactory backend",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83d\udcda **Documentation** (Week 4)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "high",
+      "labels": [
+        "phase-1",
+        "documentation",
+        "lootfactory"
+      ]
+    },
+    {
+      "title": "Create user guides for each tool",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83d\udcda **Documentation** (Week 4)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "high",
+      "labels": [
+        "phase-1",
+        "documentation",
+        "frontend"
+      ]
+    },
+    {
+      "title": "Document deployment procedures",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83d\udcda **Documentation** (Week 4)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "high",
+      "labels": [
+        "phase-1",
+        "documentation"
+      ]
+    },
+    {
+      "title": "Set up automated documentation generation",
+      "phase": "Phase 1: Foundation Strengthening",
+      "section": "\ud83d\udcda **Documentation** (Week 4)",
+      "status": "todo",
+      "effort": "small",
+      "priority": "high",
+      "labels": [
+        "phase-1",
+        "documentation"
+      ]
+    },
+    {
+      "title": "Complex dice expressions (3d6+2, advantage/disadvantage)",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfaf **Dice Calculator** (Weeks 5-7)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2"
+      ]
+    },
+    {
+      "title": "Probability calculations and distributions",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfaf **Dice Calculator** (Weeks 5-7)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2"
+      ]
+    },
+    {
+      "title": "Damage calculation helpers",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfaf **Dice Calculator** (Weeks 5-7)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2"
+      ]
+    },
+    {
+      "title": "Save vs spell DC calculators",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfaf **Dice Calculator** (Weeks 5-7)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2"
+      ]
+    },
+    {
+      "title": "AI-powered town generation",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfd8\ufe0f **Settlement Generator** (Weeks 8-10)",
+      "status": "todo",
+      "effort": "large",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "Population and demographics",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfd8\ufe0f **Settlement Generator** (Weeks 8-10)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "Notable NPCs and locations",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfd8\ufe0f **Settlement Generator** (Weeks 8-10)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "Economic and political details",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfd8\ufe0f **Settlement Generator** (Weeks 8-10)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "Integration with Name Generator",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83c\udfd8\ufe0f **Settlement Generator** (Weeks 8-10)",
+      "status": "todo",
+      "effort": "large",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "Convert Python tool to web interface",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83d\udc64 **Name Generator Web Frontend** (Weeks 11-12)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "Enhanced name database with origins",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83d\udc64 **Name Generator Web Frontend** (Weeks 11-12)",
+      "status": "todo",
+      "effort": "large",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "Bulk generation capabilities",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83d\udc64 **Name Generator Web Frontend** (Weeks 11-12)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "Name history and favorites",
+      "phase": "Phase 2: Tool Expansion",
+      "section": "\ud83d\udc64 **Name Generator Web Frontend** (Weeks 11-12)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "medium",
+      "labels": [
+        "phase-2",
+        "feature"
+      ]
+    },
+    {
+      "title": "DMG 2024 dungeon generation tables",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\ud83c\udff0 **Dungeon Generator** (Weeks 13-15)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Room descriptions and encounters",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\ud83c\udff0 **Dungeon Generator** (Weeks 13-15)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Treasure placement automation",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\ud83c\udff0 **Dungeon Generator** (Weeks 13-15)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Map generation integration",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\ud83c\udff0 **Dungeon Generator** (Weeks 13-15)",
+      "status": "todo",
+      "effort": "large",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Shop inventories based on settlement size",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\ud83c\udfea **Merchant Generator** (Weeks 16-18)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Dynamic pricing and availability",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\ud83c\udfea **Merchant Generator** (Weeks 16-18)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "NPC shopkeeper personalities",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\ud83c\udfea **Merchant Generator** (Weeks 16-18)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Economic simulation",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\ud83c\udfea **Merchant Generator** (Weeks 16-18)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Custom magic weapon creation",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\u2694\ufe0f **Magic Weapon Generator** (Weeks 19-20)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Balance testing tools",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\u2694\ufe0f **Magic Weapon Generator** (Weeks 19-20)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature"
+      ]
+    },
+    {
+      "title": "Rarity and power level guidance",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\u2694\ufe0f **Magic Weapon Generator** (Weeks 19-20)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature",
+        "frontend"
+      ]
+    },
+    {
+      "title": "Integration with LootFactory",
+      "phase": "Phase 3: Advanced Features",
+      "section": "\u2694\ufe0f **Magic Weapon Generator** (Weeks 19-20)",
+      "status": "todo",
+      "effort": "large",
+      "priority": "low",
+      "labels": [
+        "phase-3",
+        "feature",
+        "lootfactory"
+      ]
+    },
+    {
+      "title": "Dynamic chase encounter generator",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83c\udfc3 **Chase Scene Manager** (Weeks 21-22)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Environmental hazards and obstacles",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83c\udfc3 **Chase Scene Manager** (Weeks 21-22)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "NPC pursuit tactics",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83c\udfc3 **Chase Scene Manager** (Weeks 21-22)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4",
+        "frontend"
+      ]
+    },
+    {
+      "title": "Real-time chase tracking",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83c\udfc3 **Chase Scene Manager** (Weeks 21-22)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Party wealth progression by level (DMG 2024)",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83d\udc8e **Wealth & Magic Item Tracker** (Weeks 23-24)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Magic item distribution tracking",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83d\udc8e **Wealth & Magic Item Tracker** (Weeks 23-24)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Economic balance warnings",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83d\udc8e **Wealth & Magic Item Tracker** (Weeks 23-24)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Campaign wealth analytics",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83d\udc8e **Wealth & Magic Item Tracker** (Weeks 23-24)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Faction reputation management",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83c\udfc6 **Renown Tracker** (Weeks 25-26)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Renown rewards and consequences",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83c\udfc6 **Renown Tracker** (Weeks 25-26)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Political relationship mapping",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83c\udfc6 **Renown Tracker** (Weeks 25-26)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Story impact tracking",
+      "phase": "Phase 4: Campaign Integration",
+      "section": "\ud83c\udfc6 **Renown Tracker** (Weeks 25-26)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-4"
+      ]
+    },
+    {
+      "title": "Character sheet import/export",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83d\udd17 **D&D Beyond Integration** (Weeks 27-28)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Spell and monster data sync",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83d\udd17 **D&D Beyond Integration** (Weeks 27-28)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Campaign sharing capabilities",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83d\udd17 **D&D Beyond Integration** (Weeks 27-28)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Official content licensing",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83d\udd17 **D&D Beyond Integration** (Weeks 27-28)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Module development for generated content",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83c\udfad **FoundryVTT Integration** (Weeks 29-30)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Scene and token automation",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83c\udfad **FoundryVTT Integration** (Weeks 29-30)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Compendium data export",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83c\udfad **FoundryVTT Integration** (Weeks 29-30)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Real-time session integration",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83c\udfad **FoundryVTT Integration** (Weeks 29-30)",
+      "status": "todo",
+      "effort": "large",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Campaign notes synchronization",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83d\udccb **Coda.io Integration** (Weeks 31-32)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Player handout generation",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83d\udccb **Coda.io Integration** (Weeks 31-32)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Session planning templates",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83d\udccb **Coda.io Integration** (Weeks 31-32)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration"
+      ]
+    },
+    {
+      "title": "Data visualization dashboards",
+      "phase": "Phase 5: External Integrations",
+      "section": "\ud83d\udccb **Coda.io Integration** (Weeks 31-32)",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "integration",
+        "dashboard"
+      ]
+    },
+    {
+      "title": "Database migration (PostgreSQL or MongoDB)",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 2: Enhanced Backend",
+      "status": "todo",
+      "effort": "large",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Redis caching for improved performance",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 2: Enhanced Backend",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "GraphQL API for better data fetching",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 2: Enhanced Backend",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "backend"
+      ]
+    },
+    {
+      "title": "User authentication and session management",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 2: Enhanced Backend",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Microservices architecture for each tool",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 3: Scalability",
+      "status": "todo",
+      "effort": "large",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Load balancing and horizontal scaling",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 3: Scalability",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "CDN integration for static assets",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 3: Scalability",
+      "status": "todo",
+      "effort": "large",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Advanced monitoring and alerting",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 3: Scalability",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Real-time collaboration features",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Offline-first PWA capabilities",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Mobile responsive design",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Advanced data analytics",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Contributor guidelines and code of conduct",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5",
+        "frontend"
+      ]
+    },
+    {
+      "title": "Plugin/extension architecture",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "large",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Community tool submissions",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Regular community feedback sessions",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Third-party source book integration",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "large",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Community content creators collaboration",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Educational institution partnerships",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    },
+    {
+      "title": "Gaming convention presence",
+      "phase": "Phase 5: External Integrations",
+      "section": "Phase 4: Advanced Features",
+      "status": "todo",
+      "effort": "medium",
+      "priority": "low",
+      "labels": [
+        "phase-5"
+      ]
+    }
+  ],
+  "metrics": {
+    "user_engagement": [
+      "Monthly active DMs",
+      "Session length",
+      "Cross-tool navigation",
+      "User retention"
+    ],
+    "technical_health": [
+      "99.9% uptime",
+      "<2s load times",
+      "<500ms API",
+      "<0.1% error rate"
+    ],
+    "content_quality": [
+      "DMG 2024 accuracy",
+      "User satisfaction",
+      "Bug resolution",
+      "Feature requests"
+    ]
+  },
+  "architecture": {
+    "current": {
+      "frontend": "React + TypeScript + Vite",
+      "backend": "Node.js + Express",
+      "data": "JSON files + in-memory processing",
+      "deployment": "Docker containers",
+      "styling": "CSS with unified color system"
+    },
+    "planned_improvements": [
+      "Database migration (PostgreSQL or MongoDB)",
+      "Redis caching for improved performance",
+      "GraphQL API for better data fetching",
+      "User authentication and session management"
+    ]
+  }
+}

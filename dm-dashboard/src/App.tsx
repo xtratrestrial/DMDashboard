@@ -173,7 +173,7 @@ function App() {
         break;
       case 'loot-factory':
         // Open LootFactory frontend in new tab
-        window.open('http://localhost:5173', '_blank');
+        window.open('http://192.168.1.93:5080', '_blank');
         break;
       case 'name-generator':
         // Name generator needs web frontend - coming soon

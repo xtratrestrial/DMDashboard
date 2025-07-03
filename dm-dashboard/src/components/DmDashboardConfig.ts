@@ -23,8 +23,7 @@ export const DM_DASHBOARD_CONFIG: DmSidebarConfig = {
       icon: '🎲',
       description: 'Generate magical treasure and loot',
       isActive: false,
-      isAvailable: true,
-      url: '/loot-factory'
+      isAvailable: true
     },
     {
       id: 'name-generator',

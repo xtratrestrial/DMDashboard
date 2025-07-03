@@ -61,9 +61,9 @@ export const LOOT_FACTORY_CONFIG: DmSidebarConfig = {
       name: "DM Dashboard",
       icon: "🎯",
       isActive: false,
-      isAvailable: false,
+      isAvailable: true,
       description: "Main dashboard for campaign management",
-      comingSoon: true
+      url: "http://192.168.1.93:3000"
     },
     {
       id: "loot-factory",

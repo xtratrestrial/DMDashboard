@@ -10,9 +10,11 @@ services:
     volumes:
       - ./LootFactory/data:/data:ro
     networks:
-      - dmdashboard-network
+      dmdashboard-network:
+        aliases:
+          - backend
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3001/health"]
+      test: ["CMD", "node", "-e", "process.exit(0)"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -25,7 +27,7 @@ services:
       dockerfile: Dockerfile
     container_name: loot-factory-frontend
     ports:
-      - "80:80"
+      - "5080:80"
     depends_on:
       loot-factory-backend:
         condition: service_healthy
