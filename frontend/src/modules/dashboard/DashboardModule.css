@@ -1,0 +1,366 @@
+/* Dashboard-specific styles migrated from legacy App.css */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.fantasy-heading {
+  font-size: 3rem;
+  color: #ffd700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.5rem;
+}
+
+.fantasy-subheading {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.campaign-status {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.campaign-name {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.campaign-details {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-panel {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.panel-title {
+  color: #ffd700;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Party Status Panel */
+.party-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.character-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  padding: 1rem;
+  border-left: 4px solid #4CAF50;
+}
+
+.character-card.health-poor {
+  border-left-color: #FF9800;
+}
+
+.character-card.health-critical {
+  border-left-color: #f44336;
+}
+
+.character-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.character-name {
+  color: #fff;
+  font-weight: bold;
+}
+
+.character-class {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.character-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hp-bar {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.hp-text {
+  display: block;
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.hp-bar-bg {
+  background: rgba(255, 255, 255, 0.1);
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.hp-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4CAF50, #8BC34A);
+  transition: width 0.3s ease;
+}
+
+.ac-display {
+  color: #ffd700;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Session Notes Panel */
+.notes-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.add-note {
+  margin-bottom: 1rem;
+}
+
+.note-input {
+  width: 100%;
+  padding: 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.note-input::placeholder {
+  color: #ccc;
+}
+
+.note-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-left: 4px solid #666;
+}
+
+.note-item.note-combat {
+  border-left-color: #f44336;
+}
+
+.note-item.note-roleplay {
+  border-left-color: #2196F3;
+}
+
+.note-item.note-exploration {
+  border-left-color: #4CAF50;
+}
+
+.note-item.note-treasure {
+  border-left-color: #FF9800;
+}
+
+.note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.note-type {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+.note-time {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.note-content {
+  color: #fff;
+  line-height: 1.4;
+}
+
+/* Quick Tools Panel */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.tool-button {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #fff;
+}
+
+.tool-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.tool-icon {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tool-name {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.tool-desc {
+  display: block;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+/* Integration Status Panel */
+.integration-status {
+  display: grid;
+  gap: 1rem;
+}
+
+.integration-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+.integration-icon {
+  font-size: 1.5rem;
+}
+
+.integration-details {
+  flex: 1;
+}
+
+.integration-details strong {
+  display: block;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+}
+
+.status-badge.planning {
+  background: #FF9800;
+  color: #000;
+}
+
+.integration-details p {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.integration-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.integration-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Campaign Overview Panel */
+.campaign-overview {
+  display: grid;
+  gap: 1rem;
+}
+
+.campaign-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.campaign-detail:last-child {
+  border-bottom: none;
+}
+
+.campaign-detail strong {
+  color: #ffd700;
+}
+
+.location-input,
+.session-input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.next-session {
+  color: #ccc;
+}
+
+.campaign-description {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.campaign-description p {
+  color: #ccc;
+  line-height: 1.5;
+  margin: 0;
+} 
