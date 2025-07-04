@@ -1,0 +1,8133 @@
+{
+  "summary": {
+    "total_names": 1295,
+    "categories": {
+      "elvish_male": 28,
+      "elvish_female": 20,
+      "dwarvish_male": 23,
+      "dwarvish_female": 16,
+      "human_male": 86,
+      "human_female": 70,
+      "orcish_male": 14,
+      "halfling_male": 72,
+      "halfling_female": 64,
+      "dragonborn_female": 50,
+      "dragonborn_male": 50,
+      "elf_female": 55,
+      "elf_male": 52,
+      "dwarf_female": 50,
+      "dwarf_male": 55,
+      "halforc_female": 50,
+      "halforc_male": 50,
+      "tiefling_female": 50,
+      "tiefling_male": 50,
+      "kismet_fantasy": 42,
+      "kismet_elvish": 257,
+      "kismet_dwarven": 19,
+      "kismet_human": 52,
+      "kismet_exotic": 20
+    },
+    "sources": [
+      "literature_curated",
+      "dnd_appendix",
+      "kismet_compendium"
+    ],
+    "cultures": [
+      "human",
+      "dragonborn",
+      "elf",
+      "dwarvish",
+      "halforc",
+      "halfling",
+      "dwarf",
+      "orcish",
+      "elvish",
+      "tiefling",
+      "fantasy",
+      "dwarven",
+      "exotic"
+    ]
+  },
+  "names_by_category": {
+    "elvish_male": [
+      {
+        "name": "Legolas",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elrond",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thranduil",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Celeborn",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Glorfindel",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Finrod",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gil-galad",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elladan",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elrohir",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Erestor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lindir",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Haldir",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Galdor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gwindor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Aegnor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Angrod",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Beleg",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Círdan",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Duilin",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ecthelion",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Fingolfin",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Finarfin",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ingwion",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Maedhros",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Maglor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Orodreth",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Turgon",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thingol",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      }
+    ],
+    "elvish_female": [
+      {
+        "name": "Galadriel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Arwen",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Tauriel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nimrodel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Celebrían",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Idril",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lúthien",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elwing",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Melian",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Varda",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Yavanna",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nerdanel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Amarië",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elanor",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gilraen",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Morwen",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nellas",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Niënor",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Serindë",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Tinúviel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      }
+    ],
+    "dwarvish_male": [
+      {
+        "name": "Gimli",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thorin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Balin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Dwalin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Fili",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Kili",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ori",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nori",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Dori",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bifur",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bofur",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bombur",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gloin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Oin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Dain",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thrain",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thror",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Durin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Fundin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Groin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Náin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Telchar",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gamil",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      }
+    ],
+    "dwarvish_female": [
+      {
+        "name": "Dís",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Freda",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Hilda",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Tova",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Vera",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nala",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Mira",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Kira",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bera",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Dora",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nora",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thora",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Sigrid",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Astrid",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ingrid",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Helga",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      }
+    ],
+    "human_male": [
+      {
+        "name": "Aragorn",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Boromir",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Faramir",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Denethor",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Isildur",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elendil",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Anarion",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bard",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Girion",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Brand",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Theodén",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Éomer",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Erkenbrand",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Grimm",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Helm",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Haleth",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Hador",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Húrin",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Túrin",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Tuor",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Beren",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Aseir",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Bardeid",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Haseid",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Khemed",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Mehmen",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Sudeiman",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Zasheir",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Darvin",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Dorn",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Evendur",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Gorstag",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Grim",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Malark",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Morn",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Randal",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Stedd",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Bor",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Fodel",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Glar",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Grigor",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Igan",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ivor",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Kosef",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Lamlis",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Mal",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Mival",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Orel",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Pavel",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Sergor",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ander",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Blath",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Bran",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Frath",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Geth",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Lander",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Luth",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Malcer",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Stor",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Taman",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Urth",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Aoth",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Bareris",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ehput-Ki",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Kethoth",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Mumed",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ramas",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "So-Kehur",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Thazar-De",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Urhur",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Borivik",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Faurgar",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Jandar",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Kanithar",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Madislak",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ralmevik",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Shaumar",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Vladislak",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Anton",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Diero",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Marcon",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Pieron",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Rimardo",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Romero",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Salazar",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Umbero",
+        "culture": "human",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      }
+    ],
+    "human_female": [
+      {
+        "name": "Éowyn",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Rosie",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Goldberry",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ioreth",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elfhild",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Morwen",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Rían",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Finduilas",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lalaith",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nienor",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Atala",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ceidil",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Hama",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Jasmal",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Meilil",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Seipora",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Yasheira",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Zasheida",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Arveene",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Esvele",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Hadarai",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Immith",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ivara",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Lureene",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Miri",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Rowan",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Shandri",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Tessele",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Alethra",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Kara",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Katernin",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Mara",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Natali",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Olma",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Tana",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Zora",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Amafrey",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Betha",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Cefrey",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Kethra",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Mara",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Olga",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Silifrey",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Westra",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Arizima",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Chathi",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Nephis",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Nulara",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Murithi",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Sefris",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Thola",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Umara",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Zolis",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Fyevarra",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Hulmarra",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Immith",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Imzel",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Navarra",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Shevarra",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Tammith",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Yuldra",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Balama",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Dona",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Faila",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Jalana",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Luisa",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Marta",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Quara",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Selise",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Vonda",
+        "culture": "human",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      }
+    ],
+    "orcish_male": [
+      {
+        "name": "Azog",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bolg",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gothmog",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lugdush",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Uglúk",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Grishnákh",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Muzgash",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gorbag",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Shagrat",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Snaga",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Mauhúr",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lagduf",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Radbug",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ufthak",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      }
+    ],
+    "halfling_male": [
+      {
+        "name": "Frodo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Sam",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Merry",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Pippin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bilbo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bandobras",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bungo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Drogo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Fortinbras",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gerontius",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Isengrim",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Isumbras",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Otho",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Paladin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Peregrin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Polo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ponto",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Posco",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Rufus",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Seredic",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Alton",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ander",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bernie",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bobbin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Cade",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Callus",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Corrin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dannad",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Danniel",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eddie",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Egart",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eldon",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Errich",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Fildo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Finnan",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Franklin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Garret",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Garth",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gilbert",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gob",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Harol",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Igor",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jasper",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Keith",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kevin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lazam",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lerry",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lindal",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lyle",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Merric",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mican",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Milo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Morrin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nebin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nevil",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Osborn",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ostran",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Oswalt",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Perrin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Poppy",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Reed",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Roscoe",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sam",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shardon",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tye",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ulmo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Wellby",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Wendel",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Wenner",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Wes",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Beau",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Berris",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      }
+    ],
+    "halfling_female": [
+      {
+        "name": "Belladonna",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Camellia",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Daisy",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Esmeralda",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lobelia",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Mirabella",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Pansy",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Peony",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Poppy",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Primula",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Rose",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ruby",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Violet",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Amaranth",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Alain",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Andry",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Anne",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bella",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Blossom",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bree",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Callie",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Chenna",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Cora",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dee",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dell",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eida",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eran",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Euphemia",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Georgina",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gynnie",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Harriet",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jasmine",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jillian",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jo",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kithri",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lavinia",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lidda",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Maegan",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Marigold",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Merla",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Myria",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nedda",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nikki",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nora",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Olivia",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Paela",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Pearl",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Pennie",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Philomena",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Portia",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Robbie",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rose",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Saral",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Seraphina",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shaena",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Stacee",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tawna",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thea",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Trym",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tyna",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vani",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Verna",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Wella",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Willow",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      }
+    ],
+    "dragonborn_female": [
+      {
+        "name": "Akra",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Aasathra",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Antrara",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Arava",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Biri",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Blendaeth",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Burana",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Chassath",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Daar",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dentratha",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Doudra",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Driindar",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eggren",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Farideh",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Findex",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Furrele",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gesrethe",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gilkass",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Harann",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Havilar",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hethress",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hillanot",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jaxi",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jezean",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jheri",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kadana",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kava",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Korinn",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Megren",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mijira",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mishann",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nala",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nuthra",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Perra",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Pogranix",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Pyxrin",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Quespa",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Raiann",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rezena",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ruloth",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Saphara",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Savaran",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sora",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Surina",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Synthrin",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tatyan",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thava",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Uadjit",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vezera",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Zykroff",
+        "culture": "dragonborn",
+        "gender": "female",
+        "source": "dnd_appendix"
+      }
+    ],
+    "dragonborn_male": [
+      {
+        "name": "Adrex",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Arjhan",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Azzakh",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Balasar",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Baradad",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bharash",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bidreked",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dadalan",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dazzazn",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Direcris",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Donaar",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Fax",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gargax",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ghesh",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gorbundus",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Greethen",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Heskan",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hirrathak",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ildrex",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kaladan",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kerkad",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kiirith",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kriv",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Maagog",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Medrash",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mehen",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mozikth",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mreksh",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mugrunden",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nadarr",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nithther",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Norkruuth",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nykkan",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Pandjed",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Patrin",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Pijjirik",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Quarethon",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rathkran",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rhogar",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rivaan",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sethrekar",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shamash",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shedinn",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Srorthen",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tarhun",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Torinn",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Trynnicus",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Valorean",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vrondiss",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Zedaar",
+        "culture": "dragonborn",
+        "gender": "male",
+        "source": "dnd_appendix"
+      }
+    ],
+    "elf_female": [
+      {
+        "name": "Adrie",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ahinar",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Althaea",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Anastrianna",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Andraste",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Antinua",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Arara",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Baelitae",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bethrynna",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Birel",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Caelynn",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Chaedi",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Claira",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dara",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Drusilia",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Elama",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Enna",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Faral",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Felosial",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hatae",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ielenia",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ilanis",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Irann",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jarsali",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jelenneth",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Keyleth",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Leshanna",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lia",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Maiathah",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Malquis",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Meriele",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mialee",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Myathethil",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Naivara",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Quelenna",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Quillathe",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ridaro",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sariel",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shanairla",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shava",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Silaqui",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sumnes",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Theirastra",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thiala",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tiaathque",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Traulam",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vadania",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Valanthe",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Valna",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Xanaphia",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Galinndan",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Hadarai",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Halimath",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Immeral",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ivellios",
+        "culture": "elf",
+        "gender": "female",
+        "source": "dnd_naming_table"
+      }
+    ],
+    "elf_male": [
+      {
+        "name": "Adran",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Aelar",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Aerdeth",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ahvain",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Aramil",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Arannis",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Aust",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Azaki",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Beiro",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Berrian",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Caeldrim",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Carric",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dayereth",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dreali",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Efferil",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eiravel",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Enialis",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Erdan",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Erevan",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Fivin",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Galinndan",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gennal",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hadarai",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Halimath",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Heian",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Himo",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Immeral",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ivellios",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Korfel",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lamlis",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Laucian",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lucan",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mindartis",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Naal",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nutae",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Paelias",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Peren",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Quarion",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Riardon",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rolen",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Soveliss",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Suhnae",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thamior",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tharivol",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Theren",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Theriatis",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thervan",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Uthemar",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vanuath",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Varis",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Silvyr",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Silvyr",
+        "culture": "elf",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      }
+    ],
+    "dwarf_female": [
+      {
+        "name": "Anbera",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Artin",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Audhild",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Balifra",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Barbena",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bardryn",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bolhild",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dagnal",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dariff",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Delre",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Diesa",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eldeth",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eridred",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Falkrunn",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Fallthra",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Finellen",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gillydd",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gunnloda",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gurdis",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Helgret",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Helja",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hlin",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ilde",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jarana",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kathra",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kilia",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kristryd",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Liftrasa",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Marastyr",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mardred",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Morana",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nalaed",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nora",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nurkara",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Oriff",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ovina",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Riswynn",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sannl",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Therlin",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thodris",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Torbera",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tordrid",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Torgga",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Urshar",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Valida",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vistra",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vonana",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Werydd",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Whurdred",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Yurgunn",
+        "culture": "dwarf",
+        "gender": "female",
+        "source": "dnd_appendix"
+      }
+    ],
+    "dwarf_male": [
+      {
+        "name": "Adrik",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Alberich",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Baern",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Barendd",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Beloril",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Brottor",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dain",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dalgal",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Darrak",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Delg",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Duergath",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dworic",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Eberk",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Einkil",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Elaim",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Erias",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Fallond",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Fargrim",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gardain",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gilthur",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gimgen",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gimurt",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Harbek",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kildrak",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kilvar",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Morgran",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Morkral",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nalral",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nordak",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nuraval",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Oloric",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Olunt",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Orsik",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Oskar",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rangrim",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Reirak",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rurik",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Taklinn",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thoradin",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thorin",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thradal",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tordek",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Traubon",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Travok",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ulfgar",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Uraim",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Veit",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vonbin",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vondal",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Whurbin",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bruenor",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Flint",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Torbik",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Ungart",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      },
+      {
+        "name": "Vondur",
+        "culture": "dwarf",
+        "gender": "male",
+        "source": "dnd_naming_table"
+      }
+    ],
+    "halforc_female": [
+      {
+        "name": "Arha",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Baggi",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bendoo",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bilga",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Brakka",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Creega",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Drenna",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ekk",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Emen",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Engong",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Fistula",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gaaki",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gorga",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Grai",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Greeba",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Grigi",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gynk",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hrathy",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Huru",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ilga",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kabbarg",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kansif",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lagazi",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lezre",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Murgen",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Murook",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Myev",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nagrette",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Neega",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nella",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nogu",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Oolah",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ootah",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ovak",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ownka",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Puyet",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Reeza",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shautha",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Silgre",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sutha",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tagga",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tawar",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tomph",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ubada",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vanchu",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vola",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Volen",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vorka",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Yevelda",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Zagga",
+        "culture": "halforc",
+        "gender": "female",
+        "source": "dnd_appendix"
+      }
+    ],
+    "halforc_male": [
+      {
+        "name": "Argran",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Braak",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Brug",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Cagak",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dench",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dorn",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Dren",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Druuk",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Feng",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gell",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gnarsh",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Grumbar",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gubrash",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hagren",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Henk",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hogar",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Holg",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Imsh",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Karash",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Karg",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Keth",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Korag",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Krusk",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lubash",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Megged",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mhurren",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mord",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Morg",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nil",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nybarg",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Odorr",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ohr",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rendar",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Resh",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ront",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rrath",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sark",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Scrag",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sheggen",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shump",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tanglar",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tarak",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thar",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thokk",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Trag",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ugarth",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Varg",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vilberg",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Yurk",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Zed",
+        "culture": "halforc",
+        "gender": "male",
+        "source": "dnd_appendix"
+      }
+    ],
+    "tiefling_female": [
+      {
+        "name": "Akta",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Anakis",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Armara",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Astaro",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Aym",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Azza",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Beleth",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bryseis",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bune",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Criella",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Damaia",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Decarabia",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ea",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gadreel",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Gomory",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Hecat",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ishte",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Jezebeth",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kali",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kallista",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kasdeya",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lerissa",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Lilith",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Makaria",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Manea",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Markosian",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mastema",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Naamah",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nemeia",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nija",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Orianna",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Osah",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Phelaia",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Prosperine",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Purah",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Pyra",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rieta",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ronobe",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ronwe",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Seddit",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Seere",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sekhmet",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Semyaza",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shava",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Shax",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sorath",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Uzza",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vapula",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vepar",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Verin",
+        "culture": "tiefling",
+        "gender": "female",
+        "source": "dnd_appendix"
+      }
+    ],
+    "tiefling_male": [
+      {
+        "name": "Abad",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ahrim",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Akmen",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Amnon",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Andram",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Astar",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Balam",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Barakas",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Bathin",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Caim",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Chem",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Cimer",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Cressel",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Damakos",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Ekemon",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Euron",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Fenriz",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Forcas",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Habor",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Iados",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Kairon",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Leucis",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mamnen",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mantus",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Marbas",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Melech",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Merihim",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Modean",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mordai",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Mormo",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Morthos",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nicor",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Nirgel",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Oriax",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Paymon",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Pelaios",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Purson",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Qemuel",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Raam",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Rimmon",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Sammal",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Skamos",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Tethren",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Thamuz",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Therai",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Valafar",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Vassago",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Xappan",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Zepar",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      },
+      {
+        "name": "Zephan",
+        "culture": "tiefling",
+        "gender": "male",
+        "source": "dnd_appendix"
+      }
+    ],
+    "kismet_fantasy": [
+      {
+        "name": "Nabril",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Pacetor",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Taarnahm",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yablik",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Lachesis",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ucobal",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Eadyth",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaddis",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Padrig",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ealfwig",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abaris",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Baduv",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ibbett",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kaddok",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Oathsmith",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Sadric",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ibrech",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Obart",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Sadryn",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadoc",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Wallac",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Earynn",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Madrot",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Walmac",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadry",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jadhav",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Raf",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ulcey",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Walvis",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Nafrayu",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ulcrun",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yammas",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadyr",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Fafnir",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadrothil",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Icob",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Raff",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ebrigil",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Lahm",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ulutiu",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Thay",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yurash",
+        "culture": "fantasy",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      }
+    ],
+    "kismet_elvish": [
+      {
+        "name": "Baccira",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cacia",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "D'Anza",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Fadilah",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaben",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "H'thana",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Iadara",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jaafer",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kaarthiga",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Lachere",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Macaan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Oalwa",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Q'orianka",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Sabirine",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Uandras",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vadalma",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Wace",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xactan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Aaminah",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cada",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Eadwine",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gabirel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Iamar",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jaala",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kabak",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Maddrell",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Nadan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Oanna",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qadria",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Sabra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Tabar",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vadania",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Waelina",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xaemarra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yacheetes",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zabadiah",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Aanon",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Badem",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadell",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadante",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Iavunabus",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jaanu",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kabir",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Lachman",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Madelene",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Nadenka",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Oannes",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Padriac",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qadriene",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Radella",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Sadebreth",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Tace",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Udalia",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vadarin",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Waemerk",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xalana",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zabaid",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadeltra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Daarina",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ealfhelm",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faedowin",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaderian",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadasha",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ibalida",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jabez",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kabrina",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Madenia",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Nadya",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Oathkeeper",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Sadira",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Tadita",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vadena",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Waera",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xambria",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yagna",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abantees",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Badria",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadelyn",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Dabir",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faelar",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gadra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jacek",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kacia",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Naek",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Paedra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qantez",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Raele",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Sadomai",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vadim",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yaimara",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zachan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Dace",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Eames",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faellorn",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaedynn",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadem",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jacenelle",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laelithar",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Naelex",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Paethiel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qara",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Raesdic",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Tadzi",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ulani",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xandos",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yakin",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zacharia",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abasi",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Baeron",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Dacia",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Eandroth",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faelon",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaelle",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadiya",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kaden",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laera",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Madrale",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Naemriel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qari",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Raething",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Taelin",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ulara",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vaelahr",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Walen",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xanon",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zadkiel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Bailey",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Dacian",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faerindyl",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaera",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jacinda",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kadiresan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laerdya",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Madriel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Naergoth",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Obella",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Raevich",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Saelyss",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Taena",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ulastel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vaellyn",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xaphan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yalena",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abdel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Baiyen",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Daecyn",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faertala",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaerel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadran",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kadra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laerico",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Naeron",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qasim",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Raezil",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Saerlg",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Taenarus",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vaishali",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xaralien",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yamano",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abelard",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Daedeline",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Easan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faervian",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaetan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadria",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Iceni",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laertes",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Naevan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ocallian",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Palamides",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Saeros",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Taerl",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vaius",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yamidala",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abelyra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Balaam",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Daedinnear",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Eathe",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faeryl",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gafna",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jadrien",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laertilus",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ochdran",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Palanetra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qazi",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Rafet",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Saewald",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Taeron",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vakanga",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Wampari",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xareni",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zagya",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abeni",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Baladi",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Daeges",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jael",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kaelian",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laethis",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Maelys",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Nagada",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Paldeth",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qeteb",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Safana",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Taetra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vala",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xarilia",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yana",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zaharsian",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Balaena",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Caecil",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Daegus",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Fahad",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gaio",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jaelryn",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kaemon",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Maenala",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Palenix",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qhuelon",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Rafiq",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Sagan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Taevius",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Uliana",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Valachan",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yanil",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zahra",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Aerith",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Baelthoros",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Caelestis",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Daenerys",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Eilistraee",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faerunian",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gandalf",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hallelujah",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jazirian",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kelemvor",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Lathander",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Neverember",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Pelor",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qilue",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Shandalar",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Tiamat",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Velsharoon",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Waterdeep",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Alanis",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Beldrak",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Caelynn",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Drannor",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Khelben",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laeral",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Manshoon",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Piergeiron",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Quenthel",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Regis",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vhaeraun",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Waukeen",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zehir",
+        "culture": "elvish",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      }
+    ],
+    "kismet_dwarven": [
+      {
+        "name": "Hacathra",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Radarys",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Madhukar",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Uhashnak",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadmar",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Mador",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Pagmar",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yaksha",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Earthbearer",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zadore",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cador",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Bakutis",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zagros",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Icharyd",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Madulara",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Warok",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Nagor",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Warrender",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ysgard",
+        "culture": "dwarven",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      }
+    ],
+    "kismet_human": [
+      {
+        "name": "Aamarus",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Rachna",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Bacola",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Fadrinne",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Paddin",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Faduma",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Yadkin",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Aarlen",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Badon",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ladion",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Radisson",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ugalius",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadden",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ibaymma",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Laduni",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Oathslayer",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Tadrond",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Walder",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Vadusa",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Waldra",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadmus",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jacerryl",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abblier",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadone",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ibron",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Pagus",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Icenas",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jacinth",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Oberon",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Pajon",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ulbrea",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Madsen",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Cadwaller",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Hadrion",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ebra",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gagnon",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ocker",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ulda",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Abergast",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Haduma",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Ockert",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Icewind",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Mystra",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Oghma",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Raistlin",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Evereska",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Halaster",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Irenicus",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Nulathoe",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Omin",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Silverymoon",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Undermountain",
+        "culture": "human",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      }
+    ],
+    "kismet_exotic": [
+      {
+        "name": "E'luaz",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Z'nyra",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "D'Atra",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "D'Avonni",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qamrul",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zabrze",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qarto",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zaghnal",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kadrax",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Qassam",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xaralyna",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Kadyx",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Icoxiri",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xathos",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xvart",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Zhentarim",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Fzoul",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Gygax",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Jarlaxle",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      },
+      {
+        "name": "Xvim",
+        "culture": "exotic",
+        "gender": "unisex",
+        "source": "kismet_compendium"
+      }
+    ]
+  },
+  "patterns": {
+    "top_syllables": {
+      "a": 179,
+      "i": 84,
+      "e": 55,
+      "an": 49,
+      "in": 47,
+      "ar": 47,
+      "en": 33,
+      "el": 31,
+      "or": 24,
+      "o": 24,
+      "al": 22,
+      "er": 21,
+      "on": 19,
+      "is": 17,
+      "eth": 16,
+      "il": 15,
+      "ir": 15,
+      "ak": 15,
+      "as": 14,
+      "u": 13,
+      "ad": 13,
+      "am": 11,
+      "os": 10,
+      "ann": 10,
+      "im": 10,
+      "ed": 10,
+      "ol": 9,
+      "ath": 9,
+      "ur": 8,
+      "id": 7,
+      "ash": 7,
+      "et": 7,
+      "ah": 7,
+      "od": 6,
+      "ell": 6,
+      "us": 6,
+      "eg": 5,
+      "ma": 5,
+      "adr": 5,
+      "nor": 5,
+      "ag": 5,
+      "ild": 5,
+      "ic": 5,
+      "em": 5,
+      "qu": 5,
+      "ek": 5,
+      "eb": 4,
+      "thor": 4,
+      "bal": 4,
+      "da": 4,
+      "om": 4,
+      "ith": 4,
+      "az": 4,
+      "ul": 4,
+      "iv": 4,
+      "inn": 4,
+      "it": 4,
+      "ik": 4,
+      "val": 4,
+      "orn": 3,
+      "ind": 3,
+      "gal": 3,
+      "bel": 3,
+      "ser": 3,
+      "nal": 3,
+      "astr": 3,
+      "far": 3,
+      "the": 3,
+      "ros": 3,
+      "og": 3,
+      "at": 3,
+      "art": 3,
+      "eld": 3,
+      "re": 3,
+      "ab": 3,
+      "av": 3,
+      "ex": 3,
+      "bar": 3,
+      "uth": 3,
+      "iss": 3,
+      "ast": 3,
+      "ca": 3,
+      "enn": 3,
+      "na": 3,
+      "ther": 3,
+      "elr": 2,
+      "ond": 2,
+      "cel": 2,
+      "lind": 2,
+      "du": 2,
+      "fin": 2,
+      "idr": 2,
+      "thi": 2,
+      "mel": 2,
+      "morw": 2,
+      "nell": 2,
+      "ni": 2,
+      "vi": 2,
+      "kil": 2,
+      "dor": 2
+    },
+    "top_prefixes": {
+      "th": 25,
+      "ma": 17,
+      "da": 16,
+      "ba": 15,
+      "va": 14,
+      "ha": 13,
+      "mo": 13,
+      "an": 12,
+      "be": 12,
+      "sh": 12,
+      "ka": 12,
+      "el": 11,
+      "fi": 11,
+      "ar": 11,
+      "me": 11,
+      "mor": 11,
+      "gi": 10,
+      "ga": 10,
+      "ta": 9,
+      "ni": 9,
+      "na": 9,
+      "he": 9,
+      "ro": 9,
+      "sha": 9,
+      "sa": 9,
+      "ca": 9,
+      "er": 8,
+      "ne": 8,
+      "se": 8,
+      "gr": 8,
+      "mi": 8,
+      "fa": 8,
+      "de": 8,
+      "the": 8,
+      "pe": 8,
+      "fin": 7,
+      "ki": 7,
+      "no": 7,
+      "to": 7,
+      "br": 7,
+      "go": 7,
+      "la": 7,
+      "dr": 7,
+      "pa": 7,
+      "po": 7,
+      "le": 6,
+      "gil": 6,
+      "li": 6,
+      "or": 6,
+      "tho": 6
+    },
+    "top_suffixes": {
+      "in": 43,
+      "an": 37,
+      "ra": 34,
+      "th": 28,
+      "en": 27,
+      "na": 27,
+      "ar": 26,
+      "on": 19,
+      "ia": 18,
+      "or": 17,
+      "el": 16,
+      "la": 15,
+      "al": 15,
+      "is": 14,
+      "rin": 13,
+      "sh": 13,
+      "eth": 12,
+      "nn": 12,
+      "as": 11,
+      "il": 11,
+      "da": 11,
+      "nna": 10,
+      "ga": 10,
+      "ak": 10,
+      "ren": 9,
+      "im": 9,
+      "ed": 9,
+      "ie": 8,
+      "os": 7,
+      "ora": 7,
+      "ash": 7,
+      "am": 7,
+      "ran": 7,
+      "ara": 7,
+      "lin": 6,
+      "ian": 6,
+      "li": 6,
+      "ri": 6,
+      "ain": 6,
+      "va": 6,
+      "er": 6,
+      "us": 6,
+      "et": 6,
+      "ath": 6,
+      "ah": 6,
+      "rg": 6,
+      "rn": 5,
+      "ad": 5,
+      "dan": 5,
+      "ir": 5
+    },
+    "consonant_clusters": {
+      "th": 61,
+      "nn": 30,
+      "nd": 26,
+      "sh": 24,
+      "ll": 21,
+      "dr": 20,
+      "rr": 17,
+      "gr": 16,
+      "ld": 14,
+      "rd": 14,
+      "rg": 14,
+      "thr": 13,
+      "st": 9,
+      "br": 9,
+      "ss": 9,
+      "rk": 8,
+      "rn": 7,
+      "ng": 7,
+      "lg": 7,
+      "rb": 7,
+      "rt": 7,
+      "ch": 7,
+      "ph": 7,
+      "str": 6,
+      "nt": 6,
+      "lr": 5,
+      "dd": 5,
+      "tr": 5,
+      "gg": 5,
+      "gl": 4
+    },
+    "vowel_patterns": {
+      "ia": 32,
+      "ie": 21,
+      "ae": 20,
+      "ai": 19,
+      "ee": 12,
+      "aa": 11,
+      "io": 9,
+      "ei": 9,
+      "au": 8,
+      "ea": 8,
+      "ui": 6,
+      "ue": 5,
+      "ua": 5,
+      "aia": 4,
+      "oo": 4,
+      "oi": 3,
+      "eo": 3,
+      "eu": 3,
+      "ii": 2,
+      "uu": 2
+    }
+  }
+}

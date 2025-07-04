@@ -3,8 +3,10 @@ import { DmSidebar } from './shared/components/DmSidebar'
 import { DM_DASHBOARD_CONFIG, type DmSidebarConfig } from './shared/components/DmSidebarConfig'
 import { DashboardModule } from './modules/dashboard/DashboardModule'
 import LootFactoryModule from './modules/lootFactory/LootFactoryModule'
+import DiceMathModule from './modules/diceMath/DiceMathModule'
+import NameGeneratorModule from './modules/nameGenerator/NameGeneratorModule'
 import { useState, useEffect } from 'react'
-import React from 'react'
+// import React from 'react'
 
 function AppLayout() {
   const location = useLocation();
@@ -68,6 +70,8 @@ function AppLayout() {
           <Route path="/" element={<DashboardModule />} />
           <Route path="/dashboard" element={<DashboardModule />} />
           <Route path="/lootfactory" element={<LootFactoryModule />} />
+          <Route path="/dice-calculator" element={<DiceMathModule />} />
+          <Route path="/name-generator" element={<NameGeneratorModule />} />
           <Route path="*" element={<div>404 - Module not found</div>} />
         </Routes>
       </main>

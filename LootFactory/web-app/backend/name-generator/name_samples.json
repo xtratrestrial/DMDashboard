@@ -1,0 +1,1153 @@
+{
+  "summary": {
+    "total_names": 166,
+    "categories": {
+      "elvish_male": 28,
+      "elvish_female": 20,
+      "dwarvish_male": 23,
+      "dwarvish_female": 16,
+      "human_male": 21,
+      "human_female": 10,
+      "orcish_male": 14,
+      "halfling_male": 20,
+      "halfling_female": 14
+    },
+    "sources": [
+      "literature_curated"
+    ]
+  },
+  "names_by_category": {
+    "elvish_male": [
+      {
+        "name": "Legolas",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elrond",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thranduil",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Celeborn",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Glorfindel",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Finrod",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gil-galad",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elladan",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elrohir",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Erestor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lindir",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Haldir",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Galdor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gwindor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Aegnor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Angrod",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Beleg",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Círdan",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Duilin",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ecthelion",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Fingolfin",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Finarfin",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ingwion",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Maedhros",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Maglor",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Orodreth",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Turgon",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thingol",
+        "culture": "elvish",
+        "gender": "male",
+        "source": "literature_curated"
+      }
+    ],
+    "elvish_female": [
+      {
+        "name": "Galadriel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Arwen",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Tauriel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nimrodel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Celebrían",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Idril",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lúthien",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elwing",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Melian",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Varda",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Yavanna",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nerdanel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Amarië",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elanor",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gilraen",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Morwen",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nellas",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Niënor",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Serindë",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Tinúviel",
+        "culture": "elvish",
+        "gender": "female",
+        "source": "literature_curated"
+      }
+    ],
+    "dwarvish_male": [
+      {
+        "name": "Gimli",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thorin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Balin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Dwalin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Fili",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Kili",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ori",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nori",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Dori",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bifur",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bofur",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bombur",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gloin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Oin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Dain",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thrain",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thror",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Durin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Fundin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Groin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Náin",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Telchar",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gamil",
+        "culture": "dwarvish",
+        "gender": "male",
+        "source": "literature_curated"
+      }
+    ],
+    "dwarvish_female": [
+      {
+        "name": "Dís",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Freda",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Hilda",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Tova",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Vera",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nala",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Mira",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Kira",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bera",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Dora",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nora",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Thora",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Sigrid",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Astrid",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ingrid",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Helga",
+        "culture": "dwarvish",
+        "gender": "female",
+        "source": "literature_curated"
+      }
+    ],
+    "human_male": [
+      {
+        "name": "Aragorn",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Boromir",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Faramir",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Denethor",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Isildur",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elendil",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Anarion",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bard",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Girion",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Brand",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Theodén",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Éomer",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Erkenbrand",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Grimm",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Helm",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Haleth",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Hador",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Húrin",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Túrin",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Tuor",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Beren",
+        "culture": "human",
+        "gender": "male",
+        "source": "literature_curated"
+      }
+    ],
+    "human_female": [
+      {
+        "name": "Éowyn",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Rosie",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Goldberry",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ioreth",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Elfhild",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Morwen",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Rían",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Finduilas",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lalaith",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Nienor",
+        "culture": "human",
+        "gender": "female",
+        "source": "literature_curated"
+      }
+    ],
+    "orcish_male": [
+      {
+        "name": "Azog",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bolg",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gothmog",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lugdush",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Uglúk",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Grishnákh",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Muzgash",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gorbag",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Shagrat",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Snaga",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Mauhúr",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lagduf",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Radbug",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ufthak",
+        "culture": "orcish",
+        "gender": "male",
+        "source": "literature_curated"
+      }
+    ],
+    "halfling_male": [
+      {
+        "name": "Frodo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Sam",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Merry",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Pippin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bilbo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bandobras",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Bungo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Drogo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Fortinbras",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Gerontius",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Isengrim",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Isumbras",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Otho",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Paladin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Peregrin",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Polo",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ponto",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Posco",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Rufus",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Seredic",
+        "culture": "halfling",
+        "gender": "male",
+        "source": "literature_curated"
+      }
+    ],
+    "halfling_female": [
+      {
+        "name": "Belladonna",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Camellia",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Daisy",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Esmeralda",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Lobelia",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Mirabella",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Pansy",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Peony",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Poppy",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Primula",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Rose",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Ruby",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Violet",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      },
+      {
+        "name": "Amaranth",
+        "culture": "halfling",
+        "gender": "female",
+        "source": "literature_curated"
+      }
+    ]
+  },
+  "patterns": {
+    "top_syllables": {
+      "a": 24,
+      "i": 19,
+      "in": 17,
+      "or": 13,
+      "el": 10,
+      "o": 9,
+      "an": 7,
+      "en": 7,
+      "as": 6,
+      "il": 6,
+      "ir": 5,
+      "on": 5,
+      "ur": 5,
+      "ar": 5,
+      "od": 4,
+      "ad": 4,
+      "eth": 4,
+      "ol": 3,
+      "ell": 3,
+      "er": 3,
+      "am": 3,
+      "nor": 3,
+      "id": 3,
+      "is": 3,
+      "elr": 2,
+      "u": 2,
+      "cel": 2,
+      "orn": 2,
+      "ind": 2,
+      "gal": 2,
+      "ma": 2,
+      "morw": 2,
+      "ni": 2,
+      "ser": 2,
+      "vi": 2,
+      "thor": 2,
+      "dor": 2,
+      "da": 2,
+      "mir": 2,
+      "ber": 2,
+      "ag": 2,
+      "om": 2,
+      "ild": 2,
+      "rin": 2,
+      "ros": 2,
+      "e": 2,
+      "og": 2,
+      "us": 2,
+      "leg": 1,
+      "ond": 1
+    },
+    "top_prefixes": {
+      "el": 7,
+      "th": 7,
+      "fi": 5,
+      "fin": 4,
+      "gi": 4,
+      "be": 4,
+      "bo": 4,
+      "po": 4,
+      "thr": 3,
+      "ha": 3,
+      "ga": 3,
+      "ma": 3,
+      "ni": 3,
+      "ba": 3,
+      "gr": 3,
+      "is": 3,
+      "go": 3,
+      "elr": 2,
+      "ce": 2,
+      "cel": 2,
+      "gl": 2,
+      "glo": 2,
+      "gil": 2,
+      "er": 2,
+      "hal": 2,
+      "gal": 2,
+      "an": 2,
+      "bel": 2,
+      "du": 2,
+      "in": 2
+    },
+    "top_suffixes": {
+      "in": 19,
+      "or": 12,
+      "ra": 7,
+      "as": 6,
+      "el": 6,
+      "en": 6,
+      "an": 5,
+      "ir": 5,
+      "on": 5,
+      "th": 5,
+      "rin": 5,
+      "il": 4,
+      "nor": 4,
+      "ion": 4,
+      "da": 4,
+      "ur": 4,
+      "las": 3,
+      "nd": 3,
+      "dor": 3,
+      "lin": 3,
+      "eth": 3,
+      "iel": 3,
+      "wen": 3,
+      "li": 3,
+      "ri": 3,
+      "ori": 3,
+      "oin": 3,
+      "la": 3,
+      "ora": 3,
+      "id": 3
+    }
+  }
+}

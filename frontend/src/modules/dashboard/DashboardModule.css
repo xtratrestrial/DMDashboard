@@ -1,8 +1,23 @@
-/* Dashboard-specific styles migrated from legacy App.css */
+/* Dashboard Module Styles - Updated to match DMDashboard design system */
+
+/* CSS Variables matching the established color scheme */
+:root {
+  --dnd-red: #8B0000;
+  --dnd-red-light: #DC143C;
+  --gold-accent: #FFD700;
+  --earth-dark: #1a1a1a;
+  --muted-purple: #483D8B;
+  --white: #fff;
+  --light-cream: #FBF8F3;
+  --parchment-dark: #3D2B1F;
+  --leather-dark: #2C1810;
+}
+
 .dashboard-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  font-family: 'Cinzel', serif;
 }
 
 .dashboard-header {
@@ -12,33 +27,42 @@
 
 .fantasy-heading {
   font-size: 3rem;
-  color: #ffd700;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: var(--dnd-red-light);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(220, 20, 60, 0.3);
   margin-bottom: 0.5rem;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .fantasy-subheading {
   font-size: 1.2rem;
-  color: #ccc;
+  color: var(--light-cream);
   margin-bottom: 2rem;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
 }
 
 .campaign-status {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: 2rem;
+  border: 2px solid #4a4a4a;
 }
 
 .campaign-name {
-  color: #ffd700;
+  color: var(--dnd-red-light);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
 }
 
 .campaign-details {
-  color: #ccc;
+  color: var(--light-cream);
   font-size: 1rem;
+  font-family: 'Cinzel', serif;
 }
 
 .dashboard-grid {
@@ -49,19 +73,24 @@
 }
 
 .dashboard-panel {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
   padding: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid #4a4a4a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .panel-title {
-  color: #ffd700;
+  color: var(--dnd-red-light);
   font-size: 1.3rem;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* Party Status Panel */
@@ -71,10 +100,11 @@
 }
 
 .character-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   padding: 1rem;
   border-left: 4px solid #4CAF50;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .character-card.health-poor {
@@ -82,7 +112,7 @@
 }
 
 .character-card.health-critical {
-  border-left-color: #f44336;
+  border-left-color: var(--dnd-red-light);
 }
 
 .character-header {
@@ -93,13 +123,15 @@
 }
 
 .character-name {
-  color: #fff;
+  color: var(--light-cream);
   font-weight: bold;
+  font-family: 'Cinzel', serif;
 }
 
 .character-class {
-  color: #ccc;
+  color: var(--light-cream);
   font-size: 0.9rem;
+  font-family: 'Cinzel', serif;
 }
 
 .character-stats {
@@ -115,9 +147,10 @@
 
 .hp-text {
   display: block;
-  color: #ccc;
+  color: var(--light-cream);
   font-size: 0.9rem;
   margin-bottom: 0.25rem;
+  font-family: 'Cinzel', serif;
 }
 
 .hp-bar-bg {
@@ -134,9 +167,10 @@
 }
 
 .ac-display {
-  color: #ffd700;
+  color: var(--dnd-red-light);
   font-weight: bold;
   font-size: 1.1rem;
+  font-family: 'Cinzel', serif;
 }
 
 /* Session Notes Panel */
@@ -152,31 +186,39 @@
 .note-input {
   width: 100%;
   padding: 0.75rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #4a4a4a;
   border-radius: 4px;
-  color: #fff;
+  color: var(--light-cream);
   font-size: 0.9rem;
+  font-family: 'Cinzel', serif;
 }
 
 .note-input::placeholder {
-  color: #ccc;
+  color: rgba(251, 248, 243, 0.6);
+}
+
+.note-input:focus {
+  outline: none;
+  border-color: var(--dnd-red-light);
+  box-shadow: 0 0 0 2px rgba(220, 20, 60, 0.3);
 }
 
 .note-item {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 1rem;
   margin-bottom: 0.5rem;
   border-left: 4px solid #666;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .note-item.note-combat {
-  border-left-color: #f44336;
+  border-left-color: var(--dnd-red-light);
 }
 
 .note-item.note-roleplay {
-  border-left-color: #2196F3;
+  border-left-color: var(--muted-purple);
 }
 
 .note-item.note-exploration {
@@ -184,7 +226,7 @@
 }
 
 .note-item.note-treasure {
-  border-left-color: #FF9800;
+  border-left-color: var(--gold-accent);
 }
 
 .note-header {
@@ -195,7 +237,7 @@
 }
 
 .note-type {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(220, 20, 60, 0.2);
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
   font-size: 0.8rem;
@@ -204,13 +246,15 @@
 }
 
 .note-time {
-  color: #999;
+  color: rgba(251, 248, 243, 0.6);
   font-size: 0.8rem;
+  font-family: 'Cinzel', serif;
 }
 
 .note-content {
-  color: #fff;
+  color: var(--light-cream);
   line-height: 1.4;
+  font-family: 'Cinzel', serif;
 }
 
 /* Quick Tools Panel */
@@ -221,20 +265,21 @@
 }
 
 .tool-button {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--dnd-red-light);
   border-radius: 6px;
   padding: 1rem;
   text-align: center;
   cursor: pointer;
   transition: all 0.2s ease;
-  color: #fff;
+  color: var(--light-cream);
 }
 
 .tool-button:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(220, 20, 60, 0.1);
+  border-color: var(--dnd-red-light);
   transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(220, 20, 60, 0.3);
 }
 
 .tool-icon {
@@ -247,12 +292,15 @@
   display: block;
   font-weight: bold;
   margin-bottom: 0.25rem;
+  font-family: 'Cinzel', serif;
+  color: var(--light-cream);
 }
 
 .tool-desc {
   display: block;
   font-size: 0.8rem;
-  color: #ccc;
+  color: var(--light-cream);
+  font-family: 'Cinzel', serif;
 }
 
 /* Integration Status Panel */
@@ -266,8 +314,9 @@
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .integration-icon {
@@ -280,8 +329,9 @@
 
 .integration-details strong {
   display: block;
-  color: #fff;
+  color: var(--light-cream);
   margin-bottom: 0.25rem;
+  font-family: 'Cinzel', serif;
 }
 
 .status-badge {
@@ -293,28 +343,31 @@
 }
 
 .status-badge.planning {
-  background: #FF9800;
+  background: var(--gold-accent);
   color: #000;
 }
 
 .integration-details p {
-  color: #ccc;
+  color: var(--light-cream);
   font-size: 0.9rem;
   margin: 0;
+  font-family: 'Cinzel', serif;
 }
 
 .integration-button {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(220, 20, 60, 0.2);
+  border: 1px solid var(--dnd-red-light);
   border-radius: 4px;
   padding: 0.5rem 1rem;
-  color: #fff;
+  color: var(--light-cream);
   cursor: pointer;
   font-size: 0.9rem;
+  font-family: 'Cinzel', serif;
 }
 
 .integration-button:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(220, 20, 60, 0.3);
+  transform: translateY(-1px);
 }
 
 /* Campaign Overview Panel */
@@ -336,21 +389,31 @@
 }
 
 .campaign-detail strong {
-  color: #ffd700;
+  color: var(--dnd-red-light);
+  font-family: 'Cinzel', serif;
 }
 
 .location-input,
 .session-input {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--dnd-red-light);
   border-radius: 4px;
   padding: 0.5rem;
-  color: #fff;
+  color: var(--light-cream);
   font-size: 0.9rem;
+  font-family: 'Cinzel', serif;
+}
+
+.location-input:focus,
+.session-input:focus {
+  outline: none;
+  border-color: var(--dnd-red-light);
+  box-shadow: 0 0 0 2px rgba(220, 20, 60, 0.3);
 }
 
 .next-session {
-  color: #ccc;
+  color: var(--light-cream);
+  font-family: 'Cinzel', serif;
 }
 
 .campaign-description {
@@ -360,7 +423,151 @@
 }
 
 .campaign-description p {
-  color: #ccc;
+  color: var(--light-cream);
   line-height: 1.5;
   margin: 0;
+  font-family: 'Cinzel', serif;
+}
+
+/* DC vs Bonus Calculator Panel */
+.dc-calculator-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dc-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dc-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dc-input-group label {
+  color: var(--dnd-red-light);
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+}
+
+.dc-input {
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--dnd-red-light);
+  border-radius: 4px;
+  color: var(--light-cream);
+  font-size: 0.9rem;
+  width: 60px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+.dc-input:focus {
+  outline: none;
+  border-color: var(--dnd-red-light);
+  box-shadow: 0 0 0 2px rgba(220, 20, 60, 0.3);
+}
+
+.dc-range-inputs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dc-range-inputs span {
+  color: var(--light-cream);
+  font-size: 0.8rem;
+  font-family: 'Cinzel', serif;
+}
+
+.dc-calculate-btn {
+  padding: 0.5rem 1rem;
+  background: var(--muted-purple);
+  color: var(--light-cream);
+  border: 1px solid var(--dnd-red-light);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+  font-family: 'Cinzel', serif;
+}
+
+.dc-calculate-btn:hover {
+  background: rgba(220, 20, 60, 0.2);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(220, 20, 60, 0.3);
+}
+
+.dc-results-dashboard {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dc-results-dashboard h4 {
+  color: var(--dnd-red-light);
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+}
+
+.dc-results-grid-dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 0.5rem;
+}
+
+.dc-result-item {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--dnd-red-light);
+  border-radius: 4px;
+  padding: 0.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.dc-result-item:hover {
+  background: rgba(220, 20, 60, 0.1);
+  transform: translateY(-1px);
+}
+
+.dc-value {
+  color: var(--muted-purple);
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  font-family: 'Cinzel', serif;
+}
+
+.dc-probability {
+  color: var(--light-cream);
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+}
+
+/* Responsive adjustments for DC Calculator */
+@media (max-width: 768px) {
+  .dc-inputs {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .dc-range-inputs {
+    justify-content: center;
+  }
+  
+  .dc-results-grid-dashboard {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  }
 } 

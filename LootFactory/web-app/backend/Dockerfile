@@ -1,6 +1,9 @@
 # LootFactory Backend - Production Dockerfile
 FROM node:18-alpine
 
+# Install Python and pip
+RUN apk add --no-cache python3 py3-pip
+
 WORKDIR /app
 
 # Copy package files
@@ -11,6 +14,9 @@ RUN npm ci
 
 # Copy source code
 COPY . .
+
+# Install Python dependencies for name generator
+RUN pip3 install --no-cache-dir -r name-generator/requirements.txt || echo "No requirements.txt found"
 
 # Build TypeScript
 RUN npm run build

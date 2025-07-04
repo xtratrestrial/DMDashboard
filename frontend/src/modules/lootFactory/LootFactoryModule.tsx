@@ -25,19 +25,19 @@ const LootFactoryModule: React.FC = () => {
     generatedTreasure,
     isGenerating,
     challengeRating,
-    partyLevel,
+    // partyLevel,
     generationType,
     includeMundane,
     includeMagic,
     sourceBooks,
     apiStatus,
-    currentTagline,
+    // currentTagline,
     toasts,
     ALL_SOURCE_BOOKS,
     
     // Setters
     setChallengeRating,
-    setPartyLevel,
+    // setPartyLevel,
     setGenerationType,
     setIncludeMundane,
     setIncludeMagic,
@@ -71,41 +71,47 @@ const LootFactoryModule: React.FC = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [dropdownOpen]);
 
-  // Export CSV
+  // Export CSV file
   const handleExportCSV = () => {
     if (!generatedTreasure) return;
-    let csv = '';
+    let csv = 'Item,Type,Rarity,Amount,Value,Source\n';
+    
     // Coins
     if (generatedTreasure.coins) {
-      csv += 'Coin,Amount\n';
       Object.entries(generatedTreasure.coins).forEach(([coin, amount]) => {
-        if (amount > 0) csv += `${coin.toUpperCase()},${amount}\n`;
+        if (amount > 0) {
+          const coinValue = coin === 'cp' ? amount * 0.01 : 
+                           coin === 'sp' ? amount * 0.1 : 
+                           coin === 'ep' ? amount * 0.5 : 
+                           coin === 'gp' ? amount : 
+                           coin === 'pp' ? amount * 10 : 0;
+          csv += `${coin.toUpperCase()},coins,,${amount},${coinValue},DMG 2024\n`;
+        }
       });
-      csv += '\n';
     }
+    
     // Gems
     if (generatedTreasure.gems && generatedTreasure.gems.length > 0) {
-      csv += 'Gem,Value,Quantity\n';
       generatedTreasure.gems.forEach(gem => {
-        csv += `${gem.name},${gem.value},${gem.quantity}\n`;
+        csv += `${gem.name},gems,,${gem.quantity},${gem.value},DMG 2024\n`;
       });
-      csv += '\n';
     }
+    
     // Art Objects
     if (generatedTreasure.art_objects && generatedTreasure.art_objects.length > 0) {
-      csv += 'Art Object,Value,Quantity\n';
       generatedTreasure.art_objects.forEach(art => {
-        csv += `${art.name},${art.value},${art.quantity}\n`;
+        csv += `${art.name},art objects,,${art.quantity},${art.value},DMG 2024\n`;
       });
-      csv += '\n';
     }
+    
     // Magic Items
     if (generatedTreasure.magic_items && generatedTreasure.magic_items.length > 0) {
-      csv += 'Magic Item,Rarity,Value,Source\n';
       generatedTreasure.magic_items.forEach(item => {
-        csv += `${item.name},${item.rarity},${item.value || 'Priceless'},${item.source}\n`;
+        csv += `${item.name},magic items,${item.rarity},1,${item.value || 'Priceless'},${item.source}\n`;
       });
     }
+    
+    // Download CSV file
     const blob = new Blob([csv], { type: 'text/csv' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -113,47 +119,10 @@ const LootFactoryModule: React.FC = () => {
     a.download = 'loot.csv';
     a.click();
     URL.revokeObjectURL(url);
+    showToast('CSV file downloaded! Drag into Coda or open in spreadsheet', 'success');
   };
 
-  // Export Tab-Delimited (Google Sheets/Coda.io)
-  const handleExportTabDelimited = () => {
-    if (!generatedTreasure) return;
-    let tabbed = '';
-    // Coins
-    if (generatedTreasure.coins) {
-      tabbed += 'Coin\tAmount\n';
-      Object.entries(generatedTreasure.coins).forEach(([coin, amount]) => {
-        if (amount > 0) tabbed += `${coin.toUpperCase()}\t${amount}\n`;
-      });
-      tabbed += '\n';
-    }
-    // Gems
-    if (generatedTreasure.gems && generatedTreasure.gems.length > 0) {
-      tabbed += 'Gem\tValue\tQuantity\n';
-      generatedTreasure.gems.forEach(gem => {
-        tabbed += `${gem.name}\t${gem.value}\t${gem.quantity}\n`;
-      });
-      tabbed += '\n';
-    }
-    // Art Objects
-    if (generatedTreasure.art_objects && generatedTreasure.art_objects.length > 0) {
-      tabbed += 'Art Object\tValue\tQuantity\n';
-      generatedTreasure.art_objects.forEach(art => {
-        tabbed += `${art.name}\t${art.value}\t${art.quantity}\n`;
-      });
-      tabbed += '\n';
-    }
-    // Magic Items
-    if (generatedTreasure.magic_items && generatedTreasure.magic_items.length > 0) {
-      tabbed += 'Magic Item\tRarity\tValue\tSource\n';
-      generatedTreasure.magic_items.forEach(item => {
-        tabbed += `${item.name}\t${item.rarity}\t${item.value || 'Priceless'}\t${item.source}\n`;
-      });
-    }
-    // Copy to clipboard
-    navigator.clipboard.writeText(tabbed);
-    showToast('Copied in Google Sheets/Coda.io format!', 'success');
-  };
+
 
   return (
     <div className="loot-factory-module">
@@ -280,13 +249,10 @@ const LootFactoryModule: React.FC = () => {
             <h2 className="fantasy-subheading section-title">
               Freshly Generated Treasure
             </h2>
-            {/* Export Buttons */}
+            {/* Export Button */}
             <div className="copy-buttons">
               <button className="btn-secondary" onClick={() => handleExportCSV()}>
-                Export as CSV
-              </button>
-              <button className="btn-secondary" onClick={() => handleExportTabDelimited()}>
-                Export for Google Sheets / Coda.io
+                Download CSV
               </button>
             </div>
             <p className="generation-info">

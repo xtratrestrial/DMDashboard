@@ -5,19 +5,13 @@ FROM node:18-alpine as build
 WORKDIR /app
 
 # Copy package files
-COPY LootFactory/web-app/frontend/package*.json ./
+COPY package*.json ./
 
 # Install dependencies
 RUN npm ci
 
-# Copy base TypeScript config
-COPY tsconfig.base.json ./
-
-# Copy app source first
-COPY LootFactory/web-app/frontend/ ./
-
-# Copy shared code after (to ensure it's not overwritten)
-COPY shared/ ./shared/
+# Copy app source
+COPY . ./
 
 # Build the app
 RUN npm run build
@@ -29,7 +23,7 @@ FROM nginx:alpine
 COPY --from=build /app/dist /usr/share/nginx/html
 
 # Copy nginx configuration
-COPY LootFactory/web-app/frontend/nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80
 EXPOSE 80

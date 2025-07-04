@@ -77,6 +77,15 @@ export const DM_DASHBOARD_CONFIG: DmSidebarConfig = {
       url: '/lootfactory'
     },
     {
+      id: 'dice-calculator',
+      name: 'Dice Math Calculator',
+      icon: '🎯',
+      description: 'Complex dice calculations and probability',
+      isActive: true,
+      isAvailable: true,
+      url: '/dice-calculator'
+    },
+    {
       id: 'name-generator',
       name: 'Name Generator',
       icon: '👤',
@@ -161,15 +170,6 @@ export const DM_DASHBOARD_CONFIG: DmSidebarConfig = {
     },
     
     // Utility Tools
-    {
-      id: 'dice-calculator',
-      name: 'Dice Math Calculator',
-      icon: '🎯',
-      description: 'Complex dice calculations and probability',
-      isActive: false,
-      isAvailable: false,
-      url: '/dice-calculator'
-    },
     {
       id: 'calendar',
       name: 'Campaign Calendar',

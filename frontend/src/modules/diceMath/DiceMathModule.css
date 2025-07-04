@@ -1,0 +1,691 @@
+/* Dice Math Calculator Module Styles */
+:root {
+    --muted-purple: #483D8B;
+}
+
+.dice-math-module {
+    font-family: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif !important;
+    background: #383838 !important;
+    color: var(--ink-dark) !important;
+    min-height: 100vh !important;
+    padding: 2rem !important;
+    line-height: 1.4 !important;
+    background-attachment: fixed !important;
+    letter-spacing: 1px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.dice-math-container {
+    max-width: 1200px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+}
+
+.dice-math-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.fantasy-heading {
+    font-family: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif;
+    font-weight: 400;
+    color: var(--dnd-red-light);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    letter-spacing: 2px;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.fantasy-subheading {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 0;
+}
+
+/* Input Section */
+.input-section {
+    margin-bottom: 3rem;
+}
+
+.expression-input-group {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.expression-input-group label {
+    color: var(--dnd-red-light) !important;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: none;
+    -webkit-text-stroke: 0;
+    text-shadow: 0 2px 4px #000, 0 0 2px #000;
+}
+
+.input-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.expression-input {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Courier New', monospace;
+}
+
+.expression-input::placeholder {
+    color: #ccc;
+}
+
+.expression-input:focus {
+    outline: none;
+    border-color: var(--dnd-red-light);
+    box-shadow: 0 0 0 2px rgba(220, 20, 60, 0.3);
+}
+
+/* Error Message */
+.error-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(244, 67, 54, 0.1);
+    border: 1px solid rgba(244, 67, 54, 0.3);
+    border-radius: 4px;
+    color: #ff6b6b;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary, .btn-small {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background: var(--muted-purple);
+    color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+    background: #6a5acd;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(72, 61, 139, 0.3);
+}
+
+.btn-primary:disabled {
+    background: #666;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-small {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-small:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* DC vs Bonus Calculator */
+.dc-calculator-section {
+    margin-bottom: 3rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dc-calculator-container {
+    width: 100%;
+}
+
+.dc-input-group {
+    margin-bottom: 2rem;
+}
+
+.dc-input-row {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.dc-input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.dc-input-field label {
+    color: var(--dnd-red-light) !important;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: none;
+    -webkit-text-stroke: 0;
+    text-shadow: 0 2px 4px #000, 0 0 2px #000;
+}
+
+.dc-input {
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Courier New', monospace;
+    width: 80px;
+}
+
+.dc-input:focus {
+    outline: none;
+    border-color: var(--dnd-red-light);
+    box-shadow: 0 0 0 2px rgba(220, 20, 60, 0.3);
+}
+
+.dc-range-inputs {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dc-range-separator {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.dc-results-section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dc-results-section h4 {
+    color: var(--dnd-red-light);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.dc-results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0.5rem;
+}
+
+.dc-result-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 0.75rem;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.dc-result-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.dc-value {
+    color: var(--muted-purple);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 0.25rem;
+}
+
+.dc-probability {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Common Expressions */
+.common-expressions-section {
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    color: var(--dnd-red-light);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.expressions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+}
+
+.expression-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.expression-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.expression-dice {
+    font-family: 'Courier New', monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--muted-purple) !important;
+    margin-bottom: 0.5rem;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -1px 0 0 #000;
+}
+
+.expression-desc {
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.3;
+}
+
+/* Results Section */
+.results-section {
+    margin-bottom: 3rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.result-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.result-card h4 {
+    color: var(--dnd-red-light);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.result-card p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+
+/* Most Likely Outcomes */
+.likely-outcomes-section {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.likely-outcomes-section h4 {
+    color: var(--dnd-red-light);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.outcomes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.75rem;
+}
+
+.outcome-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.outcome-value {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+.outcome-probability {
+    color: var(--dnd-red-light);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Distribution Section */
+.distribution-section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.distribution-section h4 {
+    color: var(--dnd-red-light);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.distribution-chart {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow-x: auto;
+}
+
+.distribution-bars {
+    display: flex;
+    align-items: end;
+    gap: 2px;
+    min-height: 200px;
+    padding: 1rem 0;
+}
+
+.distribution-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 30px;
+    flex: 1;
+}
+
+.bar-label {
+    color: #ccc;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Courier New', monospace;
+}
+
+.bar-fill {
+    width: 100%;
+    min-height: 2px;
+    border-radius: 2px 2px 0 0;
+    transition: all 0.3s ease;
+}
+
+.bar-probability {
+    color: #ccc;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+
+/* Saved Expressions */
+.saved-expressions-section {
+    margin-bottom: 3rem;
+}
+
+.saved-expressions-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.saved-expression-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.saved-dice {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--dnd-red-light);
+    min-width: 100px;
+}
+
+.saved-desc {
+    flex: 1;
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+/* Help Section */
+.help-section {
+    background: #232323;
+    border-radius: 8px;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.help-content h4 {
+    color: var(--dnd-red-light) !important;
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0.5rem 0;
+    letter-spacing: 1px;
+    text-transform: none;
+    -webkit-text-stroke: 0;
+    text-shadow: 0 2px 4px #000, 0 0 2px #000;
+}
+
+.help-content h4:first-child {
+    margin-top: 0;
+}
+
+.help-content ul {
+    margin: 0 0 1rem 1.5rem;
+    padding: 0;
+    list-style: disc;
+}
+
+.help-content li {
+    color: var(--dnd-red-light) !important;
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    line-height: 1.7;
+    -webkit-text-stroke: 0;
+    text-shadow: 0 2px 4px #000, 0 0 2px #000;
+}
+
+.help-content li:before {
+    content: '';
+    display: none;
+}
+
+.help-content p {
+    color: var(--dnd-red-light) !important;
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    -webkit-text-stroke: 0;
+    text-shadow: 0 2px 4px #000, 0 0 2px #000;
+}
+
+.help-content code {
+    color: var(--dnd-red-light) !important;
+    background: rgba(220, 20, 60, 0.15) !important;
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-family: 'Courier New', monospace;
+    -webkit-text-stroke: 0;
+    text-shadow: 0 2px 4px #000, 0 0 2px #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dice-math-module {
+        padding: 1rem !important;
+    }
+    
+    .input-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .expression-input {
+        min-width: auto;
+    }
+    
+    .dc-input-row {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .dc-range-inputs {
+        justify-content: center;
+    }
+
+    .dc-results-grid {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+    
+    .expressions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .outcomes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .saved-expression-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .saved-dice {
+        min-width: auto;
+    }
+    
+    .distribution-bars {
+        gap: 1px;
+    }
+    
+    .distribution-bar {
+        min-width: 20px;
+    }
+    
+    .bar-label, .bar-probability {
+        font-size: 0.6rem;
+    }
+}
+
+.dice-math-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.tab-btn {
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-bottom: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    text-shadow: 0 2px 4px #000, 0 0 2px #000;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+    outline: none;
+}
+
+.tab-btn:not(.active):hover {
+    background: #353535;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.tab-btn.active {
+    background: #232323;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border-bottom: 3px solid var(--dnd-red-light);
+    z-index: 2;
+}
+
+.lighter-bg {
+    background: rgba(255,255,255,0.05) !important;
+} 

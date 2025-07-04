@@ -3,7 +3,9 @@ services:
     build:
       context: ./LootFactory/web-app/backend
       dockerfile: Dockerfile
-    container_name: loot-factory-backend
+    container_name: dm-dashboard-backend
+    ports:
+      - "3001:3001"
     environment:
       - NODE_ENV=production
       - PORT=3001
@@ -21,35 +23,24 @@ services:
       start_period: 40s
     restart: unless-stopped
 
-  loot-factory-frontend:
+  dmdashboard-frontend:
     build:
-      context: .
-      dockerfile: LootFactory/web-app/frontend/Dockerfile
-    container_name: loot-factory-frontend
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: dmdashboard-frontend
     ports:
-      - "5080:80"
+      - "3002:3002"
     depends_on:
       loot-factory-backend:
         condition: service_healthy
     networks:
       - dmdashboard-network
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost/"]
+      test: ["CMD", "curl", "-f", "http://localhost:3002/"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
-    restart: unless-stopped
-
-  dm-dashboard:
-    build:
-      context: .
-      dockerfile: dm-dashboard/Dockerfile
-    container_name: dm-dashboard-frontend
-    ports:
-      - "3000:3000"
-    networks:
-      - dmdashboard-network
     restart: unless-stopped
 
 networks:

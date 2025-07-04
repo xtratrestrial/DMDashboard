@@ -1,0 +1,295 @@
+{
+  "scraped_data": {
+    "Fantasy Name Gen": {
+      "url": "https://www.fantasynamegen.com/",
+      "title": "Fantasy Name Generator",
+      "site_type": "alternative",
+      "forms": [
+        {
+          "action": "/",
+          "method": "post",
+          "inputs": [
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "human",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "elf",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "dwarf",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "hobbit",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "barbarian",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "orc",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "evil",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "asian",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "arabic",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "surnames",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "sf",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "lovecraft",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "reptilian",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "aztec",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "ratman",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "demon",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "dragon",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "wizard",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "mixed",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "enames",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "places",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "titles",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "operation",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "super",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "type",
+              "value": "rockband",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "size",
+              "value": "short",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "size",
+              "value": "medium",
+              "placeholder": null
+            },
+            {
+              "type": "radio",
+              "name": "size",
+              "value": "long",
+              "placeholder": null
+            },
+            {
+              "type": "submit",
+              "name": null,
+              "value": "Generate names",
+              "placeholder": null
+            }
+          ],
+          "selects": []
+        }
+      ],
+      "scripts": [
+        "(function(d, s, id) {\n  var js, fjs = d.getElementsByTagName(s)[0];\n  if (d.getElementById(id)) return;\n  js = d.createElement(s); js.id = id;\n  js.src = \"//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5\";\n  fjs.parentNode.insertBefore(js, fjs);\n}(document, 'script', 'facebook-jssdk'));",
+        "!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");",
+        "\n\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-151199-37']);\n  _gaq.push(['_trackPageview']);\n\n  (function() {\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n\n"
+      ],
+      "potential_patterns": []
+    },
+    "GitHub_gh-pages": {
+      "url": "https://raw.githubusercontent.com/felladrin/fantasy-name-generator/gh-pages/generator.js",
+      "type": "github_source",
+      "patterns": [
+        {
+          "variable": "letter",
+          "type": "name_parts",
+          "items": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "v",
+            "w",
+            "x",
+            "y",
+            "z"
+          ],
+          "total_count": 26
+        },
+        {
+          "variable": "consonant",
+          "type": "name_parts",
+          "items": [
+            "b",
+            "c",
+            "d",
+            "f",
+            "g",
+            "h",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "v",
+            "w",
+            "x",
+            "y",
+            "z"
+          ],
+          "total_count": 21
+        },
+        {
+          "variable": "vowel",
+          "type": "name_parts",
+          "items": [
+            "a",
+            "e",
+            "i",
+            "o",
+            "u"
+          ],
+          "total_count": 5
+        }
+      ]
+    }
+  },
+  "sample_names": {
+    "GitHub_gh-pages": [
+      "l",
+      "ns",
+      "b",
+      "b",
+      "kt",
+      "v",
+      "d",
+      "vk",
+      "s",
+      "jl"
+    ]
+  },
+  "summary": {
+    "sources_found": 2,
+    "total_patterns": 3
+  }
+}

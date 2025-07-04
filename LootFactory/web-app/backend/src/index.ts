@@ -680,6 +680,126 @@ app.get('/api/cr/:cr/recommendations', (req, res) => {
     }
 });
 
+// Name Generator API Routes
+
+// Get available cultures
+app.get('/api/name-generator/cultures', (req, res) => {
+    try {
+        const { spawn } = require('child_process');
+        const pythonProcess = spawn('python3', ['name-generator/enhanced_name_generator_api.py', '--list-cultures']);
+        
+        let output = '';
+        let error = '';
+        
+        pythonProcess.stdout.on('data', (data: Buffer) => {
+            output += data.toString();
+        });
+        
+        pythonProcess.stderr.on('data', (data: Buffer) => {
+            error += data.toString();
+        });
+        
+        pythonProcess.on('close', (code: number) => {
+            if (code === 0) {
+                try {
+                    // The Python script returns { "cultures": [...] }
+                    const parsed = JSON.parse(output);
+                    if (Array.isArray(parsed.cultures)) {
+                        res.json(parsed); // Return the parsed data directly
+                    } else {
+                        res.status(500).json({ error: 'Cultures data is not an array' });
+                    }
+                } catch (parseError) {
+                    res.status(500).json({ error: 'Failed to parse cultures' });
+                }
+            } else {
+                res.status(500).json({ error: `Python process failed: ${error}` });
+            }
+        });
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to get cultures' });
+    }
+});
+
+// Generate names
+app.post('/api/name-generator/generate', (req, res) => {
+    try {
+        const { culture, count = 5, gender = 'any' } = req.body;
+        const { spawn } = require('child_process');
+        
+        const args = ['name-generator/enhanced_name_generator_api.py', '--generate'];
+        if (culture) args.push('--culture', culture);
+        if (count) args.push('--count', count.toString());
+        if (gender && gender !== 'any') args.push('--gender', gender);
+        
+        const pythonProcess = spawn('python3', args);
+        
+        let output = '';
+        let error = '';
+        
+        pythonProcess.stdout.on('data', (data: Buffer) => {
+            output += data.toString();
+        });
+        
+        pythonProcess.stderr.on('data', (data: Buffer) => {
+            error += data.toString();
+        });
+        
+        pythonProcess.on('close', (code: number) => {
+            if (code === 0) {
+                try {
+                    const names = JSON.parse(output);
+                    res.json({ 
+                        success: true,
+                        names,
+                        generation_timestamp: new Date().toISOString()
+                    });
+                } catch (parseError) {
+                    res.status(500).json({ error: 'Failed to parse generated names' });
+                }
+            } else {
+                res.status(500).json({ error: `Python process failed: ${error}` });
+            }
+        });
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to generate names' });
+    }
+});
+
+// Get name generator statistics
+app.get('/api/name-generator/stats', (req, res) => {
+    try {
+        const { spawn } = require('child_process');
+        const pythonProcess = spawn('python3', ['name-generator/enhanced_name_generator_api.py', '--stats']);
+        
+        let output = '';
+        let error = '';
+        
+        pythonProcess.stdout.on('data', (data: Buffer) => {
+            output += data.toString();
+        });
+        
+        pythonProcess.stderr.on('data', (data: Buffer) => {
+            error += data.toString();
+        });
+        
+        pythonProcess.on('close', (code: number) => {
+            if (code === 0) {
+                try {
+                    const stats = JSON.parse(output);
+                    res.json(stats);
+                } catch (parseError) {
+                    res.status(500).json({ error: 'Failed to parse statistics' });
+                }
+            } else {
+                res.status(500).json({ error: `Python process failed: ${error}` });
+            }
+        });
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to get statistics' });
+    }
+});
+
 // Initialize data and start server
 async function startServer() {
     console.log('🎲 Starting Loot Factory API Server...');
