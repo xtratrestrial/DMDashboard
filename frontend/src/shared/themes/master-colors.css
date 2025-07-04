@@ -1,0 +1,280 @@
+/* 🎲 DMDashboard Master Color Palette */
+/* Unified color system for all D&D tools in the ecosystem */
+/* Based on D&D Beyond, DM's Guild, and classic fantasy themes */
+
+:root {
+  /* === PRIMARY BRAND COLORS === */
+  /* DM's Guild Official Red */
+  --dm-guild-red: #B0212B;
+  --dm-guild-red-light: #DC143C;
+  --dm-guild-red-dark: #8B0000;
+  --dm-guild-red-muted: #A0616B;
+  
+  /* Leather & Wood Browns */
+  --leather-brown: #8B4513;
+  --leather-brown-light: #A0522D;
+  --leather-brown-dark: #654321;
+  --earth-brown: #5D4037;
+  
+  /* Parchment & Paper */
+  --parchment-light: #FAE7C0;
+  --parchment: #F4E4BC;
+  --parchment-dark: #E6D7A3;
+  --old-paper: #F5F5DC;
+  --cream: #F0E6D2;
+  --cream-light: #FBF8F3;
+  
+  /* Gold & Metallics */
+  --gold: #DAA520;
+  --gold-light: #F4A460;
+  --gold-dark: #B8860B;
+  --bronze: #CD7F32;
+  --copper: #B87333;
+  
+  /* === BACKGROUND COLORS === */
+  /* Dark Theme Backgrounds */
+  --bg-primary: #383838;      /* Darkest - main background (matches LootFactory) */
+  --bg-secondary: #555555;    /* Medium - panels and cards */
+  --bg-tertiary: #6B6B6B;     /* Lightest - inputs and hover states */
+  --bg-overlay: rgba(0, 0, 0, 0.6);
+  
+  /* Light Theme Backgrounds (for contrast areas) */
+  --bg-light-primary: #828282;    /* Sidebar background */
+  --bg-light-secondary: #FFFFFF;  /* Tool items, cards */
+  --bg-light-tertiary: #F5F5F5;   /* Subtle contrast */
+  
+  /* === TEXT COLORS === */
+  /* Dark Theme Text */
+  --text-primary: #FFFFFF;     /* Main text on dark backgrounds */
+  --text-secondary: #E0E0E0;   /* Secondary text, descriptions */
+  --text-muted: #CCCCCC;       /* Muted text, timestamps */
+  --text-accent: var(--gold);  /* Highlighted text */
+  
+  /* Light Theme Text */
+  --text-dark-primary: #2F1B14;   /* Main text on light backgrounds */
+  --text-dark-secondary: #3D2B1F; /* Secondary text on light */
+  --text-dark-muted: #8B4513;     /* Muted text on light */
+  
+  /* === MAGIC ITEM RARITY COLORS === */
+  /* Consistent across all tools */
+  --rarity-common: #6B6B6B;       /* Gray */
+  --rarity-uncommon: #4A5D23;     /* Forest Green */
+  --rarity-rare: #2F4F4F;         /* Dark Slate Gray */
+  --rarity-very-rare: #483D8B;    /* Dark Slate Blue */
+  --rarity-legendary: #8B7355;    /* Dark Khaki */
+  --rarity-artifact: #4B0082;     /* Indigo */
+  
+  /* === STATUS & FEEDBACK COLORS === */
+  /* Health & Conditions */
+  --health-excellent: #228B22;    /* Forest Green */
+  --health-good: #32CD32;         /* Lime Green */
+  --health-fair: #FFD700;         /* Gold */
+  --health-poor: #FF8C00;         /* Dark Orange */
+  --health-critical: #DC143C;     /* Crimson */
+  --health-unconscious: #696969;  /* Dim Gray */
+  --health-dead: #2F2F2F;         /* Dark Gray */
+  
+  /* System Status */
+  --status-success: #4CAF50;      /* Green */
+  --status-warning: #FF9800;      /* Orange */
+  --status-error: #F44336;        /* Red */
+  --status-info: #2196F3;         /* Blue */
+  --status-planning: var(--bronze); /* Bronze for "coming soon" */
+  
+  /* === INTERACTIVE COLORS === */
+  /* Borders & Outlines */
+  --border-primary: #999999;      /* Main borders */
+  --border-secondary: #AAAAAA;    /* Secondary borders */
+  --border-accent: var(--gold);   /* Accent borders, focus states */
+  --border-light: #DDD;           /* Light theme borders */
+  
+  /* Shadows & Effects */
+  --shadow-primary: rgba(0, 0, 0, 0.3);
+  --shadow-secondary: rgba(0, 0, 0, 0.15);
+  --shadow-accent: rgba(218, 165, 32, 0.3); /* Gold shadow */
+  --shadow-red: rgba(176, 33, 43, 0.3);     /* Red shadow */
+  
+  /* === TYPOGRAPHY === */
+  /* Font Families */
+  --font-fantasy: 'Cinzel', serif;                    /* Headers, titles */
+  --font-display: 'Bebas Neue', 'Impact', sans-serif; /* Large display text */
+  --font-body: 'Crimson Text', serif;                 /* Body text */
+  --font-details: 'Libre Baskerville', serif;         /* Fine details */
+  --font-ui: 'Inter', sans-serif;                     /* UI elements */
+  
+  /* Font Weights */
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 900;
+  
+  /* === COMPONENT-SPECIFIC COLORS === */
+  /* Sidebar Colors */
+  --sidebar-bg: var(--bg-light-primary);
+  --sidebar-header-bg: var(--parchment-light);
+  --sidebar-border: var(--dm-guild-red);
+  --sidebar-text: var(--text-dark-primary);
+  --sidebar-accent: var(--dm-guild-red);
+  
+  /* Dashboard Panel Colors */
+  --panel-bg: #828282;
+  --panel-border: var(--dm-guild-red);
+  --panel-header: var(--gold);
+  
+  /* Button Colors */
+  --btn-primary-bg: linear-gradient(135deg, var(--leather-brown) 0%, var(--leather-brown-dark) 100%);
+  --btn-primary-border: var(--gold);
+  --btn-primary-hover: linear-gradient(135deg, var(--leather-brown-light) 0%, var(--leather-brown) 100%);
+  
+  --btn-secondary-bg: linear-gradient(135deg, var(--dm-guild-red) 0%, var(--dm-guild-red-dark) 100%);
+  --btn-secondary-border: var(--dm-guild-red-light);
+  --btn-secondary-hover: linear-gradient(135deg, var(--dm-guild-red-light) 0%, var(--dm-guild-red) 100%);
+  
+  /* Form Colors */
+  --input-bg: var(--bg-tertiary);
+  --input-border: var(--border-primary);
+  --input-focus: var(--gold);
+  --input-text: var(--text-primary);
+  --input-placeholder: var(--text-muted);
+  
+  /* === SPACING & LAYOUT === */
+  /* Standard spacing scale */
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 1.5rem;    /* 24px */
+  --spacing-xl: 2rem;      /* 32px */
+  --spacing-2xl: 3rem;     /* 48px */
+  --spacing-3xl: 4rem;     /* 64px */
+  
+  /* Border radius scale */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  
+  /* === TRANSITIONS === */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.2s ease;
+  --transition-slow: 0.3s ease;
+  
+  /* === Z-INDEX SCALE === */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}
+
+/* === THEME VARIATIONS === */
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  :root {
+    --text-primary: #FFFFFF;
+    --text-secondary: #F0F0F0;
+    --border-primary: #FFFFFF;
+    --bg-primary: #000000;
+    --bg-secondary: #1A1A1A;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: none;
+    --transition-normal: none;
+    --transition-slow: none;
+  }
+}
+
+/* Print Styles */
+@media print {
+  :root {
+    --text-primary: #000000;
+    --text-secondary: #333333;
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F5F5F5;
+    --border-primary: #CCCCCC;
+  }
+}
+
+/* === UTILITY CLASSES === */
+/* Color utilities that can be used across all components */
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
+.text-muted { color: var(--text-muted); }
+.text-accent { color: var(--text-accent); }
+.text-gold { color: var(--gold); }
+.text-red { color: var(--dm-guild-red); }
+
+.bg-primary { background: var(--bg-primary); }
+.bg-secondary { background: var(--bg-secondary); }
+.bg-tertiary { background: var(--bg-tertiary); }
+.bg-panel { background: var(--panel-bg); }
+
+.border-primary { border-color: var(--border-primary); }
+.border-accent { border-color: var(--border-accent); }
+.border-gold { border-color: var(--gold); }
+.border-red { border-color: var(--dm-guild-red); }
+
+.font-fantasy { font-family: var(--font-fantasy); }
+.font-display { font-family: var(--font-display); }
+.font-body { font-family: var(--font-body); }
+.font-details { font-family: var(--font-details); }
+.font-ui { font-family: var(--font-ui); }
+
+/* === DESIGN SYSTEM DOCUMENTATION === */
+/*
+COLOR PALETTE USAGE GUIDELINES:
+
+1. PRIMARY BRANDING:
+   - Use dm-guild-red for primary actions, navigation, and branding
+   - Use leather-brown for secondary actions and warm accents
+   - Use gold for highlights, success states, and premium features
+
+2. BACKGROUNDS:
+   - Dark theme: bg-primary (darkest) → bg-secondary → bg-tertiary (lightest)
+   - Light theme: bg-light-primary → bg-light-secondary → bg-light-tertiary
+   - Always maintain sufficient contrast ratios (4.5:1 minimum)
+
+3. TEXT HIERARCHY:
+   - text-primary: Main content, headings
+   - text-secondary: Descriptions, labels
+   - text-muted: Timestamps, metadata, placeholders
+   - text-accent: Call-to-action text, highlighted content
+
+4. INTERACTIVE STATES:
+   - Default: Use base colors
+   - Hover: Lighten background colors by one step
+   - Focus: Use border-accent (gold) with outline
+   - Active: Darken colors by one step
+   - Disabled: Reduce opacity to 0.6
+
+5. MAGIC ITEM RARITIES:
+   - Use consistent rarity colors across all tools
+   - Always include text labels for accessibility
+   - Consider colorblind-friendly alternatives
+
+6. STATUS INDICATORS:
+   - Green: Success, healthy, available
+   - Yellow/Gold: Warning, caution, in-progress
+   - Red: Error, danger, critical
+   - Blue: Information, neutral status
+   - Gray: Disabled, unavailable, inactive
+
+7. SPACING:
+   - Use the spacing scale for consistent layouts
+   - Increase spacing at larger breakpoints
+   - Group related elements with consistent spacing
+
+8. TYPOGRAPHY:
+   - font-fantasy: Epic titles, section headers
+   - font-display: Large text, hero elements
+   - font-body: Main content, descriptions
+   - font-details: Fine print, captions
+   - font-ui: Interface elements, labels
+*/ 

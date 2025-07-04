@@ -1,0 +1,41 @@
+/* Import sidebar styles */
+@import './shared/components/DmSidebar.css';
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  transition: margin-left 0.3s ease;
+}
+
+.main-content.sidebar-collapsed {
+  margin-left: 60px;
+}
+
+.dashboard-module,
+.lootfactory-module {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ffd700;
+  margin-bottom: 1rem;
+}
