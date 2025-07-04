@@ -257,7 +257,7 @@
 /* Names Grid */
 .name-generator-module .names-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 12px;
   margin-bottom: 30px;
 }
@@ -271,6 +271,12 @@
   justify-content: space-between;
   align-items: center;
   transition: all 0.3s ease;
+}
+
+.name-generator-module .name-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .name-generator-module .name-item:hover {
@@ -287,6 +293,7 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+.name-generator-module .copy-btn,
 .name-generator-module .save-btn {
   background: #4a4a4a;
   color: white;
@@ -297,6 +304,12 @@
   cursor: pointer;
   transition: all 0.3s ease;
   min-width: 40px;
+}
+
+.name-generator-module .copy-btn:hover {
+  background: #5a5a5a;
+  border-color: #777;
+  transform: translateY(-2px);
 }
 
 .name-generator-module .save-btn:hover {
@@ -403,7 +416,7 @@
 
 @media (max-width: 900px) {
   .name-generator-module .names-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 

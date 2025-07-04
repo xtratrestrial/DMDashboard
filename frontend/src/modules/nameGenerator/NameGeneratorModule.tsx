@@ -12,7 +12,7 @@ const config = {
 
 const NameGeneratorModule: React.FC = () => {
   const [selectedCulture, setSelectedCulture] = useState<string>('');
-  const [nameCount, setNameCount] = useState<number>(21);
+  const [nameCount, setNameCount] = useState<number>(10);
   const [gender, setGender] = useState<'male' | 'female' | 'any'>('any');
   const [generatedNames, setGeneratedNames] = useState<GeneratedName[]>([]);
   const [savedNames, setSavedNames] = useState<SavedName[]>([]);
@@ -250,13 +250,22 @@ const NameGeneratorModule: React.FC = () => {
                 {generatedNames.map((name, index) => (
                   <div key={index} className="name-item">
                     <span className="name-text">{name.name}</span>
-                    <button 
-                      className="save-btn"
-                      onClick={() => handleSaveName(name)}
-                      title="Save name"
-                    >
-                      💾
-                    </button>
+                    <div className="name-actions">
+                      <button 
+                        className="copy-btn"
+                        onClick={() => copyToClipboard(name.name)}
+                        title="Copy name"
+                      >
+                        📋
+                      </button>
+                      <button 
+                        className="save-btn"
+                        onClick={() => handleSaveName(name)}
+                        title="Save name"
+                      >
+                        💾
+                      </button>
+                    </div>
                   </div>
                 ))}
               </div>
