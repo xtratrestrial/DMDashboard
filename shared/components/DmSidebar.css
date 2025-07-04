@@ -226,6 +226,7 @@
 .tool-name {
   flex: 1;
   text-align: left;
+  font-family: 'Karma Future', 'Karma', 'Comic Sans MS', cursive, sans-serif !important;
 }
 
 .coming-soon-badge {
