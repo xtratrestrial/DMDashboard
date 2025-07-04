@@ -175,4 +175,4 @@ playwright/.cache/
 # Local development
 .local/
 .cache/
-scratch/ 
+scratch/ frontend/.vite/
