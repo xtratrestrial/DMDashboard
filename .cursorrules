@@ -123,7 +123,7 @@
 - **Daily Workflow:**
   1. Start new work: `git new-feature feature-name` (uses alias)
   2. Develop and test on feature branch
-  3. Push feature branch: `git push -u origin feature/feature-name`
+  3. When ready to push, **ALWAYS ask the user for confirmation before running any git push or merge commands.**
   4. When ready: `git finish-feature feature/feature-name` (uses alias)
   5. Deploy to main when development is stable
 - **Feature Branch Rules:**
@@ -136,6 +136,10 @@
   - Allows safe experimentation without risk
   - Enables easy rollback if something goes wrong
   - Maintains clean commit history with logical feature groupings
+
+## AI Assistant Git Policy
+- The assistant **must not push to git or merge branches without explicit user approval**.
+- The assistant should always remind the user to push or merge when appropriate, but must ask for confirmation first.
 
 ## Security Best Practices
 - Never commit sensitive data (API keys, passwords, tokens)

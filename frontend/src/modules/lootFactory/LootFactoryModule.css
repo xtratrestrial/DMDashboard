@@ -13,9 +13,8 @@
     --ink-medium: #3D2B1F;
     --leather-dark: #2C1810; /* Dark charcoal instead of brown */
     --earth-dark: #1a1a1a; /* Dark gray instead of brown */
-    --cream-background: #F0E6D2;
-    --light-cream: #FAF6ED;
     --gold-accent: #FFD700; /* Brighter gold */
+    --white: #fff;
     
     /* Muted Rarity Colors */
     --muted-gray: #6B6B6B;
@@ -24,7 +23,6 @@
     --muted-purple: #483D8B;
     --muted-gold: #B8860B; /* Brighter gold */
     --forest-green: #0c3617;
-    --light-cream: #FBF8F3;
 }
 
 .loot-factory-module {
@@ -183,7 +181,7 @@
 .generation-controls .source-books-header label {
     font-size: 0.95rem;
     font-weight: 600;
-    color: var(--light-cream);
+    color: var(--white);
     margin-bottom: 0.1rem;
 }
 
@@ -192,7 +190,7 @@
     border: 2px solid var(--dnd-red-light);
     border-radius: 6px;
     background: #23232a;
-    color: var(--light-cream);
+    color: var(--white);
     font-size: 1rem;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -214,7 +212,7 @@
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    color: var(--light-cream);
+    color: var(--white);
     font-weight: 600;
     cursor: pointer;
     font-size: 0.95rem;
@@ -327,7 +325,7 @@
 .generation-info {
     text-align: center;
     font-size: 1.1rem;
-    color: var(--light-cream);
+    color: var(--white);
     margin-bottom: 2rem;
     padding: 1rem;
     background: rgba(0,0,0,0.3);
@@ -407,7 +405,7 @@
 
 .loot-table th {
     background: var(--earth-dark);
-    color: var(--light-cream);
+    color: var(--white);
     padding: 1rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -434,7 +432,7 @@
 .loot-table td {
     padding: 1rem;
     border-bottom: 1px solid rgba(255,255,255,0.1);
-    color: var(--light-cream);
+    color: var(--white);
 }
 
 .loot-table tr:hover {
@@ -524,7 +522,7 @@
     padding: 2rem;
     background: rgba(0,0,0,0.3);
     border-radius: 8px;
-    color: var(--parchment-dark);
+    color: var(--white);
     font-size: 0.9rem;
     font-style: italic;
 }
@@ -586,7 +584,7 @@
 
 .btn-secondary {
     background: var(--muted-purple);
-    color: var(--light-cream);
+    color: var(--white);
     border: 2px solid var(--dnd-red-light);
     padding: 0.5rem 1rem;
     border-radius: 6px;
@@ -745,7 +743,7 @@
 }
 .source-books-dropdown-label {
     display: block;
-    color: var(--light-cream);
+    color: var(--white);
     font-size: 0.95rem;
     font-weight: 600;
     margin-bottom: 0.3rem;
@@ -785,7 +783,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--light-cream);
+    color: var(--white);
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 0.3rem;
@@ -807,7 +805,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--light-cream);
+    color: var(--white);
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
@@ -819,7 +817,7 @@
 }
 .source-books-dropdown-btn {
     background: #23232a;
-    color: var(--light-cream);
+    color: var(--white);
     border: 2px solid var(--dnd-red-light);
     border-radius: 6px;
     padding: 0.5rem 1.2rem;
@@ -861,7 +859,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--light-cream);
+    color: var(--white);
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 0.3rem;

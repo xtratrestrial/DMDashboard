@@ -42,10 +42,9 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
       {/* Header */}
       <div className="dm-sidebar-header">
         <div className="dm-sidebar-logo">
-          <span className="logo-icon">🎲</span>
           {!isCollapsed && (
             <div className="logo-text">
-              <h1>{config.projectName}</h1>
+              <h1 className="sidebar-title">{config.projectName}</h1>
               <span className="version">v{config.projectVersion}</span>
             </div>
           )}
@@ -90,14 +89,16 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
         <div className="section-content">
           <div className="tools-list">
             {config.tools.map((tool) => (
-              <button
+              <div
                 key={tool.id}
-                className={`tool-item ${tool.isActive ? 'active' : ''} ${!tool.isAvailable ? 'disabled' : ''}`}
-                onClick={() => handleToolClick(tool)}
-                disabled={!tool.isAvailable}
+                className={`tool-item ${config.currentTool === tool.id ? 'active' : ''} ${!tool.isAvailable ? 'disabled' : ''}`}
+                onClick={() => tool.isAvailable && handleToolClick(tool)}
                 title={tool.description}
+                style={{ textAlign: 'center', fontSize: '1.1rem', justifyContent: 'center', alignItems: 'center', display: 'flex', cursor: tool.isAvailable ? 'pointer' : 'not-allowed', opacity: tool.isAvailable ? 1 : 0.6 }}
+                tabIndex={tool.isAvailable ? 0 : -1}
+                role="button"
+                aria-disabled={!tool.isAvailable}
               >
-                <span className="tool-icon">{tool.icon}</span>
                 {!isCollapsed && (
                   <>
                     <span className="tool-name">{tool.name}</span>
@@ -109,7 +110,7 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
                     )}
                   </>
                 )}
-              </button>
+              </div>
             ))}
           </div>
         </div>
