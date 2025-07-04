@@ -163,3 +163,38 @@
 - Break down complex tasks into smaller, manageable steps
 - Allow user review and approval for multi-step operations
 - Clearly communicate the scope and impact of planned changes 
+
+## Design Guidelines
+
+### Color Palette Rules
+- **NEVER use brown colors** in any UI design, styling, or theming
+- **Preferred alternatives to brown:**
+  - Use dark charcoal (#2C1810) instead of leather brown
+  - Use dark gray (#1a1a1a) instead of earth brown
+  - Use vibrant gold (#FFD700) instead of muted brown-gold
+  - Use deep navy (#1a1a2e) for dark accents
+  - Use rich burgundy (#8B0000) for warm dark tones
+
+### UI/UX Guidelines
+- Always maintain high contrast for accessibility
+- Use vibrant, saturated colors over muted browns
+- Prefer modern, clean aesthetics over rustic brown themes
+- When in doubt, choose blue, purple, or green tones over brown
+
+### Code Quality
+- Follow TypeScript best practices
+- Use proper type definitions
+- Maintain consistent code formatting
+- Write comprehensive comments for complex logic
+
+### Project Structure
+- Keep modules organized in separate directories
+- Use shared components for common functionality
+- Maintain clear separation between different tools/modules 
+
+## File Protection
+- **NEVER delete the file `2024SRD.txt`**. This file is the core D&D ruleset and must always be present in the project.
+
+## D&D Rules Reference
+- **Always consult `2024SRD.txt` for D&D rules, mechanics, and content.**
+- `2024SRD.txt` is the authoritative source for all D&D-related features, terminology, and balance guidelines in this project. 

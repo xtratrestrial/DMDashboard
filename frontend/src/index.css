@@ -1,6 +1,9 @@
 /* Import sidebar styles */
 @import './shared/components/DmSidebar.css';
 
+/* Import LootFactory styles */
+@import './modules/lootFactory/LootFactoryModule.css';
+
 /* Reset and base styles */
 * {
   margin: 0;
@@ -29,10 +32,15 @@ body {
   margin-left: 60px;
 }
 
-.dashboard-module,
-.lootfactory-module {
+.dashboard-module {
   max-width: 800px;
   margin: 0 auto;
+}
+
+/* LootFactory module has its own styling */
+.loot-factory-module {
+  max-width: none;
+  margin: 0;
 }
 
 h1 {

@@ -327,7 +327,7 @@
 .generation-info {
     text-align: center;
     font-size: 1.1rem;
-    color: var(--gold-accent);
+    color: var(--light-cream);
     margin-bottom: 2rem;
     padding: 1rem;
     background: rgba(0,0,0,0.3);
@@ -371,6 +371,31 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
+/* Coin-specific colors */
+.coin-amount.cp {
+    background: #CD7F32; /* Copper color */
+}
+
+.coin-amount.sp {
+    background: #C0C0C0; /* Silver color */
+    color: #333;
+}
+
+.coin-amount.ep {
+    background: #FFD700; /* Gold color */
+    color: #333;
+}
+
+.coin-amount.gp {
+    background: #FFD700; /* Gold color */
+    color: #333;
+}
+
+.coin-amount.pp {
+    background: #E5E4E2; /* Platinum color */
+    color: #333;
+}
+
 .loot-table {
     width: 100%;
     border-collapse: collapse;
@@ -381,14 +406,29 @@
 }
 
 .loot-table th {
-    background: var(--leather-dark);
+    background: var(--earth-dark);
     color: var(--light-cream);
     padding: 1rem;
-    text-align: left;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-bottom: 2px solid var(--dnd-red);
+    border-bottom: 2px solid var(--dnd-red-light);
+}
+
+.loot-table th.magic-item-header {
+    text-align: left;
+}
+
+.loot-table th.rarity-header {
+    text-align: center;
+}
+
+.loot-table th.value-header {
+    text-align: right;
+}
+
+.loot-table th.source-header {
+    text-align: center;
 }
 
 .loot-table td {
@@ -539,27 +579,30 @@
 
 .copy-buttons {
     display: flex;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
+    gap: 1rem;
+    margin: 1.5rem 0 1rem 0;
+    justify-content: center;
 }
 
 .btn-secondary {
-    background: var(--leather-dark);
+    background: var(--muted-purple);
     color: var(--light-cream);
-    border: none;
-    padding: 0.3rem 0.8rem;
-    border-radius: 4px;
-    font-size: 0.8rem;
+    border: 2px solid var(--dnd-red-light);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .btn-secondary:hover {
-    background: var(--dnd-red-light);
+    background: #6a5acd; /* lighter purple for hover */
+    border-color: var(--dnd-red-light);
     transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(220, 20, 60, 0.3);
 }
 
 .btn-secondary:active {
@@ -827,4 +870,9 @@
 }
 .source-books-dropdown-panel label:last-child {
     margin-bottom: 0;
-} 
+}
+
+.source-books-dropdown-panel input[type="checkbox"]:checked + span {
+    color: var(--dnd-red-light);
+    font-weight: 700;
+}

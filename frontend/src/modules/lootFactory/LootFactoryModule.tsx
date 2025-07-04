@@ -71,6 +71,90 @@ const LootFactoryModule: React.FC = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [dropdownOpen]);
 
+  // Export CSV
+  const handleExportCSV = () => {
+    if (!generatedTreasure) return;
+    let csv = '';
+    // Coins
+    if (generatedTreasure.coins) {
+      csv += 'Coin,Amount\n';
+      Object.entries(generatedTreasure.coins).forEach(([coin, amount]) => {
+        if (amount > 0) csv += `${coin.toUpperCase()},${amount}\n`;
+      });
+      csv += '\n';
+    }
+    // Gems
+    if (generatedTreasure.gems && generatedTreasure.gems.length > 0) {
+      csv += 'Gem,Value,Quantity\n';
+      generatedTreasure.gems.forEach(gem => {
+        csv += `${gem.name},${gem.value},${gem.quantity}\n`;
+      });
+      csv += '\n';
+    }
+    // Art Objects
+    if (generatedTreasure.art_objects && generatedTreasure.art_objects.length > 0) {
+      csv += 'Art Object,Value,Quantity\n';
+      generatedTreasure.art_objects.forEach(art => {
+        csv += `${art.name},${art.value},${art.quantity}\n`;
+      });
+      csv += '\n';
+    }
+    // Magic Items
+    if (generatedTreasure.magic_items && generatedTreasure.magic_items.length > 0) {
+      csv += 'Magic Item,Rarity,Value,Source\n';
+      generatedTreasure.magic_items.forEach(item => {
+        csv += `${item.name},${item.rarity},${item.value || 'Priceless'},${item.source}\n`;
+      });
+    }
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'loot.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  // Export Tab-Delimited (Google Sheets/Coda.io)
+  const handleExportTabDelimited = () => {
+    if (!generatedTreasure) return;
+    let tabbed = '';
+    // Coins
+    if (generatedTreasure.coins) {
+      tabbed += 'Coin\tAmount\n';
+      Object.entries(generatedTreasure.coins).forEach(([coin, amount]) => {
+        if (amount > 0) tabbed += `${coin.toUpperCase()}\t${amount}\n`;
+      });
+      tabbed += '\n';
+    }
+    // Gems
+    if (generatedTreasure.gems && generatedTreasure.gems.length > 0) {
+      tabbed += 'Gem\tValue\tQuantity\n';
+      generatedTreasure.gems.forEach(gem => {
+        tabbed += `${gem.name}\t${gem.value}\t${gem.quantity}\n`;
+      });
+      tabbed += '\n';
+    }
+    // Art Objects
+    if (generatedTreasure.art_objects && generatedTreasure.art_objects.length > 0) {
+      tabbed += 'Art Object\tValue\tQuantity\n';
+      generatedTreasure.art_objects.forEach(art => {
+        tabbed += `${art.name}\t${art.value}\t${art.quantity}\n`;
+      });
+      tabbed += '\n';
+    }
+    // Magic Items
+    if (generatedTreasure.magic_items && generatedTreasure.magic_items.length > 0) {
+      tabbed += 'Magic Item\tRarity\tValue\tSource\n';
+      generatedTreasure.magic_items.forEach(item => {
+        tabbed += `${item.name}\t${item.rarity}\t${item.value || 'Priceless'}\t${item.source}\n`;
+      });
+    }
+    // Copy to clipboard
+    navigator.clipboard.writeText(tabbed);
+    showToast('Copied in Google Sheets/Coda.io format!', 'success');
+  };
+
   return (
     <div className="loot-factory-module">
       <div className="loot-factory-container">
@@ -78,21 +162,6 @@ const LootFactoryModule: React.FC = () => {
         <header className="loot-factory-header">
           <h1 className="fantasy-heading">Loot Factory</h1>
           <p className="fantasy-subheading">D&D 5e Magical & Mundane Treasure Generator</p>
-          <p className="subtitle">
-            Following official DMG 2024 methodology • 629+ Magic Items • Coins, Gems & Art Objects
-          </p>
-          
-          {/* Random Tagline */}
-          <p className="random-tagline">
-            {currentTagline}
-          </p>
-          
-          {/* API Status Indicator */}
-          <div className="api-status">
-            {apiStatus === 'checking' && <span>🔄 Checking API...</span>}
-            {apiStatus === 'connected' && <span>✅ API Connected</span>}
-            {apiStatus === 'error' && <span>❌ API Offline - Start backend server</span>}
-          </div>
 
           {/* Generation Controls */}
           <div className="generation-controls">
@@ -211,6 +280,15 @@ const LootFactoryModule: React.FC = () => {
             <h2 className="fantasy-subheading section-title">
               Freshly Generated Treasure
             </h2>
+            {/* Export Buttons */}
+            <div className="copy-buttons">
+              <button className="btn-secondary" onClick={() => handleExportCSV()}>
+                Export as CSV
+              </button>
+              <button className="btn-secondary" onClick={() => handleExportTabDelimited()}>
+                Export for Google Sheets / Coda.io
+              </button>
+            </div>
             <p className="generation-info">
               ✨ {generatedTreasure.generation_method} • Total Value: {formatCurrency(generatedTreasure.total_value)} GP ✨
             </p>
@@ -220,11 +298,11 @@ const LootFactoryModule: React.FC = () => {
               <div className="treasure-section">
                 <h3 className="treasure-section-title">💰 Coins</h3>
                 <div className="coins-display">
-                  {generatedTreasure.coins.cp > 0 && <span className="coin-amount">{formatCurrency(generatedTreasure.coins.cp)} CP</span>}
-                  {generatedTreasure.coins.sp > 0 && <span className="coin-amount">{formatCurrency(generatedTreasure.coins.sp)} SP</span>}
-                  {generatedTreasure.coins.ep > 0 && <span className="coin-amount">{formatCurrency(generatedTreasure.coins.ep)} EP</span>}
-                  {generatedTreasure.coins.gp > 0 && <span className="coin-amount">{formatCurrency(generatedTreasure.coins.gp)} GP</span>}
-                  {generatedTreasure.coins.pp > 0 && <span className="coin-amount">{formatCurrency(generatedTreasure.coins.pp)} PP</span>}
+                  {generatedTreasure.coins.cp > 0 && <span className="coin-amount cp">{formatCurrency(generatedTreasure.coins.cp)} CP</span>}
+                  {generatedTreasure.coins.sp > 0 && <span className="coin-amount sp">{formatCurrency(generatedTreasure.coins.sp)} SP</span>}
+                  {generatedTreasure.coins.ep > 0 && <span className="coin-amount ep">{formatCurrency(generatedTreasure.coins.ep)} EP</span>}
+                  {generatedTreasure.coins.gp > 0 && <span className="coin-amount gp">{formatCurrency(generatedTreasure.coins.gp)} GP</span>}
+                  {generatedTreasure.coins.pp > 0 && <span className="coin-amount pp">{formatCurrency(generatedTreasure.coins.pp)} PP</span>}
                 </div>
               </div>
             )}
@@ -286,10 +364,10 @@ const LootFactoryModule: React.FC = () => {
                 <table className="loot-table">
                   <thead>
                     <tr>
-                      <th>Magic Item</th>
-                      <th>Rarity</th>
-                      <th>Value</th>
-                      <th>Source</th>
+                      <th className="magic-item-header">Magic Item</th>
+                      <th className="rarity-header">Rarity</th>
+                      <th className="value-header">Value</th>
+                      <th className="source-header">Source</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -326,6 +404,7 @@ const LootFactoryModule: React.FC = () => {
         {/* Footer */}
         <footer className="footer">
           <p>Built with ❤️ for D&D 5e • Following Official DMG 2024 Methodology • 629+ Magic Items • Coins, Gems & Art Objects</p>
+          <p>© 2025 Zargon Industries™</p>
         </footer>
 
         {/* Toast Notifications */}

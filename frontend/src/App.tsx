@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { DmSidebar } from './shared/components/DmSidebar'
 import { DM_DASHBOARD_CONFIG, type DmSidebarConfig } from './shared/components/DmSidebarConfig'
 import { DashboardModule } from './modules/dashboard/DashboardModule'
-import { LootFactoryModule } from './modules/lootfactory/LootFactoryModule'
+import LootFactoryModule from './modules/lootFactory/LootFactoryModule'
 import { useState } from 'react'
 
 function App() {
