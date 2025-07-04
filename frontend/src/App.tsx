@@ -32,6 +32,12 @@ function AppLayout() {
     setSidebarConfig((prev) => ({ ...prev, currentTool: toolId }));
   }, [location.pathname]);
 
+  // Set document title to current tool name
+  useEffect(() => {
+    const tool = sidebarConfig.tools.find(t => t.id === sidebarConfig.currentTool);
+    document.title = tool ? `DMD | ${tool.name}` : 'DMD | DM Dashboard';
+  }, [sidebarConfig.currentTool, sidebarConfig.tools]);
+
   const handleToolChange = (toolId: string) => {
     setSidebarConfig((prev: DmSidebarConfig) => ({
       ...prev,
