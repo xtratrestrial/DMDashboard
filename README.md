@@ -1,7 +1,7 @@
 # 🎲 DM Dashboard - Complete D&D 5e Tool Ecosystem
 
 ## 🏛️ **Vision**
-A comprehensive suite of interconnected D&D 5e tools designed to streamline Dungeon Master workflows with unified theming, shared components, and seamless navigation between tools.
+A comprehensive suite of interconnected D&D 5e tools designed to streamline Dungeon Master workflows with unified theming, shared components, and seamless navigation between tools. Steve is cool. 
 
 ## 🛠️ **Tools Suite**
 
