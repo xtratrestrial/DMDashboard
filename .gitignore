@@ -155,9 +155,7 @@ LootFactory/web-app/frontend/dist/
 name-generator/generated_names/
 name-generator/cache/
 
-# Map Scraper specific
-map_scraper/downloads/
-map_scraper/processed/
+
 
 # Foundry Modding specific
 foundry_modding/modules/*/dist/
