@@ -1,7 +1,15 @@
 # 🏛️ DMDashboard Master Plan
 
 ##  **Vision Statement**
-Create the definitive suite of interconnected D&D 5e tools that streamline Dungeon Master workflows through unified design, shared components, and seamless cross-tool integration.
+Build the ultimate suite of interconnected D&D 5e tools to streamline Dungeon Master workflows through unified design, shared components, and seamless integration across all modules. 
+
+Key integration goals:
+- Connect to users' D&D Beyond accounts to access and incorporate purchased sourcebooks via the D&D Beyond API.
+- Integrate with FoundryVTT for real-time party status updates and smooth import/export between tools and the VTT environment.
+- Enable campaign data storage in a central database, supporting persistent tracking of party, campaign, and session information.
+- Support integration with Obsidian and Coda.io, allowing world-building and session notes to sync with the dashboard.
+
+The vision: a single, cohesive platform where DMs can manage campaigns, generate content, and connect all their favorite D&D resources in one place.
 
 ##  **Current Status (July 2025)**
 
@@ -227,50 +235,64 @@ Create the definitive suite of interconnected D&D 5e tools that streamline Dunge
 - **Status**: Production ready with advanced features
 - **Next**: Source book filtering, campaign integration
 
+### **🏠 DM Dashboard** ✅ **PRODUCTION READY**
+- **Purpose**: Campaign management hub
+- **Features**: Party tracking, session notes, campaign overview
+- **Tech Stack**: React + TypeScript
+- **Status**: Production ready with sample data
+- **Next**: External integrations (D&D Beyond, FoundryVTT, Coda.io)
+
+### **🎲 Dice Calculator** ✅ **COMPLETE & PRODUCTION READY**
+- **Purpose**: Complex dice expressions and probability calculations
+- **Features**: 3d6+2, advantage/disadvantage, damage calculations, DC vs Bonus calculator
+- **Tech Stack**: React + TypeScript
+- **Status**: ✅ **COMPLETE** - Fully implemented in `frontend/src/modules/diceMath/`
+- **Next**: Integration with campaign management
+
 ### **🏷️ Name Generator** 🚧 **IN DEVELOPMENT**
 - **Purpose**: NPC and location name generation
 - **Features**: Multiple categories, Python-based generation
 - **Tech Stack**: Python backend, planned React frontend
 - **Status**: Core functionality complete, web interface planned
 - **Next**: Web interface integration with DM Dashboard sidebar
-
-### **🗺️ Map Scraper**  **EXPERIMENTAL**
-- **Purpose**: Map data extraction and processing
-- **Features**: Python scripts for map data extraction
+    - the code for generating names is decent.  need to refine, either through more complex logic or added ability to allow user input to help train the machine learning.
+### **🗺️ Maps**  **EXPERIMENTAL** - high priority
+- **Purpose**: Map data extraction and processing.  able to check targeted subreddits r/dndmaps, r/battlemaps and others for new posts that haven't been scraped yet.  We want to cite the URL of each post and the user who posted it so that we can make sure they are credited for their work.  This tool will then send images and the above meta-data to a map organization server, possibly using paperless -ngx project as an engine to save maps and allow advanced filtering and sorting based on tags.  The idea is that the user can search the database of map images for the perfect map for their current use-case.
+- **Features**: Python scripts for map data extraction, searchable map database, thumbnails for maps, bulk importing of maps from dropbox/user's hard drive. Ability to add notes to each map.  Ability to connect each map to a universal vttjson file allowing walls, lighting etc to be imported in addition to the file.  Integrations:  Dungeondraft, Wonderdraft, Inkarnate, foundry Vtt.  
 - **Tech Stack**: Python
 - **Status**: Experimental stage
 - **Next**: Web interface for map management
 
 ### **🎯 Foundry Modding** 🚧 **EARLY STAGE**
-- **Purpose**: FoundryVTT module development tools
+- **Purpose**: FoundryVTT module development tools.  We want to have a place that makes it easier for me to integrate the tool suite here to my foundry vtt campaign.  The main goal of this tool is to allow import/export to foundry. 
 - **Features**: Basic structure for module development
 - **Tech Stack**: JavaScript
 - **Status**: Early stage
 - **Next**: Module management interface
 
-### **🎲 Dice Calculator** 📋 **PLANNED**
+### **🎲 Dice Calculator** 📋 **PLANNED** -- This is actually doNE~
 - **Purpose**: Complex dice expressions and probability calculations
 - **Features**: 3d6+2, advantage/disadvantage, damage calculations
 - **Tech Stack**: React + TypeScript
 - **Status**: Planned for Phase 2
 - **Timeline**: Weeks 5-7
 
-### **🏘️ Settlement Generator** 📋 **PLANNED**
-- **Purpose**: AI-powered town and settlement generation
+### **🏘️ Settlement Generator** 📋 **PLANNED** - medium priority
+- **Purpose**: AI-powered town and settlement generation.  We want to have complex, clearly defined parameters for the AI response so that we receive very refined output from it that doesn't suck.  Establish template prompts and somehow allow current campaign state as context.  
 - **Features**: Population, demographics, NPCs, economics
 - **Tech Stack**: React + TypeScript + AI integration
 - **Status**: Planned for Phase 2
 - **Timeline**: Weeks 8-10
 
-### **🏰 Dungeon Generator** 📋 **PLANNED**
-- **Purpose**: DMG 2024 dungeon generation
-- **Features**: Room descriptions, encounters, treasure placement
+### **🏰 Dungeon Generator** 📋 **PLANNED** - medium priority
+- **Purpose**: DMG 2024 dungeon generation.  Phase 1 is text descriptions for each room.  Possible workflow:  create a python program to do an initial generation, then present that to AI to refine the idea, eliminate inconsistencies or things that don't make sense, generate a complete text description of dungeon, earch room and how they connect.  Phase 2:  Integrate actual dungeon map generation. 
+- **Features**: Room descriptions, encounters, treasure placement via LootFactory -- allow user input of parameters to refine initial generation, including adding specific monsters. 
 - **Tech Stack**: React + TypeScript
 - **Status**: Planned for Phase 3
 - **Timeline**: Weeks 13-15
 
-### ** Merchant Generator** 📋 **PLANNED**
-- **Purpose**: Dynamic shop and merchant generation
+### ** Merchant Generator** 📋 **PLANNED** - Low Priority
+- **Purpose**: Dynamic shop and merchant generation. need this to have extreme foundry integration for it to be useful.  
 - **Features**: Inventories, pricing, NPC personalities
 - **Tech Stack**: React + TypeScript
 - **Status**: Planned for Phase 3
@@ -284,32 +306,39 @@ Create the definitive suite of interconnected D&D 5e tools that streamline Dunge
 - **Timeline**: Weeks 19-20
 
 ### **🏃 Chase Scene Manager** 📋 **PLANNED**
-- **Purpose**: Dynamic chase encounter generation
+- **Purpose**: Dynamic chase encounter generation.  Hazards need to be based on specific environments.  Varied methods of victory over each hazard, for instance, if 6 hazards are generated, they shouldn't all be won using the same skill check.  we want variation there.  
 - **Features**: Environmental hazards, NPC tactics, real-time tracking
 - **Tech Stack**: React + TypeScript
 - **Status**: Planned for Phase 4
 - **Timeline**: Weeks 21-22
 
-### **💎 Wealth & Magic Item Tracker** 📋 **PLANNED**
-- **Purpose**: Party wealth progression and magic item tracking
+### **💎 Wealth & Magic Item Tracker** 📋 **PLANNED** - high priority
+- **Purpose**: Party wealth progression and magic item tracking.  This should be fairly simple.  The main goal here is to import current status of each character's inventory from foundry vtt and compare it against the official D&D rules for how much wealth and magic items they should have at their current level.  
 - **Features**: DMG 2024 wealth curves, distribution tracking
 - **Tech Stack**: React + TypeScript
 - **Status**: Planned for Phase 4
 - **Timeline**: Weeks 23-24
 
-### **🏆 Renown Tracker** 📋 **PLANNED**
-- **Purpose**: Faction reputation and political relationship management
+### **🏆 Renown Tracker** 📋 **PLANNED** - high priority
+- **Purpose**: Faction reputation and political relationship management.  I want easy input.  I have a table tracking this already in google sheets and coda.io.  coda.io should be the main integration here.  
 - **Features**: Reputation tracking, rewards, story impact
 - **Tech Stack**: React + TypeScript
 - **Status**: Planned for Phase 4
 - **Timeline**: Weeks 25-26
+
+### **🧑‍🎤 Player Dashboard** 📋 **PLANNED** - medium priority
+- **Purpose**: Provide each player with a personalized web page displaying party status and comprehensive details for their character.
+- **Features**: Quests, character sheet, inventory, health, conditions, goals, and more—imported directly from FoundryVTT.
+- **Tech Stack**: React + TypeScript + FoundryVTT integration
+- **Status**: Planned for Phase 4
+- **Timeline**: Weeks 27-28
 
 ---
 
 ## 📈 **Success Metrics**
 
 ### **User Engagement**
-- Monthly active DMs using the platform
+- Monthly active DMs using the platform -
 - Average session length per tool
 - Cross-tool navigation frequency
 - User retention rates
@@ -447,3 +476,79 @@ https://github.com/users/xtratrestrial/projects/2
 **Next Major Milestone**: Name Generator web interface launch
 
 **🎯 Ready to revolutionize D&D campaign management! ✨** 
+
+## ⚖️ **Legal Compliance & Data Architecture**
+
+### **🚨 CRITICAL: D&D Beyond Data Usage**
+**Current Issue**: The project contains D&D Beyond data that is legal for personal use but **illegal for public distribution**.
+
+#### **Legal Requirements:**
+- ✅ **Personal Use**: Legal to use D&D Beyond data for personal projects
+- ❌ **Public Distribution**: Illegal to provide copyrighted content to others
+- ✅ **SRD 2024**: Legal to use and distribute SRD content publicly
+
+#### **Solution: User-Driven Data Import**
+**Architecture**: Users import their own D&D Beyond data through API integration
+
+#### **Implementation Plan:**
+
+##### **Phase 1: D&D Beyond API Integration** (Weeks 1-4)
+- [ ] **OAuth Authentication**: Secure D&D Beyond account connection
+- [ ] **Source Book Detection**: Identify user's purchased content
+- [ ] **Data Import Pipeline**: Pull authorized content only
+- [ ] **Local Caching**: Store imported data securely
+- [ ] **Privacy Controls**: User controls over data sharing
+
+##### **Phase 2: SRD Fallback System** (Weeks 5-6)
+- [ ] **SRD 2024 Integration**: Use `2024SRD.txt` as default data source
+- [ ] **Feature Parity**: Ensure SRD provides all essential functionality
+- [ ] **Graceful Degradation**: Tools work with limited SRD data
+- [ ] **Upgrade Prompts**: Guide users to import their D&D Beyond data
+
+##### **Phase 3: Hybrid Data Architecture** (Weeks 7-8)
+- [ ] **Data Source Priority**: D&D Beyond → SRD → Limited functionality
+- [ ] **Content Filtering**: Show only user's authorized content
+- [ ] **Feature Flags**: Enable/disable features based on available data
+- [ ] **User Education**: Clear explanation of data sources and limitations
+
+#### **Technical Implementation:**
+
+##### **Data Source Management:**
+```typescript
+interface DataSource {
+  type: 'dndbeyond' | 'srd2024' | 'limited';
+  content: string[];
+  features: string[];
+  legalStatus: 'authorized' | 'public' | 'restricted';
+}
+
+interface UserDataAccess {
+  dndbeyondConnected: boolean;
+  purchasedContent: string[];
+  srdAvailable: boolean;
+  featureAccess: Record<string, boolean>;
+}
+```
+
+##### **API Integration Points:**
+- **D&D Beyond API**: Character sheets, source books, campaign data
+- **SRD 2024**: Public domain content for all users
+- **Local Storage**: User's imported data (encrypted)
+- **Feature Detection**: Dynamic feature availability based on data
+
+#### **User Experience Flow:**
+1. **New User**: Starts with SRD 2024 data only
+2. **D&D Beyond Connection**: Optional but recommended
+3. **Content Import**: Automatic import of purchased content
+4. **Feature Unlock**: Additional features based on available data
+5. **Privacy Control**: User controls data sharing and storage
+
+#### **Legal Compliance Checklist:**
+- [ ] **No Copyrighted Content**: Never distribute D&D Beyond data
+- [ ] **User Authentication**: Verify D&D Beyond account ownership
+- [ ] **Data Encryption**: Secure storage of imported content
+- [ ] **Terms of Service**: Clear user agreement about data usage
+- [ ] **DMCA Compliance**: Process for content removal requests
+- [ ] **Audit Trail**: Track data sources and usage
+
+--- 
