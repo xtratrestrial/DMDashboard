@@ -23,18 +23,39 @@ Set up professional GitHub Issues → Linear workflow for DMDashboard project ma
 - [x] Implemented rate limiting (1 second between requests)
 - [x] Added comprehensive parsing of `MASTER_PLAN.md`
 
-## �� **Current Blocking Issue**
+### ✅ **4. Security Fix**
+- [x] Removed hardcoded GitHub token from script
+- [x] Updated script to use environment variables
+- [x] Fixed git history to remove secrets
+- [x] Successfully pushed to GitHub
 
-### **GitHub Token Permissions Error**
-```
-❌ Error: Failed to create issue: GitHub API error: 403 - {"message":"Resource not accessible by personal access token"}
-```
+---
 
-**Status**: Token needs proper permissions for repository issues
+## 🚨 **Current Situation Analysis**
 
-## 📋 **Next Steps Required**
+### **Existing GitHub Issues (130 issues)**
+- **Status:** All issues are from before roadmap restructuring
+- **Problem:** Issues don't reflect current `MASTER_PLAN.md` structure
+- **Solution:** Need to clean up and replace with new organized issues
 
-### **Step 1: Create New GitHub Token**
+### **New MASTER_PLAN.md Structure**
+- **99 new issues** from consolidated master plan
+- **Organized by phases:** Phase 1-5 with clear priorities
+- **Proper labeling:** phase-1, critical, lootfactory, etc.
+- **Legal compliance:** D&D Beyond integration requirements
+
+---
+
+## 📋 **Updated Next Steps**
+
+### **Step 1: Clean Up Existing Issues**
+1. **Review current issues** to identify what to keep/delete
+2. **Archive outdated issues** that don't match new structure
+3. **Update relevant issues** to match new roadmap
+4. **Prepare for new issue import**
+
+### **Step 2: Create New GitHub Token**
+- [x] New GitHub token with correct permissions is available and tested
 1. Go to: https://github.com/settings/tokens
 2. Click: "Generate new token (classic)"
 3. Set permissions:
@@ -45,13 +66,16 @@ Set up professional GitHub Issues → Linear workflow for DMDashboard project ma
 5. Click "Generate token"
 6. Copy the new token
 
-### **Step 2: Update Script with New Token**
-```javascript
-// In scripts/import-to-github.js, update this line:
-const GITHUB_TOKEN = 'YOUR_NEW_TOKEN_HERE';
+### **Step 3: Update Script with New Token**
+```bash
+# Set environment variable
+export GITHUB_TOKEN=your_new_token_here
+
+# Or run with token inline
+GITHUB_TOKEN=your_new_token_here node scripts/import-to-github.js
 ```
 
-### **Step 3: Test Token**
+### **Step 4: Test Token**
 ```bash
 # Test the new token
 curl -H "Authorization: token YOUR_NEW_TOKEN" \
@@ -59,34 +83,56 @@ curl -H "Authorization: token YOUR_NEW_TOKEN" \
      https://api.github.com/user
 ```
 
-### **Step 4: Run Import**
-```bash
-# Run the import script
-node scripts/import-to-github.js
-```
+### **Step 5: Run Import with Cleanup**
+- Run the import script (will create 99 new issues)
+- Review new issues created from `MASTER_PLAN.md`
+- Archive old issues that are no longer relevant
+- Update existing issues that match new structure
+- Verify Linear sync with organized issues
 
-### **Step 5: Verify Linear Sync**
-1. Check GitHub repository for created issues
-2. Verify Linear automatically syncs the issues
-3. Organize issues in Linear by phase/priority
+---
 
 ## 🏗️ **Technical Architecture**
 
 ### **Script Features**
 - ✅ Parses `roadmap/MASTER_PLAN.md` for `- [ ]` items
-- ✅ Categorizes by phase (1-4)
+- ✅ Categorizes by phase (1-5)
 - ✅ Sets appropriate labels (phase-1, critical, lootfactory, etc.)
 - ✅ Uses templates for consistent formatting
 - ✅ Handles rate limiting to avoid GitHub API limits
 - ✅ Provides summary of created issues
 
 ### **Expected Output**
-- **99 issues** from MASTER_PLAN.md
-- **Organized by phase**: Phase 1 (Critical), Phase 2 (External Integrations), etc.
-- **Proper labels**: phase-1, critical, lootfactory, etc.
-- **Consistent formatting**: Template-based issue bodies
+- **99 new issues** from MASTER_PLAN.md
+- **Organized by phase:** Phase 1 (Critical), Phase 2 (External Integrations), etc.
+- **Proper labels:** phase-1, critical, lootfactory, etc.
+- **Consistent formatting:** Template-based issue bodies
 
-##  **Ongoing Workflow**
+---
+
+## 📊 **Issue Management Strategy**
+
+### **Phase 1: Cleanup (Week 1)**
+- [ ] Review all 130 existing issues
+- [ ] Archive outdated issues (pre-restructuring)
+- [ ] Update relevant issues to match new structure
+- [ ] Prepare for new issues from `MASTER_PLAN.md`
+
+### **Phase 2: Organization (Week 2)**
+- [ ] Organize issues by phase (1-5)
+- [ ] Set proper labels and priorities
+- [ ] Create GitHub Projects board
+- [ ] Set up Linear integration
+
+### **Phase 3: Workflow (Week 3)**
+- [ ] Test Linear sync with GitHub
+- [ ] Set up Linear MCP for Cursor
+- [ ] Establish professional workflow
+- [ ] Begin development with new structure
+
+---
+
+## 🔄 **Ongoing Workflow**
 
 ### **Once Set Up:**
 1. **GitHub Issues** = Single source of truth
@@ -100,6 +146,8 @@ node scripts/import-to-github.js
 - Linear automatically imports them
 - Update issue status in Linear
 - Changes reflect in GitHub automatically
+
+---
 
 ## 📁 **File Structure**
 ```
@@ -117,9 +165,10 @@ DMDashboard/
 
 This documents everything we've done and what needs to be completed next. The key is getting the GitHub token with the right permissions to create repository issues, then Linear will handle the rest automatically!
 
-##  **Success Criteria**
-- [ ] GitHub token with proper permissions
-- [ ] Script successfully creates 99 issues
+## 🎯 **Success Criteria**
+- [x] GitHub token with proper permissions
+- [ ] Clean up 130 existing issues
+- [ ] Create 99 new issues from MASTER_PLAN.md
 - [ ] Linear automatically syncs with GitHub
 - [ ] Issues organized by phase/priority
 - [ ] Professional workflow established
@@ -132,4 +181,4 @@ This documents everything we've done and what needs to be completed next. The ke
 
 ---
 *Last Updated: July 11, 2025*
-*Status: Blocked on GitHub token permissions*
+*Status: Ready to proceed with issue cleanup and import*

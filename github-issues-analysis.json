@@ -1,0 +1,1551 @@
+{
+  "summary": {
+    "total": 132,
+    "keep": 0,
+    "review": 2,
+    "archive": 0,
+    "keepand_update": null
+  },
+  "byAction": {
+    "KEEP_AND_UPDATE": [
+      {
+        "number": 132,
+        "title": "Gaming convention presence",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:46Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/132"
+      },
+      {
+        "number": 131,
+        "title": "Educational institution partnerships",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:45Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/131"
+      },
+      {
+        "number": 130,
+        "title": "Community content creators collaboration",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:45Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/130"
+      },
+      {
+        "number": 129,
+        "title": "Third-party source book integration",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:44Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/129"
+      },
+      {
+        "number": 128,
+        "title": "Regular community feedback sessions",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:43Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/128"
+      },
+      {
+        "number": 127,
+        "title": "Community tool submissions",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:42Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/127"
+      },
+      {
+        "number": 126,
+        "title": "Plugin/extension architecture",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:42Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/126"
+      },
+      {
+        "number": 125,
+        "title": "Contributor guidelines and code of conduct",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:41Z",
+        "labels": [
+          "phase-5",
+          "frontend"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/125"
+      },
+      {
+        "number": 124,
+        "title": "Advanced data analytics",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:40Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/124"
+      },
+      {
+        "number": 123,
+        "title": "Mobile responsive design",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:39Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/123"
+      },
+      {
+        "number": 122,
+        "title": "Offline-first PWA capabilities",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:39Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/122"
+      },
+      {
+        "number": 121,
+        "title": "Real-time collaboration features",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:38Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/121"
+      },
+      {
+        "number": 120,
+        "title": "Advanced monitoring and alerting",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:37Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/120"
+      },
+      {
+        "number": 119,
+        "title": "CDN integration for static assets",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:36Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/119"
+      },
+      {
+        "number": 118,
+        "title": "Load balancing and horizontal scaling",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:36Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/118"
+      },
+      {
+        "number": 117,
+        "title": "Microservices architecture for each tool",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:35Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/117"
+      },
+      {
+        "number": 116,
+        "title": "User authentication and session management",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:34Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/116"
+      },
+      {
+        "number": 115,
+        "title": "GraphQL API for better data fetching",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:33Z",
+        "labels": [
+          "phase-5",
+          "backend"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/115"
+      },
+      {
+        "number": 114,
+        "title": "Redis caching for improved performance",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:33Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/114"
+      },
+      {
+        "number": 113,
+        "title": "Database migration (PostgreSQL or MongoDB)",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:32Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/113"
+      },
+      {
+        "number": 112,
+        "title": "Data visualization dashboards",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:31Z",
+        "labels": [
+          "phase-5",
+          "dashboard",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/112"
+      },
+      {
+        "number": 111,
+        "title": "Session planning templates",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:31Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/111"
+      },
+      {
+        "number": 110,
+        "title": "Player handout generation",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:30Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/110"
+      },
+      {
+        "number": 109,
+        "title": "Campaign notes synchronization",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:29Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/109"
+      },
+      {
+        "number": 108,
+        "title": "Real-time session integration",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:28Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/108"
+      },
+      {
+        "number": 107,
+        "title": "Compendium data export",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:27Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/107"
+      },
+      {
+        "number": 106,
+        "title": "Scene and token automation",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:27Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/106"
+      },
+      {
+        "number": 105,
+        "title": "Module development for generated content",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:26Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/105"
+      },
+      {
+        "number": 104,
+        "title": "Official content licensing",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:25Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/104"
+      },
+      {
+        "number": 103,
+        "title": "Campaign sharing capabilities",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:24Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/103"
+      },
+      {
+        "number": 102,
+        "title": "Spell and monster data sync",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:24Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/102"
+      },
+      {
+        "number": 101,
+        "title": "Character sheet import/export",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:23Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/101"
+      },
+      {
+        "number": 100,
+        "title": "Story impact tracking",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:22Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/100"
+      },
+      {
+        "number": 99,
+        "title": "Political relationship mapping",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:21Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/99"
+      },
+      {
+        "number": 98,
+        "title": "Renown rewards and consequences",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:20Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/98"
+      },
+      {
+        "number": 97,
+        "title": "Faction reputation management",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:20Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/97"
+      },
+      {
+        "number": 96,
+        "title": "Campaign wealth analytics",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:19Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/96"
+      },
+      {
+        "number": 95,
+        "title": "Economic balance warnings",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:18Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/95"
+      },
+      {
+        "number": 94,
+        "title": "Magic item distribution tracking",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:17Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/94"
+      },
+      {
+        "number": 93,
+        "title": "Party wealth progression by level (DMG 2024)",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:16Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/93"
+      },
+      {
+        "number": 92,
+        "title": "Real-time chase tracking",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:15Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/92"
+      },
+      {
+        "number": 91,
+        "title": "NPC pursuit tactics",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:15Z",
+        "labels": [
+          "phase-4",
+          "frontend"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/91"
+      },
+      {
+        "number": 90,
+        "title": "Environmental hazards and obstacles",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:14Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/90"
+      },
+      {
+        "number": 89,
+        "title": "Dynamic chase encounter generator",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:13Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/89"
+      },
+      {
+        "number": 88,
+        "title": "Integration with LootFactory",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:12Z",
+        "labels": [
+          "phase-3",
+          "lootfactory",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/88"
+      },
+      {
+        "number": 87,
+        "title": "Rarity and power level guidance",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:12Z",
+        "labels": [
+          "phase-3",
+          "frontend",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/87"
+      },
+      {
+        "number": 86,
+        "title": "Balance testing tools",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:11Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/86"
+      },
+      {
+        "number": 85,
+        "title": "Custom magic weapon creation",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:10Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/85"
+      },
+      {
+        "number": 84,
+        "title": "Economic simulation",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:09Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/84"
+      },
+      {
+        "number": 83,
+        "title": "NPC shopkeeper personalities",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:09Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/83"
+      },
+      {
+        "number": 82,
+        "title": "Dynamic pricing and availability",
+        "state": "open",
+        "created_at": "2025-07-03T01:43:08Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/82"
+      },
+      {
+        "number": 81,
+        "title": "Gaming convention presence",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:42Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/81"
+      },
+      {
+        "number": 80,
+        "title": "Educational institution partnerships",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:41Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/80"
+      },
+      {
+        "number": 79,
+        "title": "Community content creators collaboration",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:41Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/79"
+      },
+      {
+        "number": 78,
+        "title": "Third-party source book integration",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:40Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/78"
+      },
+      {
+        "number": 77,
+        "title": "Regular community feedback sessions",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:39Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/77"
+      },
+      {
+        "number": 76,
+        "title": "Community tool submissions",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:38Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/76"
+      },
+      {
+        "number": 75,
+        "title": "Plugin/extension architecture",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:37Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/75"
+      },
+      {
+        "number": 74,
+        "title": "Contributor guidelines and code of conduct",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:36Z",
+        "labels": [
+          "phase-5",
+          "frontend"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/74"
+      },
+      {
+        "number": 73,
+        "title": "Advanced data analytics",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:35Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/73"
+      },
+      {
+        "number": 72,
+        "title": "Mobile responsive design",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:35Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/72"
+      },
+      {
+        "number": 71,
+        "title": "Offline-first PWA capabilities",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:34Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/71"
+      },
+      {
+        "number": 70,
+        "title": "Real-time collaboration features",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:33Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/70"
+      },
+      {
+        "number": 69,
+        "title": "Advanced monitoring and alerting",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:32Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/69"
+      },
+      {
+        "number": 68,
+        "title": "CDN integration for static assets",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:31Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/68"
+      },
+      {
+        "number": 67,
+        "title": "Load balancing and horizontal scaling",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:30Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/67"
+      },
+      {
+        "number": 66,
+        "title": "Microservices architecture for each tool",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:30Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/66"
+      },
+      {
+        "number": 65,
+        "title": "User authentication and session management",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:29Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/65"
+      },
+      {
+        "number": 64,
+        "title": "GraphQL API for better data fetching",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:28Z",
+        "labels": [
+          "phase-5",
+          "backend"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/64"
+      },
+      {
+        "number": 63,
+        "title": "Redis caching for improved performance",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:27Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/63"
+      },
+      {
+        "number": 62,
+        "title": "Database migration (PostgreSQL or MongoDB)",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:27Z",
+        "labels": [
+          "phase-5"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/62"
+      },
+      {
+        "number": 61,
+        "title": "Data visualization dashboards",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:26Z",
+        "labels": [
+          "phase-5",
+          "dashboard",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/61"
+      },
+      {
+        "number": 60,
+        "title": "Session planning templates",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:25Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/60"
+      },
+      {
+        "number": 59,
+        "title": "Player handout generation",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:24Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/59"
+      },
+      {
+        "number": 58,
+        "title": "Campaign notes synchronization",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:24Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/58"
+      },
+      {
+        "number": 57,
+        "title": "Real-time session integration",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:23Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/57"
+      },
+      {
+        "number": 56,
+        "title": "Compendium data export",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:22Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/56"
+      },
+      {
+        "number": 55,
+        "title": "Scene and token automation",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:21Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/55"
+      },
+      {
+        "number": 54,
+        "title": "Module development for generated content",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:21Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/54"
+      },
+      {
+        "number": 53,
+        "title": "Official content licensing",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:20Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/53"
+      },
+      {
+        "number": 52,
+        "title": "Campaign sharing capabilities",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:19Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/52"
+      },
+      {
+        "number": 51,
+        "title": "Spell and monster data sync",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:18Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/51"
+      },
+      {
+        "number": 50,
+        "title": "Character sheet import/export",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:18Z",
+        "labels": [
+          "phase-5",
+          "integration"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/50"
+      },
+      {
+        "number": 49,
+        "title": "Story impact tracking",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:17Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/49"
+      },
+      {
+        "number": 48,
+        "title": "Political relationship mapping",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:16Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/48"
+      },
+      {
+        "number": 47,
+        "title": "Renown rewards and consequences",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:16Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/47"
+      },
+      {
+        "number": 46,
+        "title": "Faction reputation management",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:15Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/46"
+      },
+      {
+        "number": 45,
+        "title": "Campaign wealth analytics",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:14Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/45"
+      },
+      {
+        "number": 44,
+        "title": "Economic balance warnings",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:13Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/44"
+      },
+      {
+        "number": 43,
+        "title": "Magic item distribution tracking",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:13Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/43"
+      },
+      {
+        "number": 42,
+        "title": "Party wealth progression by level (DMG 2024)",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:12Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/42"
+      },
+      {
+        "number": 41,
+        "title": "Real-time chase tracking",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:11Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/41"
+      },
+      {
+        "number": 40,
+        "title": "NPC pursuit tactics",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:10Z",
+        "labels": [
+          "phase-4",
+          "frontend"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/40"
+      },
+      {
+        "number": 39,
+        "title": "Environmental hazards and obstacles",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:10Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/39"
+      },
+      {
+        "number": 38,
+        "title": "Dynamic chase encounter generator",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:09Z",
+        "labels": [
+          "phase-4"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/38"
+      },
+      {
+        "number": 37,
+        "title": "Integration with LootFactory",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:08Z",
+        "labels": [
+          "phase-3",
+          "lootfactory",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/37"
+      },
+      {
+        "number": 36,
+        "title": "Rarity and power level guidance",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:07Z",
+        "labels": [
+          "phase-3",
+          "frontend",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/36"
+      },
+      {
+        "number": 35,
+        "title": "Balance testing tools",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:07Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/35"
+      },
+      {
+        "number": 34,
+        "title": "Custom magic weapon creation",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:06Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/34"
+      },
+      {
+        "number": 33,
+        "title": "Economic simulation",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:05Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/33"
+      },
+      {
+        "number": 32,
+        "title": "NPC shopkeeper personalities",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:04Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/32"
+      },
+      {
+        "number": 31,
+        "title": "Dynamic pricing and availability",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:04Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/31"
+      },
+      {
+        "number": 30,
+        "title": "Shop inventories based on settlement size",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:03Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/30"
+      },
+      {
+        "number": 29,
+        "title": "Map generation integration",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:02Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/29"
+      },
+      {
+        "number": 28,
+        "title": "Treasure placement automation",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:01Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/28"
+      },
+      {
+        "number": 27,
+        "title": "Room descriptions and encounters",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:01Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/27"
+      },
+      {
+        "number": 26,
+        "title": "DMG 2024 dungeon generation tables",
+        "state": "open",
+        "created_at": "2025-07-03T01:41:00Z",
+        "labels": [
+          "phase-3",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/26"
+      },
+      {
+        "number": 25,
+        "title": "Name history and favorites",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:59Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/25"
+      },
+      {
+        "number": 24,
+        "title": "Bulk generation capabilities",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:58Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/24"
+      },
+      {
+        "number": 23,
+        "title": "Enhanced name database with origins",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:57Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/23"
+      },
+      {
+        "number": 22,
+        "title": "Convert Python tool to web interface",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:57Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/22"
+      },
+      {
+        "number": 21,
+        "title": "Integration with Name Generator",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:56Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/21"
+      },
+      {
+        "number": 20,
+        "title": "Economic and political details",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:55Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/20"
+      },
+      {
+        "number": 19,
+        "title": "Notable NPCs and locations",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:54Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/19"
+      },
+      {
+        "number": 18,
+        "title": "Population and demographics",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:53Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/18"
+      },
+      {
+        "number": 17,
+        "title": "AI-powered town generation",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:53Z",
+        "labels": [
+          "phase-2",
+          "feature"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/17"
+      },
+      {
+        "number": 16,
+        "title": "Save vs spell DC calculators",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:52Z",
+        "labels": [
+          "phase-2"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/16"
+      },
+      {
+        "number": 15,
+        "title": "Damage calculation helpers",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:51Z",
+        "labels": [
+          "phase-2"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/15"
+      },
+      {
+        "number": 14,
+        "title": "Probability calculations and distributions",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:50Z",
+        "labels": [
+          "phase-2"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/14"
+      },
+      {
+        "number": 13,
+        "title": "Complex dice expressions (3d6+2, advantage/disadvantage)",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:49Z",
+        "labels": [
+          "phase-2"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/13"
+      },
+      {
+        "number": 12,
+        "title": "Set up automated documentation generation",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:49Z",
+        "labels": [
+          "documentation",
+          "phase-1"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/12"
+      },
+      {
+        "number": 11,
+        "title": "Document deployment procedures",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:48Z",
+        "labels": [
+          "documentation",
+          "phase-1"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/11"
+      },
+      {
+        "number": 10,
+        "title": "Create user guides for each tool",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:47Z",
+        "labels": [
+          "documentation",
+          "phase-1",
+          "frontend"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/10"
+      },
+      {
+        "number": 9,
+        "title": "Complete API documentation for LootFactory backend",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:46Z",
+        "labels": [
+          "documentation",
+          "phase-1",
+          "lootfactory"
+        ],
+        "reason": "Contains consolidation/migration keywords",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/9"
+      },
+      {
+        "number": 8,
+        "title": "Add Lighthouse performance audits",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:45Z",
+        "labels": [
+          "phase-1",
+          "testing"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/8"
+      },
+      {
+        "number": 7,
+        "title": "Set up automated testing in CI/CD",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:44Z",
+        "labels": [
+          "phase-1",
+          "testing"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/7"
+      },
+      {
+        "number": 6,
+        "title": "Add integration tests for cross-app navigation",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:44Z",
+        "labels": [
+          "phase-1",
+          "testing"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/6"
+      },
+      {
+        "number": 5,
+        "title": "Add unit tests for core LootFactory logic",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:43Z",
+        "labels": [
+          "phase-1",
+          "lootfactory",
+          "testing"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/5"
+      },
+      {
+        "number": 4,
+        "title": "Set up comprehensive logging system",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:41Z",
+        "labels": [
+          "bug",
+          "phase-1"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/4"
+      },
+      {
+        "number": 3,
+        "title": "Add error boundaries to prevent app crashes",
+        "state": "open",
+        "created_at": "2025-07-03T01:40:41Z",
+        "labels": [
+          "bug",
+          "phase-1"
+        ],
+        "reason": "Matches current MASTER_PLAN.md structure",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/3"
+      }
+    ],
+    "REVIEW": [
+      {
+        "number": 2,
+        "title": "Implement proper TypeScript path resolution",
+        "state": "closed",
+        "created_at": "2025-07-03T01:40:40Z",
+        "labels": [
+          "bug",
+          "phase-1"
+        ],
+        "reason": "Has relevant labels and is recent - needs manual review",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/2"
+      },
+      {
+        "number": 1,
+        "title": "Fix shared component import issues in DM Dashboard",
+        "state": "closed",
+        "created_at": "2025-07-03T01:40:39Z",
+        "labels": [
+          "bug",
+          "phase-1",
+          "dashboard"
+        ],
+        "reason": "Has relevant labels and is recent - needs manual review",
+        "url": "https://github.com/xtratrestrial/DMDashboard/issues/1"
+      }
+    ],
+    "ARCHIVE": []
+  },
+  "recommendations": [
+    "Manually review 2 issues"
+  ]
+}

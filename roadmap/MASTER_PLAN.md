@@ -51,6 +51,100 @@ The vision: a single, cohesive platform where DMs can manage campaigns, generate
 
 ## 🗓️ **Development Phases**
 
+### **Phase 0: Critical Consolidation** (IMMEDIATE PRIORITY)
+*Complete the unified architecture before new development*
+
+** Reference**: See `roadmap/merge_plan.md` for detailed technical specifications and migration steps.
+
+#### 🔧 **Backend Migration & API Consolidation** (Week 1)
+- [ ] Migrate complete LootFactory backend from standalone to unified structure
+  - Copy `LootFactory/web-app/backend/*` → `backend/lootfactory/`
+  - Copy `LootFactory/data/*` → `backend/data/`
+  - Update API endpoints to unified router
+- [ ] Migrate name-generator Python backend to unified backend
+  - Copy `name-generator/core/*` → `backend/namegenerator/`
+  - Integrate Python backend with Node.js API gateway
+- [ ] Create unified API router combining all backend endpoints
+  - Implement `/api/lootfactory/*` routes
+  - Implement `/api/name-generator/*` routes
+  - Implement `/api/dashboard/*` routes
+- [ ] Update frontend API calls to use unified backend
+  - Replace direct backend calls with unified API client
+  - Add proper error handling and retry logic
+- [ ] Test all backend integrations and health checks
+  - Verify all endpoints respond correctly
+  - Test cross-module data sharing
+
+#### 🎨 **Frontend Module Enhancement** (Week 2)
+- [ ] Replace basic LootFactory module with complete standalone features
+  - Migrate complete UI from `LootFactory/web-app/frontend/src/`
+  - Add source book filtering with dropdown
+  - Add export functionality (CSV/TSV)
+  - Add toast notification system
+- [ ] Add missing 629+ magic items data to unified frontend
+  - Copy `dmg_2024_items.json` (534 items)
+  - Copy `unified_magic_items.json` (629+ items)
+  - Copy `multi_source_analysis.json`
+- [ ] Implement advanced features from standalone versions
+  - Source book filtering logic
+  - Export functionality with proper formatting
+  - Toast notification system across all modules
+  - Generation controls and validation
+- [ ] Verify all modules work correctly in unified app
+  - Test cross-module navigation
+  - Test shared component functionality
+  - Test responsive design across all modules
+
+#### 🏗️ **Data & Infrastructure Migration** (Week 3)
+- [ ] Copy all magic item data from standalone to unified backend
+  - Migrate all JSON data files with proper validation
+  - Update data loading logic for unified structure
+  - Test data integrity and completeness
+- [ ] Migrate name generator database (1,295 names) to unified backend
+  - Copy `enhanced_name_database.json`
+  - Migrate cultural linguistic patterns
+  - Migrate phonetic rules engine
+- [ ] Update Docker configuration for unified deployment
+  - Create unified `docker-compose.yml`
+  - Add health checks for all services
+  - Configure nginx reverse proxy
+- [ ] Create unified deployment scripts with health checks
+  - Update `deploy.sh` for unified deployment
+  - Add monitoring and logging
+  - Test production deployment
+
+#### 🧹 **Cleanup & Verification** (Week 4)
+- [ ] Create backups of all standalone versions before deletion
+  - Backup `LootFactory/` → `LootFactory_backup_$(date +%Y%m%d)`
+  - Backup `dm-dashboard/` → `dm-dashboard_backup_$(date +%Y%m%d)`
+  - Backup `name-generator/` → `name-generator_backup_$(date +%Y%m%d)`
+- [ ] Verify no functionality is lost in migration
+  - Compare unified vs standalone feature parity
+  - Test all advanced features from standalone versions
+  - Validate data integrity and completeness
+- [ ] Delete redundant standalone frontends after verification
+  - Remove `LootFactory/web-app/frontend/` (after migration)
+  - Remove `dm-dashboard/` (after migration)
+  - Remove `name-generator/` frontend (keep backend)
+- [ ] Update documentation to reflect unified structure
+  - Update README.md with new architecture
+  - Update deployment documentation
+  - Create migration guide for future reference
+- [ ] Test cross-module navigation and shared components
+  - Verify unified sidebar works across all modules
+  - Test shared component functionality
+  - Validate consistent theming and styling
+
+####  **Success Criteria for Phase 0**
+- [ ] Single unified frontend serves all tools with full functionality
+- [ ] All backend APIs consolidated into unified structure
+- [ ] No functionality lost from standalone versions
+- [ ] Docker deployment works for unified application
+- [ ] Cross-module navigation and shared components work seamlessly
+- [ ] All 629+ magic items and 1,295+ names available in unified app
+
+---
+
 ### **Phase 1: Foundation Strengthening** (Q1 2025)
 *Building robust infrastructure and fixing critical issues*
 
@@ -69,10 +163,16 @@ The vision: a single, cohesive platform where DMs can manage campaigns, generate
 - [ ] Add Lighthouse performance audits
 
 #### 📚 **Documentation** (Week 4)
-- [ ] Complete API documentation for LootFactory backend
+- [ ] Complete API documentation for unified backend
 - [ ] Create user guides for each tool
 - [ ] Document deployment procedures
 - [ ] Set up automated documentation generation
+
+---
+
+**Note**: Phase 0 consolidation work is based on detailed technical specifications in `roadmap/merge_plan.md`. The merge plan contains comprehensive analysis of current state, migration steps, and architectural decisions that should be consulted during implementation.
+
+---
 
 ### **Phase 2: Tool Expansion** (Q2 2025)
 *Adding new tools to the ecosystem*
