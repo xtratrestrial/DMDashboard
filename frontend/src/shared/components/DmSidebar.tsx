@@ -8,14 +8,14 @@ interface DmSidebarProps {
   onCollapseToggle?: () => void;
 }
 
-export const DmSidebar: React.FC<DmSidebarProps> = ({ 
-  config, 
-  isCollapsed = false, 
-  onCollapseToggle 
+export const DmSidebar: React.FC<DmSidebarProps> = ({
+  config,
+  isCollapsed = false,
+  onCollapseToggle,
 }) => {
   const handleToolClick = (tool: DmTool) => {
     if (!tool.isAvailable) return;
-    
+
     if (tool.url) {
       // External tool navigation
       window.open(tool.url, '_blank');
@@ -29,10 +29,12 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
     if (!lastSession) return 'No recent sessions';
     const date = new Date(lastSession);
     const now = new Date();
-    const diffDays = Math.floor((now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
-    
+    const diffDays = Math.floor(
+      (now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24)
+    );
+
     if (diffDays === 0) return 'Today';
-    if (diffDays === 1) return 'Yesterday'; 
+    if (diffDays === 1) return 'Yesterday';
     if (diffDays < 7) return `${diffDays} days ago`;
     return date.toLocaleDateString();
   };
@@ -49,8 +51,8 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
             </div>
           )}
         </div>
-        
-        <button 
+
+        <button
           className="collapse-toggle"
           onClick={onCollapseToggle}
           title={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'}
@@ -68,15 +70,21 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
               <div className="campaign-stats">
                 <div className="stat">
                   <span className="stat-label">Players:</span>
-                  <span className="stat-value">{config.campaignInfo.playerCount}</span>
+                  <span className="stat-value">
+                    {config.campaignInfo.playerCount}
+                  </span>
                 </div>
                 <div className="stat">
                   <span className="stat-label">Avg Level:</span>
-                  <span className="stat-value">{config.campaignInfo.averageLevel}</span>
+                  <span className="stat-value">
+                    {config.campaignInfo.averageLevel}
+                  </span>
                 </div>
                 <div className="stat">
                   <span className="stat-label">Last Session:</span>
-                  <span className="stat-value">{formatLastSession(config.campaignInfo.lastSession)}</span>
+                  <span className="stat-value">
+                    {formatLastSession(config.campaignInfo.lastSession)}
+                  </span>
                 </div>
               </div>
             </div>
@@ -88,13 +96,23 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
       <div className="dm-sidebar-section">
         <div className="section-content">
           <div className="tools-list">
-            {config.tools.map((tool) => (
+            {config.tools.map(tool => (
               <div
                 key={tool.id}
-                className={`tool-item ${config.currentTool === tool.id ? 'active' : ''} ${!tool.isAvailable ? 'disabled' : ''}`}
+                className={`tool-item ${
+                  config.currentTool === tool.id ? 'active' : ''
+                } ${!tool.isAvailable ? 'disabled' : ''}`}
                 onClick={() => tool.isAvailable && handleToolClick(tool)}
                 title={tool.description}
-                style={{ textAlign: 'center', fontSize: '1.1rem', justifyContent: 'center', alignItems: 'center', display: 'flex', cursor: tool.isAvailable ? 'pointer' : 'not-allowed', opacity: tool.isAvailable ? 1 : 0.6 }}
+                style={{
+                  textAlign: 'center',
+                  fontSize: '1.1rem',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  display: 'flex',
+                  cursor: tool.isAvailable ? 'pointer' : 'not-allowed',
+                  opacity: tool.isAvailable ? 1 : 0.6,
+                }}
                 tabIndex={tool.isAvailable ? 0 : -1}
                 role="button"
                 aria-disabled={!tool.isAvailable}
@@ -106,7 +124,9 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
                       <span className="coming-soon-badge">Soon</span>
                     )}
                     {tool.badgeCount && tool.badgeCount > 0 && (
-                      <span className="notification-badge">{tool.badgeCount}</span>
+                      <span className="notification-badge">
+                        {tool.badgeCount}
+                      </span>
                     )}
                   </>
                 )}
@@ -130,7 +150,7 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
               </div>
               <div className="user-details">
                 <h3>{config.userInfo.dmName}</h3>
-                <button 
+                <button
                   className="settings-button"
                   onClick={config.onSettingsOpen}
                 >
@@ -155,4 +175,4 @@ export const DmSidebar: React.FC<DmSidebarProps> = ({
   );
 };
 
-export default DmSidebar; 
+export default DmSidebar;

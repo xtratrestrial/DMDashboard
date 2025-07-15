@@ -1,0 +1,38 @@
+- want it to be accessible via the token layer menu https://foundryvtt.com/api/classes/foundry.canvas.layers.TokenLayer.html
+  - add a menu item in the token layer controls
+- I'd like it to utilize tabs https://foundryvtt.com/api/classes/foundry.applications.ux.Tabs.html
+
+  - tab 1: party Status
+    - hit points
+    - AC
+    - Conditions
+      - https://github.com/foundryvtt/dnd5e/wiki/Active-Effect-Guide
+    - Speed
+    - Death Save status
+    - spell slots used/total
+    -
+  - Tab 2: loot transfer - get info on item piles module to supplement
+  - Tab 3: Marching Order: A grid where players can place their tokens in the order they want to move.
+  - Tab 4: Inventory - each character's inventory. Each PC should be collapsable.
+    - there should be a section for unclaimed items where everyone can pull items from loot piles onto character token/portraits.
+    - button to auto distribute money to the party.
+  - Tab 5: Party Magic Item & Wealth tracker: SHould pull info from the actor sheet of each character and organize by rarity based on the guidelines, also showing which item and who it is owned by.
+    - it should also add up total party wealth and compare to the game rules.
+
+- needs to update in real-time
+- Should be able to pull tokens from this interface onto the canvas.
+- It should use tool-tips anywhere possible: https://foundryvtt.com/api/classes/foundry.helpers.interaction.TooltipManager.html
+- It should be able to be resized and moved around.
+- It should be able to be hidden and shown.
+- It should be able to be locked and unlocked.
+- I don't know what to use to in terms of the visual interface. Options
+  - applicationV2: https://foundryvtt.com/api/classes/foundry.applications.ApplicationV2.html
+  - HUD: https://foundryvtt.com/api/classes/foundry.applications.HUD.html
+  - Dialog: https://foundryvtt.com/api/classes/foundry.applications.Dialog.html
+  - Tabbed Application: https://foundryvtt.com/api/classes/foundry.applications.ux.TabbedApplication.html
+  - https://foundryvtt.com/api/classes/foundry.applications.api.DocumentSheetV2.html
+  -
+
+# Secondary Reference: the DND5E system module.
+
+https://github.com/foundryvtt/dnd5e/wiki
