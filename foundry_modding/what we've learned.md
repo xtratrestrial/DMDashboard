@@ -1,0 +1,1 @@
+- If you see the error: "The PartyHUD Application class is not renderable because it does not define the _renderHTML and _replaceHTML methods which are required.", it means that in Foundry VTT v13+, custom ApplicationV2 subclasses must implement the _renderHTML and _replaceHTML methods (even if just delegating to super). Without these, the app cannot render.

@@ -1,0 +1,18 @@
+{
+  "id": "partyhud",
+  "title": "Party HUD",
+  "description": "A unified party management HUD for D&D 5e in Foundry VTT, including status, loot, marching order, inventory, and wealth tracking.",
+  "authors": [
+    { "name": "Your Name" }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "scripts": ["scripts/partyhud.js"],
+  "esmodules": [],
+  "styles": [],
+  "packs": [],
+  "languages": []
+} 

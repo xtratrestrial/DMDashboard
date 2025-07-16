@@ -1,0 +1,45 @@
+# Party HUD Feature Notes
+
+## Accessibility
+- Should be accessible via the Token Layer menu ([TokenLayer API](https://foundryvtt.com/api/classes/foundry.canvas.layers.TokenLayer.html))
+  - Add a menu item in the token layer controls
+
+## UI Structure
+- Should utilize tabs ([Tabs API](https://foundryvtt.com/api/classes/foundry.applications.ux.Tabs.html))
+  - **Tab 1: Party Status**
+    - Hit points
+    - AC
+    - Conditions ([Active Effect Guide](https://github.com/foundryvtt/dnd5e/wiki/Active-Effect-Guide))
+    - Speed
+    - Death Save status
+    - Spell slots used/total
+  - **Tab 2: Loot Transfer**
+    - Get info on Item Piles module to supplement
+  - **Tab 3: Marching Order**
+    - A grid where players can place their tokens in the order they want to move
+  - **Tab 4: Inventory**
+    - Each character's inventory (each PC should be collapsible)
+    - Section for unclaimed items (everyone can pull items from loot piles onto character token/portraits)
+    - Button to auto-distribute money to the party
+  - **Tab 5: Party Magic Item & Wealth Tracker**
+    - Pull info from the actor sheet of each character
+    - Organize by rarity based on guidelines, showing which item and who owns it
+    - Add up total party wealth and compare to game rules
+
+## Functional Requirements
+- Needs to update in real-time
+- Should be able to pull tokens from this interface onto the canvas
+- Should use tool-tips wherever possible ([TooltipManager API](https://foundryvtt.com/api/classes/foundry.helpers.interaction.TooltipManager.html))
+- Should be resizable and movable
+- Should be able to be hidden and shown
+- Should be able to be locked and unlocked
+
+## Visual Interface Options
+- [ApplicationV2](https://foundryvtt.com/api/classes/foundry.applications.ApplicationV2.html)
+- [HUD](https://foundryvtt.com/api/classes/foundry.applications.HUD.html)
+- [Dialog](https://foundryvtt.com/api/classes/foundry.applications.Dialog.html)
+- [Tabbed Application](https://foundryvtt.com/api/classes/foundry.applications.ux.TabbedApplication.html)
+- [DocumentSheetV2](https://foundryvtt.com/api/classes/foundry.applications.api.DocumentSheetV2.html)
+
+## Reference
+- Secondary Reference: the DND5E system module ([DND5E Wiki](https://github.com/foundryvtt/dnd5e/wiki))
