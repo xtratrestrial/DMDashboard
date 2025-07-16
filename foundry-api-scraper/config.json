@@ -1,0 +1,27 @@
+{
+  "baseUrl": "https://foundryvtt.com/api/",
+  "outputDir": "./data",
+  "concurrentRequests": 5,
+  "delayBetweenRequests": 1000,
+  "verbose": false,
+  "usePuppeteer": false,
+  "userAgent": "Foundry-VTT-API-Scraper/1.0.0",
+  "timeout": 30000,
+  "maxRetries": 3,
+  "retryDelay": 2000,
+  "includeExamples": true,
+  "includeCodeBlocks": true,
+  "includeTables": true,
+  "includeImages": false,
+  "maxPages": 1000,
+  "categories": [
+    "Documents",
+    "Canvas", 
+    "Applications",
+    "Dice",
+    "Audio",
+    "Audio/Video",
+    "Helpers",
+    "Abstract Classes"
+  ]
+} 
